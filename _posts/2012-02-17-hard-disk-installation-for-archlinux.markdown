@@ -42,7 +42,6 @@ Vista/7系统上则新建boot.ini文件
 
 重启选择进入后，根据官方wiki
 
->
 注意这里增加了参数archisolabel=archiso，archisolabel参数用于指定在引导安装环境时所选安装源的标签（label）
 若是用2011.08的ISO，在启动过程中会查找/dev/disk/by-label/archiso文件，如果找不到（因为使用的硬盘ISO方式），会得到一个shell，通过这个shell可以手动使用losetup将ISO挂到某个loop设备上，最后将这个loop设备ln到/dev/disk/by-label/archiso。
 注意这里的archiso即grub引导时内核参数archisolabel的值，如果在grub引导内核时未指定参数，那么这里将无法读取到光盘镜像。
@@ -283,7 +282,11 @@ Failed to load module "fbdev" (module does not exist,0)
     此后要安装软件一般通过pacman和yaourt即可，aur更新极快，所以日常使用一般都不需要手动编译。
     本文较不完善，很多常见的问题都没提到，安装arch的过程可能是新手所畏惧的，官方文档较完善，很多问题在那都能找到答案，只要连上了网，一切问题都不是问题，因为我们还有Google！
     待续。。。
+
 **本文历史**
+
 2011年09月25日  创建文章
+
 2011年11月14日  添加修改配置以识别声卡及取消滴滴声
+
 2012年02月17日  重新整理
