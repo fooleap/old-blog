@@ -1,8 +1,51 @@
 ---
+date: '2011-02-09 06:41:51'
 layout: page
+slug: about
+status: publish
 title: About
 group: navigation
 ---
-{% include JB/setup %}
 
-Twitter: [@fooleap](http://twitter.com/fooleap)
+**关于博客**
+
+* 博客网址：[http://blog.fooleap.org](http://blog.fooleap.org)
+* RSS订阅：[http://feed.fooleap.org](http://feed.fooleap.org)
+
+
+这是Fooleap的个人博客，记录学习生活的点点滴滴，话题方向在于Linux，软件，旅行。
+
+相信，稳定的更新频率和质量高的内容是最重要的，所以为博文做了如下规定：
+
+1. 无特殊情况，两个星期内必须更新一篇文章。
+2. 文章内容不重复，尽量更新完善原有文章。
+
+**关于版权**
+
+本博客的原创内容，均采用知识共享组织（Creative Commons）的“公有领域”（[Public Domain](http://creativecommons.org/about/pdm)）许可。
+
+**关于博主**
+
+* 网名:  Fooleap
+* 出生:  90.01
+* 来自:  [汕头澄海](http://maps.google.com/maps?&q=%E6%B1%95%E5%A4%B4%E6%BE%84%E6%B5%B7)
+* 现居:  [当前位置](http://www.google.com/latitude/apps/badge/api?user=-285873226243287826&type=iframe)
+
+**联系方式**
+
+* Email/Gtalk/QQ:fooleap(at)gmail.com
+* Twitter:[@fooleap](http://twitter.com/fooleap)
+* Douban:[@fooleap](http://douban.com/people/fooleap)
+* Zhihu:[@fooleap](http://zhihu.com/people/fooleap)
+* Alipay:[https://me.alipay.com/fooleap](https://me.alipay.com/fooleap)
+
+**博客进程**
+
+* 2011-02-09 博客建立，名字为"Fooleap"
+* 2011-10-28 博客网址改为二级域名blog.fooleap.org，主域做了重定向，博客改名为"Fooleap's Blog"
+* 2012-03-18 从博客Wordpress平台转到jekyll平台
+
+**注**
+
+联系首选email，qq几乎不上
+
