@@ -18,7 +18,6 @@ tags:
 Archlinux新日期的CD镜像2011.08.19[发布](http://www.archlinux.org/news/20110819-installation-media/)到现在已经一个月了，Archlinux是滚动更新，系统同步到最新只需一条命令，新CD镜像发布时间没有规律，使用Archlinux的Linuxer一般都没留意到关注新CD的发布，发布后过了好些天才知道。此前用2010.05的镜像硬盘安装了几次皆失败，既然新版本出来了，想尝下鲜，加上Win7在小本上显驱安装的失败，让我更坚定了，xp+arch才是我x30的最佳拍档，xp用于看半高清，满足课程需要；arch则用于除上面两项外的日常使用。
 
 新版本安装镜像与此前版本还是有差异的，编辑配置文件的文本编辑器有vi可选，对于用习惯vi的童鞋来说还是方便了不少。
-
 archlinux官方文档有[关于硬盘安装的文章](https://wiki.archlinux.org/index.php/Hard_Disk_Installation_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))，而最近网上出现的archlinux硬盘安装的文章也层出不穷，如[ArchLinux 2011.8 基于grub的硬盘安装简易指南](http://flanker017.sinaapp.com/?p=102)，这是使用grub2引导的文章。在Windows下，设置好grub4dos，做好引导，一路跟着官方文档，安装个archlinux还是很简单的。2011.08版硬盘安装和此前版本相似，当然[Archlang引导硬盘安装](http://fooleap.org/linux-study-4.html)与之亦相似，安装过程中的cfdisk分区工具还是令我头疼，所以提前分好区。
 
 **引导进入Live环境**
@@ -106,14 +105,16 @@ https://wiki.archlinux.org/index.php/Configuring_Network
 
 https://wiki.archlinux.org/index.php/Wireless_Setup
 
-联网后，添加源后更新一下，即
+联网后，添加源后更新一下，
 
+修改pacman.conf
 
     /etc/pacman.conf
     [archlinuxfr]
     Server = http://repo.archlinux.fr/x86_64
     # 使用这个源后即可安装yaourt，后面提到的awesome也在其中，32位的把x86_64改为i686
 
+修改mirrorlist
 
     /etc/pacman.d/mirrorlist
     ## China 取消国内源的井号
