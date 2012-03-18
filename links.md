@@ -1,8 +1,6 @@
 ---
 layout: page
-title: About
+title: "Links"
 group: navigation
 ---
 {% include JB/setup %}
-
-Twitter: [@fooleap](http://twitter.com/fooleap)
