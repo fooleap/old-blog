@@ -45,7 +45,7 @@ Vista/7系统上则新建boot.ini文件
 
 重启选择进入后，根据官方wiki
 
-===
+------
 注意这里增加了参数archisolabel=archiso，archisolabel参数用于指定在引导安装环境时所选安装源的标签（label）
 
 若是用2011.08的ISO，在启动过程中会查找/dev/disk/by-label/archiso文件，如果找不到（因为使用的硬盘ISO方式），会得到一个shell，通过这个shell可以手动使用losetup将ISO挂到某个loop设备上，最后将这个loop设备ln到/dev/disk/by-label/archiso。
@@ -61,7 +61,8 @@ Vista/7系统上则新建boot.ini文件
      #exit
 
 注意：这句#mount -r -t ntfs /dev/sda1 /win中的ntfs,如果你用到的分区是fat32格式，请将其改为vfat。
-===
+
+------
 
 使用exit退出shell，就可以进入安装环境。
 
