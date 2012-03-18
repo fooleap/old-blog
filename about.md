@@ -6,6 +6,7 @@ status: publish
 title: About
 group: navigation
 ---
+{% include JB/setup %}
 
 **关于博客**
 
