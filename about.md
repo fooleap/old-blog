@@ -44,7 +44,7 @@ group: navigation
 
 * 2011-02-09 博客建立，名字为"Fooleap"
 * 2011-10-28 博客网址改为二级域名blog.fooleap.org，主域做了重定向，博客改名为"Fooleap's Blog"
-* 2012-03-18 从博客Wordpress平台转到jekyll平台
+* 2012-03-18 博客从Wordpress平台转到jekyll平台
 
 **注**
 

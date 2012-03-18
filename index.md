@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fooleap's Blog
+#title: Home
 #tagline: Supporting tagline
 ---
 {% include JB/setup %}
