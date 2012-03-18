@@ -34,11 +34,11 @@ group: navigation
 
 **联系方式**
 
-* Email/Gtalk/QQ:fooleap(at)gmail.com
-* Twitter:[@fooleap](http://twitter.com/fooleap)
-* Douban:[@fooleap](http://douban.com/people/fooleap)
-* Zhihu:[@fooleap](http://zhihu.com/people/fooleap)
-* Alipay:[https://me.alipay.com/fooleap](https://me.alipay.com/fooleap)
+* Email/Gtalk/QQ: fooleap(at)gmail.com
+* Twitter: [@fooleap](http://twitter.com/fooleap)
+* Douban: [@fooleap](http://douban.com/people/fooleap)
+* Zhihu: [@fooleap](http://zhihu.com/people/fooleap)
+* Alipay: [https://me.alipay.com/fooleap](https://me.alipay.com/fooleap)
 
 **博客进程**
 
