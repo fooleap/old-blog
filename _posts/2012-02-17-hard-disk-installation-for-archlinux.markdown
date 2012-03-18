@@ -45,22 +45,23 @@ Vista/7系统上则新建boot.ini文件
 
 重启选择进入后，根据官方wiki
 
->
+
 注意这里增加了参数archisolabel=archiso，archisolabel参数用于指定在引导安装环境时所选安装源的标签（label）
 
->若是用2011.08的ISO，在启动过程中会查找/dev/disk/by-label/archiso文件，如果找不到（因为使用的硬盘ISO方式），会得到一个shell，通过这个shell可以手动使用losetup将ISO挂到某个loop设备上，最后将这个loop设备ln到/dev/disk/by-label/archiso。
->
->注意这里的archiso即grub引导时内核参数archisolabel的值，如果在grub引导内核时未指定参数，那么这里将无法读取到光盘镜像。
->
->     #mkdir /win
->     #mkdir -p /dev/disk/by-label
->     #mount -r -t ntfs /dev/sda1 /win
->     #modprobe loop
->     #losetup /dev/loop6 /win/archlinux-2011.08.19-core-i686.iso
->     #ln -s /dev/loop6 /dev/disk/by-label/archiso
->     #exit
->
->注意：这句#mount -r -t ntfs /dev/sda1 /win中的ntfs,如果你用到的分区是fat32格式，请将其改为vfat。
+若是用2011.08的ISO，在启动过程中会查找/dev/disk/by-label/archiso文件，如果找不到（因为使用的硬盘ISO方式），会得到一个shell，通过这个shell可以手动使用losetup将ISO挂到某个loop设备上，最后将这个loop设备ln到/dev/disk/by-label/archiso。
+
+注意这里的archiso即grub引导时内核参数archisolabel的值，如果在grub引导内核时未指定参数，那么这里将无法读取到光盘镜像。
+
+     #mkdir /win
+     #mkdir -p /dev/disk/by-label
+     #mount -r -t ntfs /dev/sda1 /win
+     #modprobe loop
+     #losetup /dev/loop6 /win/archlinux-2011.08.19-core-i686.iso
+     #ln -s /dev/loop6 /dev/disk/by-label/archiso
+     #exit
+
+注意：这句#mount -r -t ntfs /dev/sda1 /win中的ntfs,如果你用到的分区是fat32格式，请将其改为vfat。
+
 使用exit退出shell，就可以进入安装环境。
 
 **安装基本系统**
@@ -70,10 +71,13 @@ Vista/7系统上则新建boot.ini文件
     # /arch/setup
 
 可根据[官方安装指南](https://wiki.archlinux.org/index.php/Official_Installation_Guide_(简体中文))、[新手指南](https://wiki.archlinux.org/index.php/Beginners%27_Guide_%28%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%29)或[快速安装](https://wiki.archlinux.org/index.php/Quick_Arch_Linux_Install)进行安装。
+
 我是在安装之前就把分区分好，安装的时候直接用提供的工具选择格式及挂载点就可以了。在选择包的时候，很多包不知道干嘛用的，按默认的选择，只添加sudo这个包，更改配置那一步也就配置了root密码，其他的先不进行修改。
+
 安装时，最后安装grub的时候居然出错了，记下启动archlinux的命令，即查看/boot/grub/menu.lst这个文件或者直接复制下来，然后在win下对grub4dos的menu.lst进行修改或直接使用grub提供的命令行。
 
 **添加用户**
+
 安装完成进入base系统之后，首先添加用户，可用adduser命令，根据向导完成创建用户，即
 
     # adduser fooleap
