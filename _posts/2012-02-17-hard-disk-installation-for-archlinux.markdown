@@ -41,21 +41,17 @@ Vista/7系统上则新建boot.ini文件
     initrd /archiso.img
 
 重启选择进入后，根据官方wiki
-
 注意这里增加了参数archisolabel=archiso，archisolabel参数用于指定在引导安装环境时所选安装源的标签（label）
 若是用2011.08的ISO，在启动过程中会查找/dev/disk/by-label/archiso文件，如果找不到（因为使用的硬盘ISO方式），会得到一个shell，通过这个shell可以手动使用losetup将ISO挂到某个loop设备上，最后将这个loop设备ln到/dev/disk/by-label/archiso。
 注意这里的archiso即grub引导时内核参数archisolabel的值，如果在grub引导内核时未指定参数，那么这里将无法读取到光盘镜像。
 
->
->     #mkdir /win
->     #mkdir -p /dev/disk/by-label
->     #mount -r -t ntfs /dev/sda1 /win
->     #modprobe loop
->     #losetup /dev/loop6 /win/archlinux-2011.08.19-core-i686.iso
->     #ln -s /dev/loop6 /dev/disk/by-label/archiso
->     #exit
->
->
+     #mkdir /win
+     #mkdir -p /dev/disk/by-label
+     #mount -r -t ntfs /dev/sda1 /win
+     #modprobe loop
+     #losetup /dev/loop6 /win/archlinux-2011.08.19-core-i686.iso
+     #ln -s /dev/loop6 /dev/disk/by-label/archiso
+     #exit
 
 注意：这句#mount -r -t ntfs /dev/sda1 /win中的ntfs,如果你用到的分区是fat32格式，请将其改为vfat。
 使用exit退出shell，就可以进入安装环境。
@@ -81,17 +77,23 @@ Vista/7系统上则新建boot.ini文件
     fooleap ALL=(ALL) NOPASSWD:ALL
 
 这是我自己的配置，懒得输密码，所以加上了NOPASSWD:
+
 还可将用户添加到wheel组，设置wheel组权限。
+
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Sudo
 
 **配置网络**
+
 基本系统安装后，先配置下网络，若使用有线路由，插上网线直接
 
     # dhcpcd
 
 若使用PPPoE或者无线等，可参考官方Wiki：
+
 https://wiki.archlinux.org/index.php/Configuring_Network
+
 https://wiki.archlinux.org/index.php/Wireless_Setup
+
 联网后，添加源后更新一下，即
 
 
@@ -107,7 +109,6 @@ https://wiki.archlinux.org/index.php/Wireless_Setup
     Server = http://mirror6.bjtu.edu.cn/archlinux/$repo/os/$arch
     Server = ftp://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
     Server = http://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
-
 
     # pacman -Syu
 
@@ -132,36 +133,26 @@ https://wiki.archlinux.org/index.php/Wireless_Setup
 
 可使用netcfg2命令连接网络
 
-
     netcfg2 fooleap
 
-
 也可加载到系统自启的[守护进程](https://wiki.archlinux.org/index.php/Daemon)
-
 
     /etc/rc.conf
     NETWORKS=(fooleap)
     DAEMONS=(...!network...net-profiles)
     # 即把连接名添加至NETWORKS里，添加net-profiles作为服务并停用network。
 
-
-
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Netcfg
 
 **配置Alsa**
 
-
     # pacman -S alsa-utils
-
 
 使用alsaconf自动配置
 
-
     # alsaconf
 
-
 若无法识别声卡，以我本子为例，可进行如下操作后再进行alsaconf
-
 
     $ lspci -nn | grep Audio
     00:1b.0 Audio device [0403]: Intel Corporation 5 Series/3400 Series Chipset High Definition Audio [8086:3b56] (rev 06)
@@ -175,14 +166,17 @@ https://wiki.archlinux.org/index.php/Wireless_Setup
     # gpasswd -a fooleap audio
 
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Alsa
+
 终端的滴滴声很讨厌，取消掉，vim配置也跟上
 
     # echo "set bell-style none">>/etc/inputrc
+
     $ echo "set vb">>~/.vimrc
 
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Disable_PC_Speaker_Beep
 
 **安装图形界面**
+
 在安装X的时候，根据官方新手指南之[图形用户界面](https://wiki.archlinux.org/index.php/Beginners%27_Guide_%28%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%29#.E5.9B.BE.E5.BD.A2.E7.94.A8.E6.88.B7.E7.95.8C.E9.9D.A2)进行安装
 
     # pacman -S xorg-server xorg-xinit xorg-utils xorg-server-utils
@@ -190,58 +184,50 @@ https://wiki.archlinux.org/index.php/Wireless_Setup
 安装完后startx出现如下错误，缺少哪个模块就补上那个
 
 
-> Failed to load module "intel" (module does not exist,0)
-Failed to load module "vesa" (module does not exist,0)
-Failed to load module "fbdev" (module does not exist,0)
+    Failed to load module "intel" (module does not exist,0)
+    Failed to load module "vesa" (module does not exist,0)
+    Failed to load module "fbdev" (module does not exist,0)
 
     # pacman -S xf86-video-intel xf86-video-vesa xf86-video-fbdev
 
-
 把用户添加到video组
-
 
     # gpasswd -a fooleap video
 
-
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Xorg
-安装D-Bus
 
+安装D-Bus
 
     # pacman -S dbus
 
-
 添加到守护进程
-
 
     /etc/rc.conf
     DAEMONS=(... dbus ...)
 
-
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Dbus
-鄙人已习惯于awesome，强大的Mod键，Mod+Shift+c按得爽，安装awesome
 
+鄙人已习惯于awesome，强大的Mod键，Mod+Shift+c按得爽，安装awesome
 
     # pacman -S awesome
 
-
 往~/.xinitrc添加exec awesome后，执行startx，即可启动awesome。
-可参考官方Wiki：https://wiki.archlinux.org/index.php/Awesome
-你可能需要登录管理器，那么可能需要ConsoleKit
 
+可参考官方Wiki：https://wiki.archlinux.org/index.php/Awesome
+
+你可能需要登录管理器，那么可能需要ConsoleKit
 
     # pacman -S consolekit
 
-
 可参考官方Wiki：https://wiki.archlinux.org/index.php/ConsoleKit
-如果你和我一样也讨厌摸板，那我们一起把它关了吧！
-安装驱动
 
+如果你和我一样也讨厌摸板，那我们一起把它关了吧！
+
+安装驱动
 
     # pacman -S xf86-input-synaptics
 
-
 修改配置，也可以添加启动项synclient TouchpadOff=1
-
 
     /etc/X11/xorg.conf.d/10-synaptics.conf
     Section "InputClass"
@@ -256,9 +242,8 @@ Failed to load module "fbdev" (module does not exist,0)
     EndSection
     # 添加 Option "TouchpadOff" "1"
 
-
-
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Touchpad_Synaptics
+
 安装输入法
 
     # pacman -S fcitx
@@ -270,6 +255,7 @@ Failed to load module "fbdev" (module does not exist,0)
     fcitx&
 
 可参考官方Wiki：https://wiki.archlinux.org/index.php/Fcitx
+
 如果你和我一样，使用yong输入法，可通过yaourt安装，添加到.xinitrc文件为如下
 
     ~/.xinitrc
@@ -278,10 +264,13 @@ Failed to load module "fbdev" (module does not exist,0)
     export GTK_IM_MODULE=xim
     yong -d&
 
-    使用过程中可能还会碰到权限问题，可参考官方Wiki：https://wiki.archlinux.org/index.php/Users_and_Groups
-    此后要安装软件一般通过pacman和yaourt即可，aur更新极快，所以日常使用一般都不需要手动编译。
-    本文较不完善，很多常见的问题都没提到，安装arch的过程可能是新手所畏惧的，官方文档较完善，很多问题在那都能找到答案，只要连上了网，一切问题都不是问题，因为我们还有Google！
-    待续。。。
+使用过程中可能还会碰到权限问题，可参考官方Wiki：https://wiki.archlinux.org/index.php/Users_and_Groups
+
+此后要安装软件一般通过pacman和yaourt即可，aur更新极快，所以日常使用一般都不需要手动编译。
+
+本文较不完善，很多常见的问题都没提到，安装arch的过程可能是新手所畏惧的，官方文档较完善，很多问题在那都能找到答案，只要连上了网，一切问题都不是问题，因为我们还有Google！
+
+待续。。。
 
 **本文历史**
 
