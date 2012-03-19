@@ -22,9 +22,9 @@ tags:
 
 Archbang的引导和ArchLinux一样：
 
-1 在Windows下，提取镜像/arch/boot/i686路径的vmlinuz26和archbang.img(ArchLinux则是/boot/的vmlinuz26和archlinux.img)到c盘根目录，并把iso文件也放c盘根目录。
+在Windows下，提取镜像/arch/boot/i686路径的vmlinuz26和archbang.img(ArchLinux则是/boot/的vmlinuz26和archlinux.img)到c盘根目录，并把iso文件也放c盘根目录。
 
-2 在grub for dos的配置文件menu.lst里添加一项
+在grub for dos的配置文件menu.lst里添加一项
 
     title Install Archbang
     root   (hd0,0)
@@ -32,7 +32,7 @@ Archbang的引导和ArchLinux一样：
     initrd /ARCHBANG.IMG
 
 
-3 进入引导进入后会自动检测/dev/disk/by-label/archiso，用所提供的shell：
+进入引导进入后会自动检测/dev/disk/by-label/archiso，用所提供的shell：
 
     # mkdir /tmp_mnt
     # mount –r –t vfat /dev/sda1 /tmp_mnt
@@ -43,13 +43,13 @@ Archbang的引导和ArchLinux一样：
 
 这下检测就有了，不管是在grub的命令行，还是bash，多按tab都会有好处的。对于iso文件名更是方便，不可能忘了之后去查看文件名再回来输入吧？
 
-4 进入live CD环境后，右键安装
+进入live CD环境后，右键安装
 
 安装过程和ArchLinux差不多，而安装完的系统环境就不是一个基本的系统，而是有着图形界面的环境，SLiM+openbox+tint2+Conky的界面(如图)让鄙人倍感亲切。
 
 [![](http://i951.photobucket.com/albums/ad353/Fooleap/Blog/Fooleap/2011-05-08--1304866398_1024x768_scrot.png)](http://i951.photobucket.com/albums/ad353/Fooleap/Blog/Fooleap/2011-05-08--1304866398_1024x768_scrot.png)
 
-5.安装后的各种配置
+安装后的各种配置
 
 资源占用很低，这完全符合Arch哲学极简之道。安装完中文字体和输入法之后，用起来就十分舒服了。Linux各发行版的不同，最直接的是软件包管理，debian系是deb，redhat系则是rpm，Archlinux则是pacman。pacman用着特舒服，安装软件只需pacman -S *，如果没有则可yaourt -S *，当然在此之前必须确认yaourt的安装。一般的常用软件pacman都有，而像国内的youmoney,yong这些，就需要aur。在ArchLinux下，意料之外的是，yong输入法居然不用手动安装，当然如果手动安装会比较麻烦，不是轻易就可完成。
 
@@ -128,26 +128,18 @@ ArchLinux在我的小本上发挥极致，更重要的是ArchLinux有着完善�
 
 **相关资料**
 
-1.[硬盘安装archbang！](http://bbs.wuyou.com/viewthread.php?tid=191789)
-
-2.[ArchLinux Wiki](https://wiki.archlinux.org/index.php/Main_Page_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
-
-3.[ArchLinux Wiki - 硬盘安装](https://wiki.archlinux.org/index.php/%E7%A1%AC%E7%9B%98%E5%AE%89%E8%A3%85_Arch_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E5.90.AF.E5.8A.A8.E5.AE.89.E8.A3.85)
+1. [硬盘安装archbang！](http://bbs.wuyou.com/viewthread.php?tid=191789)
+2. [ArchLinux Wiki](https://wiki.archlinux.org/index.php/Main_Page)
 
 **注**
 
-1.这个方法可能有些步骤是多余的,不过鄙人经过这样的配置之后输入法正常使用,所以也不想再折腾
-
-2.免费vpn可参考[新民智工作室](http://samozi.com/)文章：[郭嘉的故事](http://samozi.com/internet/tenacy-vpn-free-service.html)
+1. 这个方法可能有些步骤是多余的,不过鄙人经过这样的配置之后输入法正常使用,所以也不想再折腾
+<del>2. 免费vpn可参考[新民智工作室](http://samozi.com/)文章：[郭嘉的故事](http://samozi.com/internet/tenacy-vpn-free-service.html)</del>
 
 **本文历史**
 
-2011年05月09日  创建文章
-
-2011年05月11日  添加NetworkManager部分
-
-2011年05月12日  添加支付宝控件部分
-
-2011年05月13日  添加grub2部分
-
-2011年05月14日  添加yong输入法部分
+* 2011年05月09日  创建文章
+* 2011年05月11日  添加NetworkManager部分
+* 2011年05月12日  添加支付宝控件部分
+* 2011年05月13日  添加grub2部分
+* 2011年05月14日  添加yong输入法部分
