@@ -26,6 +26,45 @@ tags:
 
 115网盘，DBank网盘，快盘标准用户权限的对比：
 
+<center><table id="tabulation">
+<tr>
+  <th>网络硬盘</th>
+  <td>115网盘</td>
+  <td>DBank网盘</td>
+  <td>快盘</td>
+</tr>
+<tr>
+  <th>初始空间</th>
+  <td>15GB</td>
+  <td>5G</td>
+  <td>5G</td>
+</tr>
+<tr>
+  <th>等级制度(VIP)</th>
+  <td>有</td>
+  <td>有</td>
+  <td>无</td>
+</tr>
+<tr>
+  <th>单文件限制</th>
+  <td>1G</td>
+  <td>200M</td>
+  <td>300M</td>
+</tr>
+<tr>
+  <th>图片外链</th>
+  <td>无</td>
+  <td>原图(公测)</td>
+  <td>压缩</td>
+</tr>
+<tr>
+  <th>手机客户端</th>
+  <td>iPhone</td>
+  <td>Android</td>
+  <td>iPhone,Android</td>
+</tr>
+</table></center>
+
 其余的大同小异，下载速度都差不多，文件外链，网盘签到等，我现在三个网盘的空间都是20G左右。
 
 鄙人用网盘，也就是备份一下照片，某天想起来可以怀念罢了，不过随着技术的提高及数码相机的普及，现在一张图片几兆很普遍，数量多起来数据也是不小的，如果是视频的话，需要的空间就更大了，目前还是以图片为主。
@@ -38,10 +77,9 @@ DBank网盘图片预览
 
 数据同步，这个十分不错的服务，对于Linuxer，目前也只能用Dropbox。
 
-<del> 最后当然是各种邀请注册链接:-) [Dropbox](http://db.tt/3B0l7iB) [DBank网盘](http://www.dbank.com/inviter/439421) [快盘](http://www.kuaipan.cn/register/?invite=ni0g4k) [115网盘](http://115.com/invite/59b14)</del>
+<del>最后当然是各种邀请注册链接:-) [Dropbox](http://db.tt/3B0l7iB) [DBank网盘](http://www.dbank.com/inviter/439421) [快盘](http://www.kuaipan.cn/register/?invite=ni0g4k) [115网盘](http://115.com/invite/59b14)</del>
 
 **本文历史**
 
-2011年10月14日  创建文章
-
-2011年12月30日  删除标题“推荐”字眼
+* 2011年10月14日  创建文章
+* 2011年12月30日  删除标题“推荐”字眼
