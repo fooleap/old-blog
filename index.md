@@ -5,9 +5,6 @@ layout: default
 ---
 {% include JB/setup %}
 
-<h3>Welcome to my home page!</h3>
-
-----------
 **最近的10篇日志**
   {% for npost in site.posts limit:1 %}
   <ul><li>{{ npost.date | date_to_string }} &raquo; <a href="{{ npost.url }}" title="{{ npost.title }}" rel="bookmark">{{ npost.title }}</a></li>
