@@ -16,11 +16,6 @@ group: navigation
 
 这是Fooleap的个人博客，记录学习生活的点点滴滴，话题方向在于Linux，软件，旅行。
 
-相信，稳定的更新频率和质量高的内容是最重要的，所以为博文做了如下规定：
-
-1. 无特殊情况，两个星期内必须更新一篇文章。
-2. 文章内容不重复，尽量更新完善原有文章。
-
 **关于版权**
 
 本博客的原创内容，均采用知识共享组织（Creative Commons）的“公有领域”（[Public Domain](http://creativecommons.org/about/pdm)）许可。
