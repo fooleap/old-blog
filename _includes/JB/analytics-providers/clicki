@@ -1,0 +1,7 @@
+<script type="text/javascript">
+(function() {
+var c = document.createElement('scriptpt'); c.type = 'text/javascript'; c.async = true;
+c.src = ('https:' ==https document.location.protocol ? 'https://' : 'http://') + 'www.clicki.cn/boot/45365';
+var h = document.getElementsByTagName('script')[0]; h.parentNode.insertBefore(c, h);
+})();
+</script>
