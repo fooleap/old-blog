@@ -6,6 +6,8 @@
   <div class="span8">
     {{ content }}
     <hr>
+    <script type="text/javascript" id="wumiiRelatedItems"></script>
+    <hr>
     <div class="pagination">
       <ul>
       {% if page.previous %}
@@ -24,7 +26,7 @@
     <hr>
     {% include JB/comments %}
   </div>
-  
+
   <div class="span4">
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
@@ -35,6 +37,6 @@
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
   </div>
 </div>
