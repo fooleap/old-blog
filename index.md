@@ -22,7 +22,6 @@ description: "这是Fooleap的个人博客，记录学习生活的点点滴滴�
 <div class="blogroll">
 <ul>
 <li><a href="http://jianyin.org" title="老A">Ageda&#039;s Blog</a></li>
-<li><a href="http://www.archlinux.org" title="A simple, lightweight distribution">Arch Linux</a></li>
 <li><a href="http://blog.conan06.com/" title="Conan06@北京">Conan06&#039;s blog</a></li>
 <li><a href="http://www.it8421.com/" title="小Q@马鞍山">it8421</a></li>
 <li><a href="http://terrychen.info/" title="陈敏@北京">Terry&#039;s Blog</a></li>
