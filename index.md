@@ -1,8 +1,6 @@
 ---
 layout: default
 description: "这是Fooleap的个人博客，记录学习生活的点点滴滴。"
-#title: Home
-#tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
