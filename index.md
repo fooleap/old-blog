@@ -11,8 +11,7 @@ description: "这是Fooleap的个人博客，记录学习生活的点点滴滴�
     {{ post.description}}
     <a href="{{ post.url }}" title="Read More" rel="nofollow">(More...)</a>
    </div>
-    {% endfor %}
-
+    {% endfor}
     {% for post in site.posts limit:9 offset:1  %}
     <li><span>{{ post.date | date_to_string }}</span>&raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
