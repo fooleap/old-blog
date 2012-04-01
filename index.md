@@ -4,15 +4,15 @@ description: "这是Fooleap的个人博客，记录学习生活的点点滴滴�
 ---
 {% include JB/setup %}
 
-  <ul class="posts">
+<div id="board">
+  <ul id="posts">
     {% for post in site.posts limit:1 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></li>
-   <div class="lastpost">
-    {{ post.description}}
-    <a href="{{ post.url }}" title="Read More" rel="nofollow">(More...)</a>
-   </div>
+    <li><span class="date">{{ post.date | date_to_string }}</span><span class="title"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></span></li>
+    <li><span class="date"> </span><span class="title">{{ post.description}}</span></li>
     {% endfor %}
     {% for post in site.posts limit:9 offset:1  %}
-    <li><span>{{ post.date | date_to_string }}</span>&raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span class="date">{{ post.date | date_to_string }}</span><span class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span></li>
     {% endfor %}
+    <li><span class="date"> </span><span class="title"><a href="http://blog.fooleap.org/archive.html">更多……</a></span></li>
   </ul>
+</div>
