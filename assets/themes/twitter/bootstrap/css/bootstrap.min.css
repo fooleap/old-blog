@@ -84,6 +84,7 @@ h6{font-size:11px;color:#999999;text-transform:uppercase;}
 .page-header{padding-bottom:17px;margin:18px 0;border-bottom:1px solid #eeeeee;}
 .page-header h1{line-height:1;}
 ul,ol{padding:0;margin:0 0 9px 25px;}
+/*下面这几行参考http://fleurer-lee.com/的，先这样用吧，以后再重新弄style*/
 #board #posts {list-style-type: none;display: block;width: 480px;overflow: auto;}
 #board #posts li {padding: 0;display:block;width:100%;float:left;}
 #board #posts .date {font-family: Monaco, "Courier New";color: #bbb;font-size: 90%;display:block;width: 100px;text-align: center;vertical-align: middle;float: left;margin-top:6px;}
