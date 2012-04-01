@@ -4,6 +4,7 @@ layout: post
 slug: the-complex-of-blackberry
 status: publish
 title: 我的黑莓8700之情结篇
+wordpress_id: '1271'
 categories:
 - uncategorized
 tags:
