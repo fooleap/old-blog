@@ -85,9 +85,9 @@ h6{font-size:11px;color:#999999;text-transform:uppercase;}
 .page-header h1{line-height:1;}
 ul,ol{padding:0;margin:0 0 9px 25px;}
 #board #posts {list-style-type: none;display: block;width: 480px;overflow: auto;}
-#board #posts li {padding: 0 0 0px 0;display:block;width:100%;float:left;}
-#board #posts .date {font-family: Monaco, "Courier New";color: #bbb;font-size: 90%;display:block;width: 100px;text-align: center;vertical-align: middle;float: left;margin-top:10px;}
-#board #posts .title {font-size:100%;vertical-align: middle;line-height: 30px;width: 350px;display: block;float: left;margin-left:10px;}
+#board #posts li {padding: 0;display:block;width:100%;float:left;}
+#board #posts .date {font-family: Monaco, "Courier New";color: #bbb;font-size: 90%;display:block;width: 100px;text-align: center;vertical-align: middle;float: left;margin-top:6px;}
+#board #posts .title {font-size:100%;vertical-align: middle;line-height: 30px;width: 350px;display: block;float: left;margin-left:8px;}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
 ul{list-style:disc;}
 ol{list-style:decimal;}
