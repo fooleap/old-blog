@@ -4,7 +4,7 @@ layout: post
 slug: hello-world
 status: publish
 title: Hello world!
-wordpress_id: '1'
+wordpressid: '1'
 categories:
 - blog
 tags:

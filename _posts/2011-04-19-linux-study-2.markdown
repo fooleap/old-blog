@@ -3,6 +3,7 @@ date: '2011-04-19 08:14:08'
 layout: post
 slug: linux-study-2
 status: publish
+wordpress_id: '384'
 title: Linux学习笔记(2)
 categories:
 - linux
