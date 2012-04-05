@@ -53,13 +53,13 @@ Vista/7系统上则新建boot.ini文件
 
 注意这里的archiso即grub引导时内核参数archisolabel的值，如果在grub引导内核时未指定参数，那么这里将无法读取到光盘镜像。
 
-     #mkdir /win
-     #mkdir -p /dev/disk/by-label
-     #mount -r -t ntfs /dev/sda1 /win
-     #modprobe loop
-     #losetup /dev/loop6 /win/archlinux-2011.08.19-core-i686.iso
-     #ln -s /dev/loop6 /dev/disk/by-label/archiso
-     #exit
+    # mkdir /win
+    # mkdir -p /dev/disk/by-label
+    # mount -r -t ntfs /dev/sda1 /win
+    # modprobe loop
+    # losetup /dev/loop6 /win/archlinux-2011.08.19-core-i686.iso
+    # ln -s /dev/loop6 /dev/disk/by-label/archiso
+    # exit
 
 注意：这句#mount -r -t ntfs /dev/sda1 /win中的ntfs,如果你用到的分区是fat32格式，请将其改为vfat。
 
