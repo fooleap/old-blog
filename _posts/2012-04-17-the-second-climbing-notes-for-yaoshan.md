@@ -19,7 +19,7 @@ tags: [尧山, 山火, 跑步, 爬山]
 
 ![距终点1km处](http://pic.yupoo.com/fooleap_v/BTULHifg/wqQMu.jpg)
 
-翻了过去，在尧山景区停留一会，还有不少游客，往下看，惨无人睹。
+翻了过去，在尧山景区停留一会，还有不少游客，往下看，惨不忍睹。
 
 ![大火后痕迹1](http://pic.yupoo.com/fooleap_v/BTULIrz6/HAQw7.jpg)
 
