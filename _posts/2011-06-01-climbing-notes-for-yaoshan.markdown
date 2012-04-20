@@ -4,7 +4,6 @@ layout: post
 slug: climbing-notes-for-yaoshan
 status: publish
 title: 爬尧山记
-wordpress_id: '638'
 categories:
 - life
 tags:
