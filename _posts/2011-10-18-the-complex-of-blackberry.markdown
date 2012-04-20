@@ -1,7 +1,6 @@
 ---
 date: '2011-10-18 20:13:03'
 layout: post
-slug: the-complex-of-blackberry
 status: publish
 title: 我的黑莓8700之情结篇
 wordpress_id: '1271'
