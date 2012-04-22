@@ -41,6 +41,10 @@ group: navigation
 
 ![2012年4月18日](http://pic.yupoo.com/fooleap_v/BTTCZtnn/13zgcx.png)
 
+**2012年4月22日** 21.58 公里 5个小时
+
+![2012年4月22日](http://pic.yupoo.com/fooleap_v/BUwv0Kg5/hAyOK.png)
+
 **注:**
 
 红色地标表示起点，绿色地标表示终点。
