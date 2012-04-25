@@ -43,7 +43,7 @@ tags: [早起, 慢跑, 跑步, 徒步, Ruby]
 
 前些天开始学的Ruby，是看《[Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/)》开始学的，看的是[xdite](http://blog.xdite.net/)翻译的[繁体版](http://lrthw.github.com/)，没什么语言基础的我也能看懂，这个入门教程不错，虽然还没看完。也看到翻译了一半的简体版，如乙醇的[笨方法学Ruby](http://17test.info/?page_id=413)，还有whtsky的[笨方法学Ruby](http://readthedocs.org/docs/learn-ruby-the-hard-way-zh_cn-translation/en/latest/)。
 
-在学校图书馆，能找到的关于Ruby的图书很少，但也搜刮到本——《[The Ruby Way](http://book.douban.com/subject/2280936/)》
+在学校图书馆，能找到的关于Ruby的图书很少，但也搜刮到本《[The Ruby Way](http://book.douban.com/subject/2280936/)》
 
 ![The Ruby Way](http://pic.yupoo.com/fooleap_v/BUYKE2Wn/aryD3.jpg)
 
