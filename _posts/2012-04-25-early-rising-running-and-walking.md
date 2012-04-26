@@ -49,6 +49,8 @@ tags: [早起, 慢跑, 跑步, 徒步, Ruby]
 
 国内最热的Ruby社区非[Ruby China](http://ruby-china.org/topics)莫属，虽然上面的帖子好多都看不懂，但几乎每天都有上去静静地看着各路大牛的讨论。喜欢文化衫加上装逼心理的我也买了社区的T恤，也得了一件[赠送](http://ruby-china.org/topics/2812)的。
 
+![RubyChina T恤](http://pic.yupoo.com/fooleap_v/BV7By6Bt/11w6mO.jpg)
+
 昨天，在京东买的书到了。
 
 ![书](http://pic.yupoo.com/fooleap_v/BUYLt7kq/e0ojk.jpg)
