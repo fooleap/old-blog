@@ -49,6 +49,3 @@ group: navigation
 
 红色地标表示起点，绿色地标表示终点。
 
-***
-
-{% include JB/comments %}

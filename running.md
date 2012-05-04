@@ -16,6 +16,3 @@ group: navigation
 * 2012年5月03日 2.5公里 16分钟
 * 2012年5月04日 无（下雨）
 
-***
-
-{% include JB/comments %}
