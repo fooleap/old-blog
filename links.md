@@ -9,6 +9,7 @@ group: navigation
 <li><a href="http://jianyin.org" title="老A">Ageda&#039;s Blog</a></li>
 <li><a href="http://blog.conan06.com/" title="Conan06@北京">Conan06&#039;s blog</a></li>
 <li><a href="http://www.it8421.com/" title="小Q@马鞍山">it8421</a></li>
+<li><a href="http://songtl.com/" title="宋廷龙@桂林">Song'Blog</a></li>
 <li><a href="http://terrychen.info/" title="陈敏@北京">Terry&#039;s Blog</a></li>
 <li><a href="http://www.ubuntusoft.com/" title="灵亦rEd@肇庆">UbuntuSoft</a></li>
 <li><a href="http://xunjian.net" title="陈训坚@桂林">Xunjian.net</a></li>
