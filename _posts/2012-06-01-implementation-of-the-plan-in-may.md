@@ -46,7 +46,7 @@ tags: [早起, 慢跑, 徒步]
 
 央视《健康之路》栏目有三期提到膝盖的问题：
 
-* 2008年08月04日 [膝关节的养护](http://www.cctv.com/program/jkzl/20060810/103943.shtml)
+* 2006年08月04日 [膝关节的养护](http://www.cctv.com/program/jkzl/20060810/103943.shtml)
 * 2009年06月07日 [疼痛的膝盖](http://space.tv.cctv.com/video/VIDE1245207547843888)
 * 2012年01月21日 [“膝膝”相关](http://jiankang.cntv.cn/jiankangzhilu/classpage/video/20120121/101026.shtml)
  
