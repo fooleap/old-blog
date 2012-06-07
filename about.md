@@ -24,8 +24,8 @@ group: navigation
 
 * 网名:  Fooleap
 * 出生:  90.01
-* 来自:  [汕头澄海](http://maps.google.com/maps?&q=%E6%B1%95%E5%A4%B4%E6%BE%84%E6%B5%B7)
-* 现居:  [当前位置](http://www.google.com/latitude/apps/badge/api?user=-285873226243287826&type=iframe)
+* 来自:  [广东汕头](http://goo.gl/maps/nkiL)
+* 现居:  [广西桂林](http://goo.gl/maps/rOkt)
 
 **联系方式**
 
