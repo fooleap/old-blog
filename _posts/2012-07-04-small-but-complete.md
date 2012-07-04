@@ -11,7 +11,7 @@ tags: [Veer, 小巧, 手机]
 
 小弟以为 8700 够用，基本不关注手机的行情，但很早就听说， HP 去年抛售的 [Veer](http://en.wikipedia.org/wiki/HP_Veer) 有极高的性价比。目前全新黑色才六百左右，仍靠父母吃饭的我，还是感觉太奢侈，于是打起求购于二手市场的念头，随即有了下文。
 
-嗯，在 V2EX 上[发帖](http://www.v2ex.com/t/34487)， 至于为什么在那而不是[煮机网](http://www.zoopda.com/)，我想也不用在此解释。后来花了420块大洋从 [@YCF](http://twitter.com/ycf) 收了一只黑色小 Veer，不带点金石。
+嗯，在 V2EX 上[发帖](http://www.v2ex.com/t/34487)， 至于为什么在那而不是[煮机网](http://www.zoopda.com/)，我想也不用在此解释。后来花了420块大洋收了一只黑色小 Veer，不带点金石。
 
 HP Veer 吸引我的是其外观的小巧、 QWERTY 键盘、非主流的 webOS 系统，这完全符合我的要求。
 
