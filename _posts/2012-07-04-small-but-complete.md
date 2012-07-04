@@ -50,8 +50,8 @@ HP Veer 吸引我的是其外观的小巧、 QWERTY 键盘、非主流的 webOS 
 * [webOS](http://en.wikipedia.org/wiki/WebOS)
 * [麻雀虽小五脏全 超值webOS HP Veer 4G评测](http://mobile.zol.com.cn/252/2525007_all.html)
 * [ATT版惠普Veer外媒超详尽评测](http://www.weboshome.com/2011/05/review-att-hp-veer-4g/)
-[HP Veer初体验：外观和webOS](http://imtx.me/archives/1664.html)
-[HP Veer 4G 使用小记](http://lightcss.com/hp-veer-app/)
+* [HP Veer初体验：外观和webOS](http://imtx.me/archives/1664.html)
+* [HP Veer 4G 使用小记](http://lightcss.com/hp-veer-app/)
 
 **本文历史**
 
