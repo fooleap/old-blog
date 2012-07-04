@@ -35,7 +35,7 @@ HP Veer 吸引我的是其外观的小巧、 QWERTY 键盘、非主流的 webOS 
 <br />
 <img src="http://pic.yupoo.com/fooleap_v/C5BvPI2w/2Uwtc.png" alt="各种应用" title="各种应用" />
 <br />
-<li>电池基本够用，不怎么玩手机的话，能撑一天。建议配备移动电源，需加个 USB 转接头。</li>
+<li>电池基本够用，不怎么玩手机的话，能撑一天。建议配备移动电源，需加个 USB 转接头。还有，充电存储接口特殊，很喜欢。</li>
 <br />
 <img src="http://pic.yupoo.com/fooleap_v/C5BxYElO/Y4lgO.jpg" alt="移动电源和转接头" title="移动电源和转接头" />
 <br />
