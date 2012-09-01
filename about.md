@@ -43,5 +43,4 @@ group: navigation
 
 **注**
 
-联系首选email，qq几乎不上
-
+联系首选email，qq几乎不上。
