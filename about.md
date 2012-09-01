@@ -14,7 +14,7 @@ group: navigation
 * RSS订阅：[http://feed.fooleap.org](http://feed.fooleap.org)
 
 
-这是Fooleap的个人博客，记录学习生活的点点滴滴，话题方向在于Linux，软件，旅行。
+这是Fooleap的个人博客，记录学习生活的点点滴滴，话题方向在于Linux，跑步，旅行。
 
 **关于版权**
 
