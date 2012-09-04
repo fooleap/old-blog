@@ -11,10 +11,10 @@ group: navigation
 **关于博客**
 
 * 博客网址：[http://blog.fooleap.org](http://blog.fooleap.org)
-* RSS订阅：[http://feed.fooleap.org](http://feed.fooleap.org)
+* RSS 订阅：[http://feed.fooleap.org](http://feed.fooleap.org)
 
 
-这是Fooleap的个人博客，记录学习生活的点点滴滴，话题方向在于Linux，跑步，旅行。
+这是 Fooleap 的个人博客，记录学习生活的点点滴滴，话题方向在于 Linux，跑步，旅行。
 
 **关于版权**
 
@@ -38,9 +38,5 @@ group: navigation
 **博客进程**
 
 * 2011-02-09 博客建立，名字为"Fooleap"
-* 2011-10-28 博客网址改为二级域名blog.fooleap.org，主域做了重定向，博客改名为"Fooleap's Blog"
-* 2012-03-18 博客从Wordpress平台转到jekyll平台
-
-**注**
-
-联系首选email，qq几乎不上。
+* 2011-10-28 博客网址改为二级域名 blog.fooleap.org ，主域做了重定向，博客改名为"Fooleap's Blog"
+* 2012-03-18 博客从 Wordpress 平台转到 Jekyll 平台

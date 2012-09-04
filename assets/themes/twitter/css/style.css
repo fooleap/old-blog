@@ -2,14 +2,14 @@
 html, body {
   background-color: #eee;
 }
-.navbar {
-  margin-bottom: 0;
-}
-.container > footer {
-  margin-top: 20px;
+body {
+  padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
 }
 .container > footer p {
   text-align: center; /* center align it with the container */
+}
+.container {
+  width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
 }
 
 /* The white background content wrapper */
@@ -45,6 +45,12 @@ html, body {
 	padding:5px 0 ;
 	overflow:hidden;
 }
+.tag_box.inline {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
 .tag_box li {
 	line-height:28px;
 }
@@ -68,4 +74,4 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-
+	
