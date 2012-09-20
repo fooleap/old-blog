@@ -129,6 +129,18 @@ group: navigation
 	    <td></td>
         <td></td>
 	  </tr>
+	  <tr>
+	    <td>2012年09月20日</td>
+	    <td>5:55</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年09月21日</td>
+	    <td>5:25</td>
+	    <td>5.2</td>
+        <td>40</td>
+	  </tr>
 	</tbody>
   </table>
 </section>
