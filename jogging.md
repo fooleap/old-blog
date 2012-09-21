@@ -138,7 +138,7 @@ group: navigation
 	  <tr>
 	    <td>2012年09月21日</td>
 	    <td>5:25</td>
-	    <td>5.2</td>
+	    <td>5.6</td>
         <td>40</td>
 	  </tr>
 	</tbody>
