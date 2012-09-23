@@ -32,14 +32,14 @@ group: navigation
 * Email/Gtalk/QQ: fooleap(at)gmail.com
 * Twitter: [@fooleap](http://twitter.com/fooleap)
 * V2EX: [@fooleap](http://www.v2ex.com/member/fooleap)
-* Douban: [@fooleap](http://douban.com/people/fooleap)
 * Ruby China: [@fooleap](http://ruby-china.org/fooleap)
-* Zhihu: [@fooleap](http://zhihu.com/people/fooleap)
+* 豆瓣: [@fooleap](http://douban.com/people/fooleap)
+* 知乎: [@fooleap](http://zhihu.com/people/fooleap)
 
 **博客进程**
 
 * 2011-02-09 博客建立，名字为“Fooleap”
-* 2011-10-28 博客网址改为二级域名 blog.fooleap.org ，主域做了重定向，博客改名为"Fooleap's Blog"
+* 2011-10-28 博客网址改为二级域名 blog.fooleap.org ，主域做了重定向，博客改名为“Fooleap&#039;s Blog”
 * 2012-03-18 博客从 Wordpress 平台转到 Jekyll 平台
 
 最后，请我吃饭点[这里](https://me.alipay.com/fooleap)。
