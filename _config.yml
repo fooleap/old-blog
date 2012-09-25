@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : "Fooleap's Blog"
-tagline: fooleap, linux
+tagline: fooleap, linux, 跑步, 骑车
 author :
   name : Fooleap
   email : fooleap@gmail.com

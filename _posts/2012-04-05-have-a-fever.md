@@ -3,7 +3,7 @@ layout: post
 title: "发烧一记"
 description: "这是我在桂林第二次发烧，前天晚上着凉，然后开始全身无力，昨天貌似好点。昨晚又开始烧，刚一测腋下，还有38.2摄氏度。"
 category: life
-tags: [感冒, jekyll]
+tags: [生病, jekyll]
 ---
 {% include JB/setup %}
 
