@@ -5,8 +5,7 @@ slug: win7-for-thinkpad-x30
 status: publish
 title: Thinkpad X30上的Windows7
 wordpress_id: '924'
-categories:
-- windows
+categories: thinkpad
 post_format:
 - 标准
 tags:
