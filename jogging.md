@@ -144,7 +144,7 @@ group: navigation
 	  <tr>
 	    <td>2012年09月22日</td>
 	    <td>5:30</td>
-	    <td>10</td>
+	    <td>10.0</td>
         <td>70</td>
 	  </tr>
 	  <tr>
@@ -182,6 +182,12 @@ group: navigation
 	    <td>6:30</td>
 	    <td></td>
         <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年09月29日</td>
+	    <td>6:20</td>
+	    <td>10.0</td>
+        <td>67</td>
 	  </tr>
 	</tbody>
   </table>
