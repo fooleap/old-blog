@@ -11,22 +11,17 @@ function change(){
 		    vis=document.getElementById('jogging').value; 
 			var j1209 = document.getElementById('j1209'); 
 			var j1210 = document.getElementById('j1210');
-			var j1211 = document.getElementById('j1211');
 			if(vis=='j1209'){ 
 					j1209.style.display = 'block'; 
 					j1210.style.display = 'none'; 
-					j1211.style.display = 'none'; 
 					vis = 'j1209';
 			}else if(vis=='j1210'){ 
 					j1209.style.display = 'none'; 
 					j1210.style.display = 'block'; 
-					j1211.style.display = 'none'; 
 					vis = 'j1210'; 
 			}else{ 
 					j1209.style.display = 'none'; 
 					j1210.style.display = 'block'; 
-					j1211.style.display = 'none'; 
-					vis = 'j1211'; 
 			} 
 } 
 
@@ -267,6 +262,12 @@ function change(){
 	    <td>8:00</td>
 	    <td></td>
         <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年10月03日</td>
+	    <td>6:00</td>
+	    <td>4.8</td>
+        <td>30</td>
 	  </tr>
     </tbody>
   </table>
