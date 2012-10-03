@@ -30,9 +30,8 @@ function change(){
 
 <div id="selectbox">
 <select id="jogging" onchange="change()">
-<option>请选择月份</option>
 <option value="j1209">2012年09月</option>
-<option value="j1210">2012年10月</option>
+<option value="j1210" selected="selected">2012年10月</option>
 </select>
 </div>
 <p />
