@@ -42,4 +42,4 @@ group: navigation
 * 2011-10-28 博客网址改为二级域名 blog.fooleap.org ，主域做了重定向，博客改名为“Fooleap&#039;s Blog”
 * 2012-03-18 博客从 Wordpress 平台转到 Jekyll 平台
 
-最后，请我吃饭点[这里](https://me.alipay.com/fooleap)。
+最后，如果您喜欢我写的文章，想请吃饭点<a href='http://me.alipay.com/fooleap' style="text-decoration:none;"> <img src='https://img.alipay.com/sys/personalprod/style/mc/btn-index.png' style="height:12px;margin-bottom:-1px;" /> </a>
