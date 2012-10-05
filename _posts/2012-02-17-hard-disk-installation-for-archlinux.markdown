@@ -8,6 +8,7 @@ wordpress_id: '932'
 description: Archlinux新日期的CD镜像2011.08.19发布到现在已经一个月了，Archlinux是滚动更新，系统同步到最新只需一条命令，新CD镜像发布时间
 categories:
 - linux
+post_format:
 - 标准
 tags:
 - ArchLinux
