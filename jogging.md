@@ -317,8 +317,6 @@ function change(){
         <td>30</td>
 	  </tr>
     </tbody>
-    </tbody>
-    </tbody>
   </table>
 </section>
 </div>
