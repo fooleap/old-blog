@@ -316,6 +316,12 @@ function change(){
 	    <td>4.4</td>
         <td>30</td>
 	  </tr>
+	  <tr>
+	    <td>2012年10月12日</td>
+	    <td>6:00</td>
+	    <td>4.8</td>
+        <td>29</td>
+	  </tr>
     </tbody>
   </table>
 </section>
