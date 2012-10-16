@@ -340,6 +340,18 @@ function change(){
 	    <td></td>
         <td></td>
 	  </tr>
+	  <tr>
+	    <td>2012年10月16日</td>
+	    <td>7:30</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年10月17日</td>
+	    <td>7:00</td>
+	    <td></td>
+        <td></td>
+	  </tr>
     </tbody>
   </table>
 </section>
