@@ -77,7 +77,7 @@ a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:
 .span-two-thirds{width:620px;}
 .row>.offset-one-third{margin-left:340px;}
 .row>.offset-two-thirds{margin-left:660px;}
-p{font-size:14px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+p{font-size:14px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:12px;color:#bfbfbf;}
 h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
 h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
 h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
@@ -85,7 +85,7 @@ h3,h4,h5,h6{line-height:36px;}
 h3{font-size:18px;}h3 small{font-size:14px;}
 h4{font-size:16px;}h4 small{font-size:12px;}
 h5{font-size:14px;}
-h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+h6{font-size:12px;color:#bfbfbf;text-transform:uppercase;}
 ul,ol{margin:0 0 18px 25px;list-style:none;}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
 li{line-height:18px;color:#808080;}
@@ -190,8 +190,7 @@ table tbody th{border-top:1px solid #ddd;vertical-align:top;}
 .condensed-table th,.condensed-table td{padding:5px 5px 4px;}
 .bordered-table{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.bordered-table th+th,.bordered-table td+td,.bordered-table th+td{border-left:1px solid #ddd;}
 .bordered-table thead tr:first-child th:first-child,.bordered-table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
-.bordered-table thead tr:first-child th:last-child,.bordered-table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
-.bordered-table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+.bordered-table thead tr:first-child th:last-child,.bordered-table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;} .bordered-table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
 .bordered-table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
 table .span1{width:20px;}
 table .span2{width:60px;}
