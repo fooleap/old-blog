@@ -6,22 +6,31 @@ group: navigation
 {% include JB/setup %}
 <script language="JavaScript"> 
 <!-- 
-var vis = 'j1210';
+var vis = 'j1211';
 function change(){ 
 		    vis=document.getElementById('jogging').value; 
 			var j1209 = document.getElementById('j1209'); 
 			var j1210 = document.getElementById('j1210');
+			var j1211 = document.getElementById('j1211');
 			if(vis=='j1209'){ 
 					j1209.style.display = 'block'; 
 					j1210.style.display = 'none'; 
+					j1211.style.display = 'none'; 
 					vis = 'j1209';
 			}else if(vis=='j1210'){ 
 					j1209.style.display = 'none'; 
 					j1210.style.display = 'block'; 
+					j1211.style.display = 'none'; 
 					vis = 'j1210'; 
+			}else if(vis=='j1211'){ 
+					j1209.style.display = 'none'; 
+					j1210.style.display = 'none'; 
+					j1211.style.display = 'block'; 
+					vis = 'j1211'; 
 			}else{ 
 					j1209.style.display = 'none'; 
-					j1210.style.display = 'block'; 
+					j1210.style.display = 'none'; 
+					j1211.style.display = 'block'; 
 			} 
 } 
 
@@ -31,7 +40,8 @@ function change(){
 <div id="selectbox">
 <select id="jogging" onchange="change()">
 <option value="j1209">2012年09月</option>
-<option value="j1210" selected="selected">2012年10月</option>
+<option value="j1210">2012年10月</option>
+<option value="j1211" selected="selected">2012年11月</option>
 </select>
 </div>
 <p />
@@ -238,7 +248,7 @@ function change(){
 </section>
 </div>
 
-<div id = "j1210">
+<div id = "j1210" style = "display:none;">
 <section class="jogging">
   <table>
     <thead>
@@ -436,8 +446,66 @@ function change(){
 	    <td></td>
         <td></td>
 	  </tr>
+	  <tr>
+	    <td>2012年10月</td>
+	    <td>7:14</td>
+	    <td>33.2</td>
+        <td>205</td>
+	  </tr>
     </tbody>
   </table>
 </section>
 </div>
 
+<div id = "j1211">
+<section class="jogging">
+  <table>
+    <thead>
+	  <tr>
+	    <th>日期</th>
+	    <th>起床</th>
+	    <th>距离（公里）</th>
+	    <th>时间（分）</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>2012年11月01日</td>
+	    <td>9:00</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年11月02日</td>
+	    <td>7:00</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年11月03日</td>
+	    <td>8:30</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年11月04日</td>
+	    <td>5:10</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年11月05日</td>
+	    <td>7:00</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	  <tr>
+	    <td>2012年11月06日</td>
+	    <td>7:30</td>
+	    <td></td>
+        <td></td>
+	  </tr>
+	</tbody>
+  </table>
+</section>
+</div>
