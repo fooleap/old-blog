@@ -571,12 +571,6 @@ function change(){
 	    <td></td>
         <td></td>
 	  </tr>
-	  <tr>
-	    <td>2012年11月13日</td>
-	    <td>10:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
 	</tbody>
   </table>
 </section>
