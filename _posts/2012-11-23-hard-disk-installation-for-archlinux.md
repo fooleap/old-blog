@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "硬盘安装 Arch Linux"
+description: "Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。"
 category: linux
 tags: [arch, 硬盘安装]
 ---
 {% include JB/setup %}
-Chakra 虽稳定，KDE 臃肿，其纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。
+Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。
 
 此前使用 Chakra Linux，其启动引导器为 [BURG](https://wiki.archlinux.org/index.php/Burg)，它是基于 [GRUB2](https://wiki.archlinux.org/index.php/GRUB2) 使用 Ruby 重写而来的，所以 [GRUB 命令](http://www.gnu.org/software/grub/manual/grub.html#Commands)同样适用。
 
@@ -205,7 +206,7 @@ EndSection</code></pre>
 
 使用 Windows 徽标键作为 i3 的 Mod 键
 
-    :%s/Mod1/Mod4/g
+   k:%s/Mod1/Mod4/g
 
 安装 fcitx 输入法，并配置
 
@@ -227,4 +228,5 @@ exec i3</code></pre>
 * 2011年09月25日  创建文章
 * 2011年11月14日  添加修改配置以识别声卡及取消滴滴声
 * 2012年02月17日  重新整理
+* 2012年11月23日  重写完成初稿
 
