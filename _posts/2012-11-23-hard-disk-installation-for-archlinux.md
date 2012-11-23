@@ -206,7 +206,7 @@ EndSection</code></pre>
 
 使用 Windows 徽标键作为 i3 的 Mod 键
 
-   k:%s/Mod1/Mod4/g
+    :%s/Mod1/Mod4/g
 
 安装 fcitx 输入法，并配置
 
