@@ -13,7 +13,7 @@ MPD ([Music Player Daemon](https://wiki.archlinux.org/index.php/Music_Player_Dae
 
 下面一起来安装配置 MPD，获得恰到好处的使用体验
 
-*MPD*
+**MPD**
 
 安装 MPD, MPC
 
@@ -45,7 +45,9 @@ audio_output {
 
 至此，可直接运行 mpd 命令，启动 mpd 服务
 
-*MPC*
+**MPC**
+
+尝试播放
 
     $ mpc listall | mpc add
     $ mpc play
@@ -82,7 +84,7 @@ audio_output {
 
 更多使用可以参考 man mpc
 
-*多媒体键*
+**多媒体键**
 
 使用 Thinkpad 多媒体键来代替常用的 mpc 命令再合适不过，这里通过 [Xbindkeys](https://wiki.archlinux.org/index.php/Xbindkeys) 来绑定
 
@@ -114,9 +116,9 @@ XF86AudioRaiseVolume
 "amixer sset Master toggle"
 XF86AudioMute</code></pre>
 
-将 xbindkeys & 添加到 ~/.xinitrc 随 X 启动
+将 xbindkeys & 添加到 ~/.xinitrc 使其随 X 启动
 
-*键映射*
+**键映射**
 
 在此之前，可能需要通过 [Xmodmap](https://wiki.archlinux.org/index.php/Xmodmap) 修改键映射
 
