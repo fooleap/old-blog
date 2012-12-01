@@ -216,7 +216,7 @@ EndSection</code></pre>
 
     :%s/Mod1/Mod4/g
 
-安装 fcitx 输入法，并配置
+安装 Fcitx 输入法，并配置
 
     # pacman -S fcitx
 
@@ -226,11 +226,11 @@ export QT_IM_MODULE=xim
 export GTK_IM_MODULE=xim
 fcitx&#38;</code></pre>
 
-安装 firefox 及 flash 插件
+安装 Firefox 及 Flash 插件
 
     # pacman -S firefox flashplugin
 
-安装 zathura
+安装 Zathura
 
     # pacman -S zathura zathura-pdf-mupdf
 
