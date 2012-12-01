@@ -3,7 +3,7 @@ layout: post
 title: "硬盘安装 Arch Linux"
 description: "Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。"
 category: linux
-tags: [arch, 硬盘安装]
+tags: [Arch Linux, 硬盘安装]
 ---
 {% include JB/setup %}
 Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。
@@ -42,13 +42,17 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 
 一切没有问题将会自动以 root 登录，目前 Arch Linux 的安装方式和 Gentoo 差不多，都通过 Change Root。
 
-配置网络，我使用的是无线路由，比较方便，通过自带的 Netcfg 连接网络。
+*配置网络*
+
+我使用的是无线路由，比较方便，通过自带的 Netcfg 连接网络。
 
     # wifi-menu wlan0
 
 搜索 Wifi 热点，并进行认证连接
 
-硬盘分区，鄙人认为，个人计算机硬盘分区个数越少越好，最好只有一个，这也是微软和苹果所提倡的。
+*硬盘分区*
+
+鄙人认为，个人计算机硬盘分区个数越少越好，最好只有一个，这也是微软和苹果所提倡的。
 
 由于还有换系统的可能，除了根目录，我把 /home 独立出来成为一个分区，内存够用，就没考虑到 Swap 分区，沿用以前的分区设置。
 
@@ -61,8 +65,10 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 <li>格式化根分区</li>
 <li>挂载根分区到 /mnt 目录</li>
 <li>创建 /mnt/home 目录</li>
-<li>挂载home 分区到 /mnt/home 目录</li>
+<li>挂载 home 分区到 /mnt/home 目录</li>
 </ul>
+
+*安装系统*
 
 选择 pacman 的首选镜像
 
@@ -83,6 +89,8 @@ chroot 到刚安装的新系统
     # arch-chroot /mnt
 
 现在已经根目录已经更改到硬盘上刚安装的系统，所进行的一切操作也即是对新系统的，下面进行配置。
+
+*配置系统*
 
 修改 Locale，定义用户所使用的语言及字符集。
 
@@ -216,12 +224,15 @@ EndSection</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>export XMODIFIERS="@im=fcitx"
 export QT_IM_MODULE=xim
 export GTK_IM_MODULE=xim
-fcitx&#38;
-exec i3</code></pre>
+fcitx&#38;</code></pre>
 
 安装 firefox 及 flash 插件
 
     # pacman -S firefox flashplugin
+
+安装 zathura
+
+    # pacman -S zathura zathura-pdf-mupdf
 
 **本文历史**
 
