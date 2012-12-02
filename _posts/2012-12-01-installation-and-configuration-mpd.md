@@ -65,22 +65,22 @@ audio_output {
 
     $ mpc clear
     $ mpc ls
-    $ mpc listall Beyond* | mpc add
-    $ mpc save Beyond
-    $ mpc load Beyond
+    $ mpc listall FolderName1 FolderName2 .. | mpc add
+    $ mpc save playlist
+    $ mpc load playlist
 
 <ul>
 <li>清空当前播放列表</li>
 <li>列出文件夹</li>
-<li>显示名字为 Beyond* 文件夹下的所有音乐并添加到当前播放列表</li>
-<li>保存当前播放列表为 Beyond</li>
-<li>读取播放列表 Beyond</li>
+<li>显示名字为 FolderName1 FolderName2 文件夹下的所有音乐并添加到当前播放列表</li>
+<li>保存当前播放列表为 playlist</li>
+<li>读取播放列表 playlist</li>
 </ul>
 
 也可以通过类似下面的命令来创建播放列表，萝卜青菜
 
     $ cd ~/Music
-    $ find * -iname "*.mp3" | sort | grep Beyond > ~/.mpd/playlist/Beyond.m3u
+    $ find * -iname "*.mp3" | sort | grep Keyword > ~/.mpd/playlist/playlist.m3u
 
 更多使用可以参考 man mpc
 
@@ -141,3 +141,4 @@ keycode 123 = XF86AudioRaiseVolume</code></pre>
 **本文历史**
 
 * 2012年12月01日 创建文章
+* 2012年12月02日 修正 mpc 歌曲列表部分的错误
