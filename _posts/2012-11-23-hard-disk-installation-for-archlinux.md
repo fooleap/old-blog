@@ -218,13 +218,15 @@ EndSection</code></pre>
 
 安装 Fcitx 输入法，并配置
 
-    # pacman -S fcitx
+    # pacman -S fcitx fcitx-gtk2 fcitx-gtk3 fcitx-qt
 
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code># vim ~/.xinitrc</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>export XMODIFIERS="@im=fcitx"
-export QT_IM_MODULE=xim
-export GTK_IM_MODULE=xim
+export QT_IM_MODULE=<del>xim</del>fcitx
+export GTK_IM_MODULE=<del>xim</del>fcitx
 fcitx&#38;</code></pre>
+
+* 目前在 FF 中使用 xim，会导致菜单无法弹出的 bug，所以暂时绕开 xim
 
 安装 Firefox 及 Flash 插件
 
@@ -240,4 +242,4 @@ fcitx&#38;</code></pre>
 * 2011年11月14日  添加修改配置以识别声卡及取消滴滴声
 * 2012年02月17日  重新整理
 * 2012年11月23日  重写完成初稿
-
+* 2012年12月04日  FF 和输入法冲突问题
