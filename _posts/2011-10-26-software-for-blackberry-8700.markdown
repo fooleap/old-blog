@@ -4,11 +4,8 @@ layout: post
 slug: software-for-blackberry-8700
 status: publish
 title: 我的黑莓8700之应用篇
-wordpress_id: '1441'
-categories:
-- uncategorized
+categories: "BlackBerry"
 tags:
-- blackberry
 - 黑莓
 - 黑莓8700
 - 黑莓软件

@@ -3,12 +3,9 @@ date: '2011-10-18 20:13:03'
 layout: post
 status: publish
 title: 我的黑莓8700之情结篇
-wordpress_id: '1271'
-categories:
-- uncategorized
+categories: "BlackBerry"
 tags:
 - '8700'
-- blackberry
 - 黑莓
 - 黑莓8700
 ---

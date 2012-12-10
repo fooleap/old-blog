@@ -4,12 +4,9 @@ layout: post
 slug: use-of-blackberry8700
 status: publish
 title: 我的黑莓8700之使用篇
-wordpress_id: '1520'
-categories:
-- uncategorized
+categories: "BlackBerry"
 tags:
 - '8700'
-- blackberry
 - 工程模式
 - 热键大师
 - 黑莓8700
