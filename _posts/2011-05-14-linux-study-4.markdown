@@ -1,12 +1,8 @@
 ---
 date: '2011-05-14 11:30:16'
 layout: post
-slug: linux-study-4
-status: publish
-title: Linux学习笔记(4) - 硬盘安装Archbang
-wordpress_id: '465'
-categories:
-- linux
+title: Linux学习笔记(4)
+categories: "Linux"
 tags:
 - Archbang
 - ArchLinux

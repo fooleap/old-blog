@@ -1,12 +1,8 @@
 ---
 date: '2011-02-09 06:41:51'
 layout: post
-slug: hello-world
-status: publish
 title: Hello world!
-wordpressid: '1'
-categories:
-- blog
+categories: "blog"
 tags:
 - blog
 - Fooleap

@@ -1,12 +1,8 @@
 ---
 date: '2011-04-09 21:48:18'
 layout: post
-slug: linux-study-1
-status: publish
 title: Linux学习笔记(1)
-wordpress_id: '335'
-categories:
-- linux
+categories: "Linux"
 tags:
 - Fedora
 - linux

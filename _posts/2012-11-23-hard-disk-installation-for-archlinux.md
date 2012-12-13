@@ -2,7 +2,7 @@
 layout: post
 title: "硬盘安装 Arch Linux"
 description: "Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。"
-category: linux
+category: "Linux"
 tags: [Arch Linux, 硬盘安装]
 ---
 {% include JB/setup %}
@@ -72,7 +72,7 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 
 选择 pacman 的首选镜像
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code># vi /etc/pacman.d/mirrorlist</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/pacman.d/mirrorlist</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>Server = http://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
 Server = http://mirrors.163.com/archlinux/$repo/os/$arch</code></pre>
 
@@ -94,7 +94,7 @@ chroot 到刚安装的新系统
 
 修改 Locale，定义用户所使用的语言及字符集。
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code># vi /etc/locale.gen</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/locale.gen</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>en_US.UTF-8 UTF-8
 zh_CN.GB18030 GB18030
 zh_CN.GBK GBK
@@ -122,7 +122,7 @@ zh_CN GB2312</code></pre>
 
 配置 pacman，启用 multilib 源，此源可在 Arch Linux 64 位系统上运行 32 位的程序
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code># vi /etc/pacman.conf</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/pacman.conf</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>[multilib]
 SigLevel = PackageRequired
 Include = /etc/pacman.d/mirrorlist</code></pre>
@@ -145,13 +145,13 @@ Include = /etc/pacman.d/mirrorlist</code></pre>
 
 到此基本系统已完成安装，可以重启进入新系统
 
-安装使用顺手的 sudo, vim
+安装使用顺手的 sudo
 
-    # pacman -S sudo vim
+    # pacman -S sudo
 
-配置 sudo
+配置 sudo，可以通过 visudo
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code># visudo</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/sudoers</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>root ALL=(ALL)ALL
 fooleap ALL=(ALL)ALL</code></pre>
 
@@ -181,7 +181,7 @@ fooleap ALL=(ALL)ALL</code></pre>
 
     # pacman -S xf86-input-synaptics
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code># vim /etc/X11/xorg.conf.d/10-synaptics.conf</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/X11/xorg.conf.d/10-synaptics.conf</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>Section "InputClass"
         ...
         Option "TouchpadOff" "1"
@@ -202,14 +202,44 @@ EndSection</code></pre>
 
     # pacman -S wqy-bitmapfont wqy-zenhei
 
-字体配置可以通过文泉驿的 [Fontconfig Designer](http://wenq.org/cloud/fcdesigner.html) 生成 fonts.conf 文件
+使用 Ubuntu 的字体渲染
+
+    $ yaourt -S cairo-ubuntu
+
+字体配置可以通过文泉驿的 [Fontconfig Designer](http://wenq.org/cloud/fcdesigner.html) 生成 fonts.conf 文件并修改
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.fonts.conf</code></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>&lt;match target="font"&gt;
+  &lt;edit mode="assign" name="rgba"&gt;
+   &lt;const&gt;rgb&lt;/const&gt;
+  &lt;/edit&gt;
+ &lt;/match&gt;
+ &lt;match target="font"&gt;
+  &lt;edit mode="assign" name="hinting"&gt;
+   &lt;bool&gt;true&lt;/bool&gt;
+  &lt;/edit&gt;
+ &lt;/match&gt;
+ &lt;match target="font"&gt;
+  &lt;edit mode="assign" name="hintstyle"&gt;
+   &lt;const&gt;hintslight&lt;/const&gt;
+  &lt;/edit&gt;
+ &lt;/match&gt;
+ &lt;match target="font"&gt;
+  &lt;edit mode="assign" name="antialias"&gt;
+   &lt;bool&gt;true&lt;/bool&gt;
+  &lt;/edit&gt;
+ &lt;/match&gt;
+ &lt;match target="font"&gt;
+  &lt;edit mode="assign" name="lcdfilter"&gt;
+   &lt;const&gt;lcddefault&lt;/const&gt;
+  &lt;/edit&gt;
+ &lt;/match&gt;</code></pre>
 
 安装 i3 窗口管理器及 dmenu 软件启动器，并配置
 
     # pacman -S i3 dmenu
     $ cp /etc/i3/config ~/.i3/config
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>$ vim ~/.i3/config</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.i3/config</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>font xft:WenQuanYi Bitmap Song 10</code></pre>
 
 使用 Windows 徽标键作为 i3 的 Mod 键
@@ -220,7 +250,7 @@ EndSection</code></pre>
 
     # pacman -S fcitx fcitx-gtk2 fcitx-gtk3 fcitx-qt
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code># vim ~/.xinitrc</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.xinitrc</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>export XMODIFIERS="@im=fcitx"
 export QT_IM_MODULE=<del>xim</del>fcitx
 export GTK_IM_MODULE=<del>xim</del>fcitx
@@ -243,3 +273,4 @@ fcitx&#38;</code></pre>
 * 2012年02月17日  重新整理
 * 2012年11月23日  重写完成初稿
 * 2012年12月04日  FF 和输入法冲突问题
+* 2012年12月13日  Ubuntu 字体渲染

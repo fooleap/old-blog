@@ -1,12 +1,8 @@
 ---
 date: '2011-04-29 07:47:39'
 layout: post
-slug: linux-study-3
-status: publish
 title: Linux学习笔记(3)
-wordpress_id: '431'
-categories:
-- linux
+categories: "Linux"
 tags:
 - grub
 - linux

@@ -1,12 +1,7 @@
 ---
-date: '2011-04-19 08:14:08'
 layout: post
-slug: linux-study-2
-status: publish
-wordpress_id: '384'
 title: Linux学习笔记(2)
-categories:
-- linux
+categories: "Linux"
 tags:
 - linux
 - pidgin
@@ -114,7 +109,7 @@ Embedded Video
 **在英文环境下要配置gimp显示中文，则可运行**
 
   LANGUAGE=zh\_CN.utf8 gimp\
- 
+
 可新建个Shell脚本，扩展名为sh，内容为
 
  `#/bin/bash LANGUAGE=zh_CN.utf8 gimp`

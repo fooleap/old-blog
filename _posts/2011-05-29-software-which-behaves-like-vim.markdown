@@ -1,12 +1,8 @@
 ---
 date: '2011-05-29 11:13:51'
 layout: post
-slug: software-which-behaves-like-vim
-status: publish
 title: 几款类vim操作方式的软件/插件
-wordpress_id: '575'
-categories:
-- software
+categories: "Linux"
 tags:
 - apvlv
 - pentadactyl

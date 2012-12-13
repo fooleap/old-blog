@@ -1,12 +1,8 @@
 ---
 date: '2011-04-04 20:30:12'
 layout: post
-slug: fscapture-picpick
-status: publish
 title: 免费截图软件FSCapture5.3和PicPick
-wordpress_id: '108'
-categories:
-- software
+categories: "Windows"
 tags:
 - 免费
 - 截图
