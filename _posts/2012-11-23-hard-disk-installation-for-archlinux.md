@@ -208,7 +208,11 @@ EndSection</code></pre>
 
 字体配置可以通过文泉驿的 [Fontconfig Designer](http://wenq.org/cloud/fcdesigner.html) 生成 fonts.conf 文件并修改
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.fonts.conf</code></pre>
-<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>&lt;match target="font"&gt;
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>&lt;?xml version='1.0'?&gt;
+&lt;!DOCTYPE fontconfig SYSTEM 'fonts.dtd'&gt;
+&lt;fontconfig&gt;
+ ...
+ &lt;match target="font"&gt;
   &lt;edit mode="assign" name="rgba"&gt;
    &lt;const&gt;rgb&lt;/const&gt;
   &lt;/edit&gt;
@@ -232,7 +236,9 @@ EndSection</code></pre>
   &lt;edit mode="assign" name="lcdfilter"&gt;
    &lt;const&gt;lcddefault&lt;/const&gt;
   &lt;/edit&gt;
- &lt;/match&gt;</code></pre>
+ &lt;/match&gt;
+&lt;/fontconfig&gt;
+</code></pre>
 
 安装 i3 窗口管理器及 dmenu 软件启动器，并配置
 
