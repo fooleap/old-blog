@@ -45,6 +45,10 @@ audio_output {
 
 至此，可直接运行 mpd 命令，启动 mpd 服务
 
+设置开机自启
+
+    # systemctl enable mpd
+
 **MPC**
 
 尝试播放
