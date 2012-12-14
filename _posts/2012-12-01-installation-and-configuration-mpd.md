@@ -21,7 +21,7 @@ MPD ([Music Player Daemon](https://wiki.archlinux.org/index.php/Music_Player_Dae
 
 创建 MPD 的配置文件
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>vim ~/.mpdconf</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.mpdconf</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>music_directory         "~/Music/"
 playlist_directory      "~/.mpd/playlists"
 db_file                 "~/.mpd/database"
@@ -43,9 +43,15 @@ audio_output {
     $ mkdir -p ~/.mpd/playlists
     $ touch ~/.mpd/{database,log,pid,state}
 
-至此，可直接运行 mpd 命令，启动 mpd 服务
+至此，可直接运行 mpd 命令以启动
 
-设置开机自启
+通过 systemd 设置自启，默认配置不是普通用户的，遂先修改 mpd.service 文件，指定配置
+
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/usr/lib/systemd/system/mpd.service</code></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>...
+[Service]
+ExecStart=/usr/bin/mpd /home/fooleap/.mpdconf --no-daemon
+...</code></pre>
 
     # systemctl enable mpd
 
@@ -98,7 +104,7 @@ audio_output {
 
 配置 Xbindkeys
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>vim ~/.xbindkeysrc</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.xbindkeysrc</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>"mpc toggle"
 XF86AudioPlay
 
@@ -126,7 +132,7 @@ XF86AudioMute</code></pre>
 
 在此之前，可能需要通过 [Xmodmap](https://wiki.archlinux.org/index.php/Xmodmap) 修改键映射
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>vim ~/.Xmodmap</code></pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.Xmodmap</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>!Media
 keycode 173 = XF86AudioPrev
 keycode 172 = XF86AudioPlay
