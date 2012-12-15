@@ -55,6 +55,58 @@ ExecStart=/usr/bin/mpd /home/fooleap/.mpdconf --no-daemon
 
     # systemctl enable mpd
 
+**均衡器**
+
+播放器是有了，但 MPD 不带均衡器，在此使用 [Alsaequal](http://www.thedigitalmachine.net/alsaequal.html) 充当均衡器
+
+安装
+
+    $ yaourt -S alsaequal caps
+
+配置
+
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.asoundrc</code></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>ctl.equal {
+ type equal;
+}
+
+pcm.plugequal {
+  type equal;
+  # Modify the line below if you do not
+  # want to use sound card 0.
+  #slave.pcm "plughw:0,0";
+  #by default we want to play from more sources at time:
+  slave.pcm "plug:dmix";
+}
+#pcm.equal {
+  # If you don't want the equalizer to be your
+  # default soundcard comment the following
+  # line and uncomment the above line. (You can
+  # choose it as the output device by addressing
+  # it with specific apps,eg mpg123 -a equal 06.Back_In_Black.mp3)
+pcm.!default {
+  type plug;
+  slave.pcm plugequal;
+}</code></pre>
+
+重启 Alsa 后，可调整增益值
+
+    $ alsamixer -D equal
+
+![Alsaequal](http://pic.yupoo.com/fooleap_v/CuwYddO3/p82aA.png)
+
+配置 MPD
+
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.mpdconf</code></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>...
+audio_output {
+  type    "alsa"
+  name    "My ALSA Device"
+  device  "plug:plugequal"
+  mixer_control	"Master"		# optional
+}
+...</code></pre>
+
 **MPC**
 
 尝试播放
@@ -152,3 +204,4 @@ keycode 123 = XF86AudioRaiseVolume</code></pre>
 
 * 2012年12月01日 创建文章
 * 2012年12月02日 修正 mpc 歌曲列表部分的错误
+* 2012年12月15日 添加配置均衡器
