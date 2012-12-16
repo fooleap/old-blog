@@ -127,6 +127,14 @@ zh_CN GB2312</code></pre>
 SigLevel = PackageRequired
 Include = /etc/pacman.d/mirrorlist</code></pre>
 
+安装 [Yaourt](http://archlinux.fr/yaourt-en)，方便未进官方源软件的安装
+
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/pacman.conf</code></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>[archlinuxfr]
+Server = http://repo.archlinux.fr/$arch </code></pre>
+
+    # pacman -Sy yaourt
+
 修改 root 密码
 
     # passwd
@@ -136,6 +144,14 @@ Include = /etc/pacman.d/mirrorlist</code></pre>
     # useradd -m -g users -s /bin/bash fooleap
     # passwd fooleap
 
+安装并配置顺手的 Sudo
+
+    # pacman -S sudo
+
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/sudoers</code></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>root ALL=(ALL)ALL
+fooleap ALL=(ALL)ALL</code></pre>
+
 安装配置 Grub
 
     # pacman -S grub-bios
@@ -143,17 +159,9 @@ Include = /etc/pacman.d/mirrorlist</code></pre>
     # cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
     # grub-mkconfig -o /boot/grub/grub.cfg
 
-到此基本系统已完成安装，可以重启进入新系统
+至此完成基本的配置，重启继续折腾
 
-安装使用顺手的 sudo
-
-    # pacman -S sudo
-
-配置 sudo，可以通过 visudo
-
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/sudoers</code></pre>
-<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>root ALL=(ALL)ALL
-fooleap ALL=(ALL)ALL</code></pre>
+**配置声音**
 
 安装 ALSA，驱动声卡
 
@@ -167,9 +175,15 @@ fooleap ALL=(ALL)ALL</code></pre>
 
     # speaker-test -c 2
 
+屏蔽 Beep 声音（滴），做全局屏蔽，详细可参考：[Disable PC Speaker Beep](https://wiki.archlinux.org/index.php/Disable_PC_Speaker_Beep)
+
+    # echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+
 把用户添加到 audio 组
 
     # gpasswd -a fooleap audio
+
+**配置显示**
 
 安装 Xorg
 
@@ -181,13 +195,13 @@ fooleap ALL=(ALL)ALL</code></pre>
 
     # pacman -S xf86-input-synaptics
 
+使用 ThinkPad，习惯了小红点，选择禁用触摸板
+
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/X11/xorg.conf.d/10-synaptics.conf</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>Section "InputClass"
         ...
         Option "TouchpadOff" "1"
 EndSection</code></pre>
-
-添加 Option \"TouchpadOff\" \"1\" 以禁用触摸板
 
 测试启动 X
 
@@ -198,9 +212,11 @@ EndSection</code></pre>
 
     # gpasswd -a fooleap video
 
+**配置字体**
+
 安装字体
 
-    # pacman -S wqy-bitmapfont wqy-zenhei
+    # pacman -S wqy-bitmapfont wqy-zenhei wqy-microhei
 
 使用 Ubuntu 的字体渲染
 
@@ -240,6 +256,8 @@ EndSection</code></pre>
 &lt;/fontconfig&gt;
 </code></pre>
 
+**配置 i3**
+
 安装 i3 窗口管理器及 dmenu 软件启动器，并配置
 
     # pacman -S i3 dmenu
@@ -255,9 +273,11 @@ EndSection</code></pre>
 set $mod Mod4</code></pre>
 
 * 使用 Vim 的全局替换将 Mod1 替换成 $mod
-* 指定 $mod 为 Mod4（即 Windows 徽标键）
+* 指定变量 $mod 为 Mod4（即 Windows 徽标键）
 
-安装 Fcitx 输入法，并配置
+**配置输入法**
+
+安装 Fcitx 并配置
 
     # pacman -S fcitx fcitx-gtk2 fcitx-gtk3 fcitx-qt
 
