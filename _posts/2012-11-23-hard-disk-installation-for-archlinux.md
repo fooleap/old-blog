@@ -250,7 +250,12 @@ EndSection</code></pre>
 
 使用 Windows 徽标键作为 i3 的 Mod 键
 
-    :%s/Mod1/Mod4/g
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.i3/config</code></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>:%s/Mod1/$mod/g
+set $mod Mod4</code></pre>
+
+* 使用 Vim 的全局替换将 Mod4 替换成 $mod
+* 指定 $mod 为 Mod4（即 Windows 徽标键）
 
 安装 Fcitx 输入法，并配置
 
