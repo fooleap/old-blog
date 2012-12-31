@@ -17,3 +17,5 @@ description: "A foolish man could not always lose!"
   </ul>
 </div>
 
+<a href="http://www.scanv.com" id="scanv_verify_link">互联网安全</a><script src="http://static.scanv.com/static/js/scanv_verify.js" scanv_id="50e1cd14ca8e0b6e2304831e" charset="utf-8" type="text/javascript"></script>
+
