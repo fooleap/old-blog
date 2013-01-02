@@ -9,7 +9,7 @@ tags: [Arch Linux, ADSL, Netcfg, RP-PPPoE, pppd]
 
 前几天拉了网，普通的 ADSL 宽带，由于没有路由器，因此只能通过自身的拨号
 
-在 Arch Linux 下，可以通过自带的 Netcfg 来连接，可以通过 RP-PPPoE 来连接，也可直接配置 pppd 实现拨号
+在 Arch Linux 下，可以通过自带的 Netcfg 来连接，可以通过 RP-PPPoE 来连接，也可直接配置 ppp 实现拨号
 
 ###Netcfg###
 
@@ -56,7 +56,7 @@ PASSWORD='very secret'</code></pre>
 
 ###pppd###
 
-仔细观察，不难发现，通过 Netcfg 及 RP-PPPoE 拨号后，都是启用了 pppd，所以 Netcfg、RP-PPPoE 只是配角，提供自动化脚本方便使用 pppd，真正的主角是 pppd，手动配置 pppd 理论上更省资源，pppd 在系统自带的 ppp 包
+仔细观察，不难发现，通过 Netcfg 及 RP-PPPoE 拨号后，都是启用了 pppd 进程，所以 Netcfg、RP-PPPoE 只是配角，提供自动化脚本方便使用 ppp，真正的主角是 ppp，手动配置 ppp 理论上更省资源
 
 在 /etc/ppp/peers 这个目录下创建一个文件，如 fooleap，内容如下，其实一般只需改“帐号”，即宽带帐号
 
