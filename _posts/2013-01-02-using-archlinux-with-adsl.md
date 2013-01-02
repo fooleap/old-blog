@@ -112,7 +112,7 @@ pap-secrets 文件的权限设为 600
 
 自动加载 ppp_generic 模块
 
-    # echo "ppp_generic" > /etc/modules-load.d/pppoe.conf
+    # echo "ppp_generic" > /etc/modules-load.d/ppp.conf
 
 添加守护进程
 
