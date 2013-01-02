@@ -54,7 +54,7 @@ PASSWORD='very secret'</code></pre>
 
 注：若在 pppoe-setup 没有设定 DNS 服务器，记得手动搞定 /etc/resolv.conf
 
-###pppd###
+###ppp###
 
 仔细观察，不难发现，通过 Netcfg 及 RP-PPPoE 拨号后，都是启用了 pppd 进程，所以 Netcfg、RP-PPPoE 只是配角，提供自动化脚本方便使用 ppp，真正的主角是 ppp，手动配置 ppp 理论上更省资源
 
