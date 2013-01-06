@@ -22,10 +22,10 @@ group: navigation
 
 **关于博主**
 
-* 网名:  Fooleap
-* 出生:  90.01
-* 来自:  [广东汕头](http://goo.gl/maps/nkiL)
-* 现居:  广西南宁
+* 网名: Fooleap
+* 出生: 90.01
+* 来自: [广东汕头](http://goo.gl/maps/nkiL)
+* 现居: [广西南宁](http://goo.gl/maps/txwc6)
 
 **联系方式**
 
