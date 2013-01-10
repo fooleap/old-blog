@@ -4,10 +4,7 @@ layout: post
 status: publish
 title: 我的黑莓8700之情结篇
 categories: "BlackBerry"
-tags:
-- '8700'
-- 黑莓
-- 黑莓8700
+tags: [8700, 黑莓, 黑莓8700]
 ---
 
 使用黑莓手机到现在已经有一年时间了，黑莓在中国手机市场就如Linux在PC操作系统所占市场份额一样的低，但小众并不能忽略不计，也不能否定它的优秀。黑莓在美国受欢迎是因为它拥有稳定可靠的黑莓业务，这也是黑莓的核心，所谓“黑莓卖的不是手机，而是服务”。而近几年，[黑莓没落](http://tech.sina.com.cn/t/2011-08-04/17265883774.shtml)了，现在[RIM的股价](http://www.google.com/finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=maximized&chdeh=0&chfdeh=0&chdet=1318842441370&chddm=492660&chls=IntervalBasedLine&q=NASDAQ:RIMM&ntsp=0)是五年来的最低点。

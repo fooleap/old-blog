@@ -5,15 +5,11 @@ slug: use-of-blackberry8700
 status: publish
 title: 我的黑莓8700之使用篇
 categories: "BlackBerry"
-tags:
-- '8700'
-- 工程模式
-- 热键大师
-- 黑莓8700
+tags: [8700, 工程模式, 热键大师, 黑莓8700]
 ---
 
 此前说过，黑莓是先结婚后恋爱的手机，刚开始使用黑莓那是相当不适应，慢慢的各种操作上手熟悉后，用起来就相当顺手了。黑莓手机的外观以全键盘闻名天下，没使用过全键盘手机的朋友需要一个适应期，而没使用过黑莓系统的朋友，用起黑莓就是个学习的过程，下面是我使用黑莓8700的心得，也可以说是使用习惯，这些总总也早有网友整理。
-黑莓是全键盘手机，全键盘手机相对于其他手机，优势相当明显，键入速度可与电脑键盘媲美，在各种程序里，功能键十分丰富。黑莓的各种快捷键可参考这篇文章：[黑莓 BlackBerry 实用快捷键大全](http://www.geedr.com/blackberry-shortcut-keys.html) ** From Geedr.com**
+黑莓是全键盘手机，全键盘手机相对于其他手机，优势相当明显，键入速度可与电脑键盘媲美，在各种程序里，功能键十分丰富。黑莓的各种快捷键可参考这篇文章：[黑莓 BlackBerry 实用快捷键大全](http://www.geedr.com/blackberry-shortcut-keys.html)
 
 **快速重启**
 
@@ -28,7 +24,7 @@ tags:
 关闭主屏幕拨号功能（电话-选项-常规选项-从主屏幕拨号-“否”），设置语言为英文（选项-语言-English）。英文字体显示效果比中文好，而且在使用菜单的时候可以快速定位，使用效率会更高。这两个设置后，在待机状态下，就有很多启动黑莓自带程序的快捷键，其实有些主题定义了快捷键。
 
 
-<center><table id="tabulation">
+<table id="tabulation">
 <tr><th>a</th><td><u>A</u>ddress Book</td><td>通讯簿</td></tr>
 <tr><th>b</th><td><u>B</u>rowser</td><td>浏览器</td></tr>
 <tr><th>c*</th><td><u>C</u>ompose</td><td>编写</td></tr>
@@ -44,7 +40,7 @@ tags:
 <tr><th>t</th><td><u>T</u>ask</td><td>任务</td></tr>
 <tr><th>u</th><td>Calc<u>u</u>lator</td><td>计算器</td></tr>
 <tr><th>v*</th><td>Sa<u>v</u>ed Messages</td><td>保存的消息</td></tr>
-</table></center>
+</table>
 
 注：其中加星号表示中文状态通用。
 

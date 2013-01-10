@@ -9,7 +9,7 @@ tags: [MPD, MPC, 播放器]
 
 使用 i3 窗口管理器，感觉很舒服，更有帅帅的 i3status 点缀之，在 GitHub 搜了下，发现有个 [i3status 修改版](https://github.com/Gravemind/i3status)，可以显示 MPD 的播放状态，于是又用起 MPD。
 
-MPD ([Music Player Daemon](https://wiki.archlinux.org/index.php/Music_Player_Daemon)) 是一个实用的音乐播放器，以其独特的 C/S 结构获得人们的喜爱。充其量 MPD 只是作为一个守护进程（或者可以说服务）运行于后台，想要控制它的播放，还需要一个客户端，一般只选用 MPC， MPC 虽为命令行客户端，但已够用。
+MPD ([Music Player Daemon](https://wiki.archlinux.org/index.php/Music_Player_Daemon)) 是一个实用的音乐播放器，以其独特的 C/S 结构获得人们的喜爱。充其量 MPD 只是作为一个守护进程（或者可以说服务）运行于后台，想要控制它的播放，还需要一个客户端，一般只选用 MPC (Music Player Command)， MPC 虽为命令行客户端，但已够用。
 
 下面一起来安装配置 MPD，获得恰到好处的使用体验
 
