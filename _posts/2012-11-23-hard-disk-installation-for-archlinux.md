@@ -6,7 +6,7 @@ category: "Linux"
 tags: [Arch Linux, 硬盘安装]
 ---
 {% include JB/setup %}
-!由于现在 Arch Linux 的镜像里没带基本仓库，所以以下方式仅仅是半本地安装，若是没有网络，Arch Linux 就没法安装到硬盘上，可以通过先下载包创建本地仓库解决，有时间会和大家分享完全的本地安装。
+!由于现在 Arch Linux 的镜像里没带仓库，所以以下方式仅仅是半本地安装，若是没有网络，Arch Linux 就没法安装到硬盘上，可以通过先下载包创建本地仓库解决，有时间会和大家分享完全的本地安装。
 
 Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。
 
