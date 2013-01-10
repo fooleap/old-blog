@@ -75,7 +75,7 @@ GIT_WORK_TREE=~/web git checkout -f</code></pre>
     $ echo "Hello World" > index.html
     $ git add . 
     $ git commit -m "add index.html"
-    $ git remote add web git@fooleap.org:wiki.git
+    $ git remote add web git@fooleap.org:web.git
     $ git push web +master:refs/heads/master
 
 <ul><li>初始化本地仓库，提交一个版本，添加远程仓库并推送</li></ul>
