@@ -270,12 +270,9 @@ EndSection</code></pre>
 
 使用 Windows 徽标键作为 i3 的 Mod 键
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>~/.i3/config</code></pre>
-<pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>:%s/Mod1/$mod/g
-set $mod Mod4</code></pre>
+    sed -i "s/Mod1/\$mod/g;20 aset \$mod Mod4" -i ~/.i3/config 
 
-* 使用 Vim 的全局替换将 Mod1 替换成 $mod
-* 指定变量 $mod 为 Mod4（即 Windows 徽标键）
+* 将 Mod1 替换成 $mod 并指定变量为 Mod4（即 Windows 徽标键）
 
 **配置输入法**
 
