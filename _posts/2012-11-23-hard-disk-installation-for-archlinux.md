@@ -270,7 +270,7 @@ EndSection</code></pre>
 
 使用 Windows 徽标键作为 i3 的 Mod 键
 
-    sed -i "s/Mod1/\$mod/g;20 aset \$mod Mod4" -i ~/.i3/config 
+    sed "s/Mod1/\$mod/g;20 aset \$mod Mod4" -i ~/.i3/config 
 
 * 将 Mod1 替换成 $mod 并指定变量为 Mod4（即 Windows 徽标键）
 
