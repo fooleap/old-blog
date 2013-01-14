@@ -6,23 +6,25 @@ category: "Linux"
 tags: [Arch Linux, 硬盘安装]
 ---
 {% include JB/setup %}
-!由于现在 Arch Linux 的镜像里没带仓库，所以以下方式仅仅是半本地安装，若是没有网络，Arch Linux 就没法安装到硬盘上，可以通过先下载包创建本地仓库解决，有时间会和大家分享完全的本地安装。
-
 Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。
+
+###安装前的准备
 
 此前使用 Chakra Linux，其启动引导器为 [BURG](https://wiki.archlinux.org/index.php/Burg)，它是基于 [GRUB2](https://wiki.archlinux.org/index.php/GRUB2) 使用 Ruby 重写而来的，所以 [GRUB 命令](http://www.gnu.org/software/grub/manual/grub.html#Commands)同样适用。
 
+> 如果安装 Arch Linux 的时候没有网络，下面的方法可能适合你，首先下载一个 core 仓库镜像
+>
+>     mkdir core && cd core
+>     wget http://mirrors.163.com/archlinux/core/os/x86_64/
+>     awk '{sub(/.*="/,"http://mirrors.163.com/archlinux/core/os/x86_64/"); {sub(/".*/,"")} if(NR>=5 && NR<=399)print}' index.html | xargs wget -c
+>     pacman -Sw fuse freetype2 --cachedir . 
+>
+>* 创建一个名为“core”的文件夹
+>* 会下载到一个 index.html 文件，即网易源 64 位 core 仓库的页面 html 文件
+>* 使用 awk 对 index.html 文件的内容做下替换，输出传给 wget 下载
+>* 下载 fuse freetype2 这两个属于 extra 仓的包，这是 grub 的依赖
+
 把下载而来的 [archlinux-2012.11.01-dual.iso](http://mirrors.163.com/archlinux/iso/2012.11.01/archlinux-2012.11.01-dual.iso) 复制到U盘的根目录，重启机器。
-
-如果安装 Arch Linux 的时候没有网络，下面的方法可能适合你，首先下载一个 core 镜像
-
-    mkdir core
-    wget http://mirrors.163.com/archlinux/core/os/x86_64/
-    awk '{sub(/.*="/,"http://mirrors.163.com/archlinux/core/os/x86_64/"); {sub(/".*/,"")} if(NR>=5 && NR<=399)print}' index.html | xargs wget -c
-
-* 创建一个名为“core”的文件夹
-* 会下载到一个 index.html 文件，即网易源 64 位 core 仓库的页面 html 文件
-* 使用 awk 对 index.html 文件的内容做下替换，输出传给 wget 下载
 
 进入 BURG 引导界面，按 C 进入命令行模式。
 
@@ -54,11 +56,13 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 
 一切没有问题将会自动以 root 登录，目前 Arch Linux 的安装方式和 Gentoo 差不多，都通过 Change Root。
 
+###安装基本系统
+
 **硬盘分区**
 
 鄙人认为，个人计算机硬盘分区个数越少越好，最好只有一个，这也是微软和苹果所提倡的。
 
-由于还有换系统的可能，除了根目录，我把 /home 独立出来成为一个分区，内存够用，就没考虑到 Swap 分区，沿用以前的分区设置。
+由于还有换系统的可能，除了根目录，我把 /home 独立出来成为一个分区，内存够用，就没考虑到 Swap 分区，沿用以前的分区设置。假如需要分区，可以使用 cfdisk，使用的时候要注意。
 
     # mkfs.ext4 /dev/sda1
     # mount /dev/sda1 /mnt
@@ -80,13 +84,25 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 
 搜索 Wifi 热点，并进行认证连接
 
-**安装系统**
-
 选择 pacman 的首选镜像
 
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/pacman.d/mirrorlist</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>Server = http://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
 Server = http://mirrors.163.com/archlinux/$repo/os/$arch</code></pre>
+
+>若没有网络，那下载而来的 core 仓库在此时就用上了，可以按以下步骤使用本地仓
+>
+>     mkdir /mnt/repo
+>     cp -R /path/to/core /mnt/repo
+><pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/pacman.conf</code></pre>
+><pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>[core]
+>SigLevel = PackageRequired
+>Server = /mnt/repo/core
+>#并把默认的 core, extra, community 注释掉 </code></pre>
+
+    pacman -Sy
+
+**安装系统**
 
 通过 pacstrap 安装基本系统
 
@@ -100,9 +116,23 @@ chroot 到刚安装的新系统
 
     # arch-chroot /mnt
 
-现在已经根目录已经更改到硬盘上刚安装的系统，所进行的一切操作也即是对新系统的，下面进行配置。
+现在已经根目录已经切换到刚安装的系统，所进行的一切操作也即是对新系统的。
 
-**配置系统**
+安装 Grub
+
+
+>无网络状态怎么安装呢？还记得刚开始下载的两个包 fuse, freetype2 吗？
+>
+>     pacman —U /path/to/fuse<version>.pkg.tar.xz /path/to/freetype2<version>.pkg.tar.xz
+>
+>* 把他们安装上之后就可以正常的安装 Grub
+
+    # pacman -S grub-bios
+    # grub-install --recheck /dev/sda
+    # cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
+    # grub-mkconfig -o /boot/grub/grub.cfg
+
+###配置系统
 
 修改 Locale，定义用户所使用的语言及字符集。
 
@@ -163,13 +193,6 @@ Server = http://repo.archlinux.fr/$arch </code></pre>
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/sudoers</code></pre>
 <pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>root ALL=(ALL)ALL
 fooleap ALL=(ALL)ALL</code></pre>
-
-安装配置 Grub
-
-    # pacman -S grub-bios
-    # grub-install --recheck /dev/sda
-    # cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
-    # grub-mkconfig -o /boot/grub/grub.cfg
 
 至此完成基本的配置，重启继续折腾
 
@@ -314,3 +337,4 @@ fcitx&#38;</code></pre>
 * 2012年11月23日  重写完成初稿
 * 2012年12月04日  FF 和输入法冲突问题
 * 2012年12月13日  Ubuntu 字体渲染
+* 2013年01月15日  添加本地镜像安装基本系统部分
