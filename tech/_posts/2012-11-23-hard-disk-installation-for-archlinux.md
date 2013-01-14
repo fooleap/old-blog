@@ -14,6 +14,16 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 
 把下载而来的 [archlinux-2012.11.01-dual.iso](http://mirrors.163.com/archlinux/iso/2012.11.01/archlinux-2012.11.01-dual.iso) 复制到U盘的根目录，重启机器。
 
+如果安装 Arch Linux 的时候没有网络，下面的方法可能适合你，首先下载一个 core 镜像
+
+    mkdir core
+    wget http://mirrors.163.com/archlinux/core/os/x86_64/
+    awk '{sub(/.*="/,"http://mirrors.163.com/archlinux/core/os/x86_64/"); {sub(/".*/,"")} if(NR>=5 && NR<=399)print}' index.html | xargs wget -c
+
+* 创建一个名为“core”的文件夹
+* 会下载到一个 index.html 文件，即网易源 64 位 core 仓库的页面 html 文件
+* 使用 awk 对 index.html 文件的内容做下替换，输出传给 wget 下载
+
 进入 BURG 引导界面，按 C 进入命令行模式。
 
     loopback loop (hd1,msdos1)/archlinux-2012.11.01-dual.iso
@@ -44,14 +54,6 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 
 一切没有问题将会自动以 root 登录，目前 Arch Linux 的安装方式和 Gentoo 差不多，都通过 Change Root。
 
-*配置网络*
-
-我使用的是无线路由，比较方便，通过自带的 Netcfg 连接网络。
-
-    # wifi-menu wlan0
-
-搜索 Wifi 热点，并进行认证连接
-
 **硬盘分区**
 
 鄙人认为，个人计算机硬盘分区个数越少越好，最好只有一个，这也是微软和苹果所提倡的。
@@ -69,6 +71,14 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 <li>创建 /mnt/home 目录</li>
 <li>挂载 home 分区到 /mnt/home 目录</li>
 </ul>
+
+**配置网络**
+
+我使用的是无线路由，比较方便，通过自带的 Netcfg 连接网络。
+
+    # wifi-menu wlan0
+
+搜索 Wifi 热点，并进行认证连接
 
 **安装系统**
 

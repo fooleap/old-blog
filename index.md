@@ -7,17 +7,17 @@ description: "A foolish man could not always lose!"
 <div id="board">
 <div class="row">
   <ul id="posts">
-    <h4>Tech</h4>
-    {% for post in site.categories.tech limit:5 %}
-    <li><span class="date">{{ post.date | date_to_string }}</span><span class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span></li>
-    {% endfor %}
-    <h4>Life</h4>
-    {% for post in site.categories.life limit:5 %}
-    <li><span class="date">{{ post.date | date_to_string }}</span><span class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span></li>
-    {% endfor %}
-    <li><span class="date"> </span><span class="title"><a href="/categories.html">更多……</a></span></li>
+      <h4>Tech</h4>
+      {% for post in site.categories.tech limit:5 %}
+      <li><span class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span><span class="date">{{ post.date | date_to_string }}</span></li>
+      {% endfor %}
+      <h4>Life</h4>
+      {% for post in site.categories.life limit:5 %}
+      <li><span class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span><span class="date">{{ post.date | date_to_string }}</span></li>
+      {% endfor %}
+      <li><span class="title"><a href="/categories.html">更多……</a></span></li>
   </ul>
-   <div class="sidebar">
+  <div class="sidebar">
     <h4>Blogroll</h4>
       <ul>
         <li><a href="http://jianyin.org" title="老A">Ageda&#039;s Blog</a></li>
