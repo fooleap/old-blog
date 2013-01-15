@@ -24,7 +24,7 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 >* 使用 awk 对 index.html 文件的内容做下替换，输出传给 wget 下载
 >* 下载 fuse freetype2 这两个属于 extra 仓的包，这是 grub 的依赖
 
-把下载而来的 [archlinux-<version>-dual.iso](http://mirrors.163.com/archlinux/iso/latest/) 复制到U盘的根目录，重启机器。
+把下载而来的 [archlinux-(version)-dual.iso](http://mirrors.163.com/archlinux/iso/latest/) 复制到U盘的根目录，重启机器。
 
 进入 BURG 引导界面，按 C 进入命令行模式。
 
