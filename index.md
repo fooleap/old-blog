@@ -17,7 +17,7 @@ description: "A foolish man could not always lose!"
     <h4>Life</h4>
     {% for post in site.categories.life limit:5 %}
       <li>
-        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a>
+        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" altbg="red" altcolor="yellow" altborder="yellow">{{ post.title }}</a>
         <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
       </li>
     {% endfor %}
