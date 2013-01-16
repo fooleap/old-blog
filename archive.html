@@ -3,13 +3,9 @@ layout: page
 title: Archive
 ---
 {% include JB/setup %}
-<div id="board">
-  <div class="row">
-  <ul id="posts">
+</ul>
 	{% for post in site.posts %}
-	<li><span class="date">{{ post.date | date_to_string }}</span><span class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span></li>
+	<li>{{ post.date | date:"%Y-%m-%d" }} <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
-  </ul>
-  </div>
-</div>
+</ul>
 
