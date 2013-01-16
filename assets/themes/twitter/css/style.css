@@ -75,3 +75,54 @@ body {
 	color:#FFF;
 }
 	
+ul img, ol img{
+    max-width:550px;
+}
+
+#board #posts {
+    list-style-type: none;
+    display: inline;
+    width: 580px;
+    overflow: auto;
+    margin: 0 20px;
+    float:left;
+}
+#board #posts li {
+    padding:0;
+    display:block;
+    width:100%;
+    float:left;
+}
+#board #posts time {
+    font-family: "Courier New", Serif;
+    color: #808080;
+    display:block;
+    text-align:center;
+    vertical-align:middle;
+    float:right;
+    margin:10px;
+}
+#board #posts a {
+    vertical-align:middle;
+    display:block;
+    float:left;
+    text-decoration:none;
+    margin:10px;
+}
+
+.sidebar {
+    list-style-type: none;
+    width: 180px;
+    overflow: auto;
+    display:inline;
+    float:left;
+    margin: 0 20px;
+}
+.sidebar h4 {
+    font-family: "Courier New", Serif;
+}
+.sidebar ul li {
+    padding: 0;
+    display:block;
+    width:100%;
+}

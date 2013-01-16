@@ -13,7 +13,9 @@ tags:
 - 类vim
 ---
 
-vim是编辑器之神，和emacs有并列的关系，它的操作方式影响了好多Linuxer，当然也不乏使用windows之人士，如[xbeta](http://xbeta.info)等。便捷高效的操作是它最吸引人的地方，还有很多扩展，如VimIM这样cool的插件层出不穷，还有神奇的应用，如[Vim也是个播放器](http://qixinglu.com/archives/vim_is_ascii_player)。如此高效率的操作方式使模仿其的其它软件不少，有Firefox插件Vimperator/Pentadactyl，有Chrome插件Vimium，有文件管理器Vifm，还有pdf阅读器Apvlv，而这些软件/插件，全都是跨平台，linux和windows平台畅通无阻。用这些软件，可以把自己装得更像是一个Geek，就我学习使用vim这几十天的感受，vim的操作方式的高效也是毋庸置疑的。
+Vim 是编辑器之神，和 Emacs 有并列的关系，它的操作方式影响了好多 Linuxer，当然也不乏使用 Windows 之人士，如 [xbeta](http://xbeta.info) 等。便捷高效的操作是它最吸引人的地方，还有很多扩展，如 VimIM 这样 cool 的插件层出不穷，还有神奇的应用，如 [Vim 也是个播放器](http://qixinglu.com/archives/vim_is_ascii_player)。
+
+如此高效率的操作方式使模仿其的其它软件不少，有 Firefox 插件 Vimperator/Pentadactyl，有 Chrome 插件 Vimium，有文件管理器 Vifm，还有 PDF 阅读器 Apvlv。就是装逼，就我学习使用 Vim 这几十天的感受，vim的操作方式的高效也是毋庸置疑的
 
 Vimperator/Pentadactyl
 
@@ -62,4 +64,5 @@ Archlinux可通过AUR安装
 
 **本文历史**
 
-2011年05月29日  创建文章
+2011年05月29日 完成初稿
+2013年01月16日  
