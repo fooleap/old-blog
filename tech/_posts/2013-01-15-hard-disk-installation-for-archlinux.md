@@ -17,7 +17,7 @@ Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux
 >     $ mkdir core && cd core
 >     $ wget http://mirrors.163.com/archlinux/core/os/x86_64/
 >     $ awk '{sub(/.*="/,"http://mirrors.163.com/archlinux/core/os/x86_64/"); {sub(/".*/,"")} if(NR>=5 && NR<=399)print}' index.html | xargs wget -c
->     $ pacman -Sw fuse freetype2 --cachedir . 
+>     # pacman -Sw fuse freetype2 --cachedir . 
 >
 >* 创建一个名为“core”的文件夹
 >* 会下载到一个 index.html 文件，即网易源 64 位 core 仓库的页面 html 文件
@@ -92,8 +92,8 @@ Server = http://mirrors.163.com/archlinux/$repo/os/$arch</code></pre>
 
 >若没有网络，那下载而来的 core 仓库在此时就用上了，可以按以下步骤使用本地仓
 >
->     $ mkdir /mnt/repo
->     $ cp -R /path/to/core /mnt/repo
+>     # mkdir /mnt/repo
+>     # cp -R /path/to/core /mnt/repo
 ><pre style="margin-bottom: 0; border-bottom:none; padding-bottom:8px;"><code>/etc/pacman.conf</code></pre>
 ><pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>[core]
 >SigLevel = PackageRequired
@@ -123,7 +123,7 @@ chroot 到刚安装的新系统
 
 >无网络状态怎么安装呢？还记得刚开始下载的两个包 fuse, freetype2 吗？
 >
->     $ pacman —U /path/to/fuse<version>.pkg.tar.xz /path/to/freetype2<version>.pkg.tar.xz
+>     # pacman —U /path/to/fuse<version>.pkg.tar.xz /path/to/freetype2<version>.pkg.tar.xz
 >
 >* 把他们安装上之后就可以正常的安装 Grub
 
