@@ -1,6 +1,7 @@
 ---
 layout: default
 description: "A foolish man could not always lose!"
+tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 ---
 {% include JB/setup %}
 

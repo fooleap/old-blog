@@ -5,6 +5,7 @@
 	<title>{% if page.title %}{{ page.title }} | {% endif %}Fooleap's Blog</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
+    <meta name="keywords" content="{% for tag in page.tags %}{{ tag }}{% if forloop.last != true %}, {% endif %}{% endfor %}">
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if IE 6]>
       <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
