@@ -111,8 +111,10 @@ ul img, ol img{
 }
 
 .sidebar {
+    border-left: 2px dotted #eee;
+    padding-left: 20px;
     list-style-type: none;
-    width: 180px;
+    width: 158px;
     overflow: auto;
     display:inline;
     float:left;

@@ -1,16 +1,9 @@
 ---
 date: '2011-05-29 11:13:51'
 layout: post
-title: 几款类vim操作方式的软件/插件
+title: 几款 Vi 操作方式的软件/插件
 categories: "Linux"
-tags:
-- apvlv
-- pentadactyl
-- vifm
-- vim
-- vimium
-- vimperator
-- 类vim
+tags: [apvlv, pentadactyl, vifm, vim, vimium, vimperator]
 ---
 
 Vim 是编辑器之神，和 Emacs 有并列的关系，它的操作方式影响了好多 Linuxer，当然也不乏使用 Windows 之人士，如 [xbeta](http://xbeta.info) 等。便捷高效的操作是它最吸引人的地方，还有很多扩展，如 VimIM 这样 cool 的插件层出不穷，还有神奇的应用，如 [Vim 也是个播放器](http://qixinglu.com/archives/vim_is_ascii_player)。
