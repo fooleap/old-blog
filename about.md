@@ -1,10 +1,8 @@
 ---
 date: '2011-02-09 06:41:51'
 layout: page
-slug: about
-status: publish
 title: About
-group: navigation
+tags: [关于, fooleap]
 ---
 {% include JB/setup %}
 
@@ -24,8 +22,8 @@ group: navigation
 
 * 网名: Fooleap
 * 出生: 90.01
-* 来自: [广东汕头](http://goo.gl/maps/nkiL)
-* 现居: [广西南宁](http://goo.gl/maps/txwc6)
+* 来自: [广东汕头](http://zh.wikipedia.org/wiki/%E6%B1%95%E5%A4%B4%E5%B8%82)
+* 现居: [广西南宁](http://zh.wikipedia.org/wiki/%E5%8D%97%E5%AE%81%E5%B8%82)
 
 **联系方式**
 
