@@ -11,7 +11,6 @@ tags: [关于, fooleap]
 * 博客网址：[http://blog.fooleap.org](http://blog.fooleap.org)
 * RSS 订阅：[http://feed.fooleap.org](http://feed.fooleap.org)
 
-
 这是 Fooleap 的个人博客，记录学习生活的点点滴滴，话题方向在于 Linux，跑步，旅行。
 
 **关于版权**
