@@ -1,5 +1,4 @@
 ---
-date: '2011-02-09 06:41:51'
 layout: page
 title: About
 tags: [关于, fooleap]
