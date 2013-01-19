@@ -26,19 +26,15 @@ tags: [南澳, 骑行, 人生]
 虽然看看地图就明了，但是以前从没去过，连莱芜都没去过，暑假有时间，7月31日，我一个人去了一趟莱芜码头熟悉熟悉一下路径。
 
 ![莲阳河](http://pic.yupoo.com/fooleap_v/ClvN0mRO/6hwnu.jpg)
-<br />
 *——金鸿公路的桥上看莲阳河*
 
 ![这条路通往南澳大桥](http://pic.yupoo.com/fooleap_v/ClvMZX5z/gMmCF.jpg)
-<br />
 *——这条路通往南澳大桥*
 
 ![售票处](http://pic.yupoo.com/fooleap_v/ClvN06ql/ayWQ9.jpg)
-<br />
 *——售票处*
 
 ![莱芜码头](http://pic.yupoo.com/fooleap_v/ClvMZH9f/1367WA.jpg)
-<br />
 *——莱芜码头*
 
 原本打算8月24日去的，看台风“天秤”越来越近，怕到时候停航什么的各种不方便，就决定8月23日就走，早上去傍晚回，能环就环，不能的话骑到青澳湾然后回去。
@@ -50,7 +46,6 @@ tags: [南澳, 骑行, 人生]
 第二天一早到后江码头(6)乘坐前往东里(7)的货船回家，一切都很顺利，24日早上十点左右，平安地回到家(8)。
 
 ![路径图](http://pic.yupoo.com/fooleap_v/Clw8drOf/Udc8E.jpg)
-<br />
 *——这次骑行的路径图*
 
 <table>
@@ -89,143 +84,108 @@ tags: [南澳, 骑行, 人生]
 </table>
 
 ![船票](http://pic.yupoo.com/fooleap_v/Clxbjcgk/PBp0A.jpg)
-<br />
 *——船票，两人两脚车来回八十*
 
 ![船](http://pic.yupoo.com/fooleap_v/Clxbjov2/ZTbO5.jpg)
-<br />
 *——我们说傍晚回，大叔说，中午就得回来，要不没船*
 
 ![码头](http://pic.yupoo.com/fooleap_v/ClxbUhnF/Q0yjh.jpg)
-<br />
 *——离开莱芜码头*
 
 ![船上](http://pic.yupoo.com/fooleap_v/ClxclOPs/wypJh.jpg)
-<br />
 *——苦逼脸啦，掩面*
 
 ![南澳岛](http://pic.yupoo.com/fooleap_v/ClxbjvPu/uLEOH.jpg)
-<br />
 *——能见度不是很好，岛上方也没有云*
 
 ![呃](http://pic.yupoo.com/fooleap_v/Clxbk1bn/Jkegn.jpg)
-<br />
 *——呃。。。*
 
 ![南澳大桥](http://pic.yupoo.com/fooleap_v/ClxbksOn/c9MUd.jpg)
-<br />
 *——建设中的南澳大桥*
 
 ![登岛](http://pic.yupoo.com/fooleap_v/ClySl2ow/sLiDV.jpg)
-<br />
 *——登岛，南澳岛生态旅游区欢迎您*
 
 ![蓝色的大海](http://pic.yupoo.com/fooleap_v/ClySln64/fYuJX.jpg)
-<br />
 *——终于见到蓝色的大海，为什么近海更蓝呢？*
 
 ![苦逼脸](http://pic.yupoo.com/fooleap_v/ClySlwZV/FJZkc.jpg)
-<br />
 *——苦逼脸哈哈哈~~*
 
 ![环岛公路](http://pic.yupoo.com/fooleap_v/ClySmch3/Dglpn.jpg)
-<br />
 *——环岛公路*
 
 ![后方](http://pic.yupoo.com/fooleap_v/ClySmcRP/Gvtmk.jpg)
-<br />
 *——有时候也要往回看*
 
 ![钱澳湾](http://pic.yupoo.com/fooleap_v/ClySmQWn/GaAf9.jpg)
-<br />
 *——到站了，拍拍身子擦擦汗，然后继续往前行*
 
 ![晒鱿鱼](http://pic.yupoo.com/fooleap_v/ClAwLhde/K6Jbv.jpg)
-<br />
 *——到达县城后宅，晒鱿鱼的好多*
 
 ![武帝庙前](http://pic.yupoo.com/fooleap_v/ClAwLx5H/vN7SD.jpg)
-<br />
 *——面向大海的武帝庙前*
 
 ![上坡](http://pic.yupoo.com/fooleap_v/ClAwMcyc/KYGMo.jpg)
-<br />
 *——这个连续的上坡。。。*
 
 ![急弯下坡](http://pic.yupoo.com/fooleap_v/ClAwM8qj/bin0g.jpg)
-<br />
 *——急弯下坡400米*
 
 ![赤石湾](http://pic.yupoo.com/fooleap_v/ClAwModW/ZmjwD.jpg)
-<br />
 *——在展南亭上看赤石湾*
 
 ![展南亭上](http://pic.yupoo.com/fooleap_v/ClAwMYSw/fZ8Mv.jpg)
-<br />
 *——展南亭上*
 
 ![上坡](http://pic.yupoo.com/fooleap_v/ClAwNFDQ/VqneE.jpg)
-<br />
 *——无尽的上坡，具体情况具体分析，不再前行*
 
 ![云澳店铺](http://pic.yupoo.com/fooleap_v/ClAwNMn5/GzUTm.jpg)
-<br />
 *——这段在云澳*
 
 ![下坡](http://pic.yupoo.com/fooleap_v/ClAwOr4H/RniK4.jpg)
-<br />
 *——这个下坡爽呀*
 
 ![县城](http://pic.yupoo.com/fooleap_v/ClAyGJ6h/LdHeo.jpg)
-<br />
 *——在此热心阿姨大喊告知停航*
 
 ![小艇](http://pic.yupoo.com/fooleap_v/ClAU4aNn/MNkhn.jpg)
-<br />
 *——这风夹浪带雨，这种小艇，每人150元，实在不敢尝试*
 
 ![热汤](http://pic.yupoo.com/fooleap_v/ClAU4B32/mHITc.jpg)
-<br />
 *——回到县城，热汤一碗*
 
 ![南澳新闻](http://pic.yupoo.com/fooleap_v/ClAU4tUW/15yCsl.jpg)
-<br />
 *——南澳新闻，这辈子估计也看不了多少次*
 
 ![后江码头](http://pic.yupoo.com/fooleap_v/ClB7EmaO/L62zo.jpg)
-<br />
 *——五点四十的后江码头*
 
 ![搬运工](http://pic.yupoo.com/fooleap_v/ClB7F6Ih/iz6vF.jpg)
-<br />
 *——辛苦的搬运工*
 
 ![晨曦](http://pic.yupoo.com/fooleap_v/ClB7EN2E/sqrOF.jpg)
-<br />
 *——刚爬上南澳山顶的太阳*
 
 ![装备](http://pic.yupoo.com/fooleap_v/ClB7Fq7S/7TnOS.jpg)
-<br />
 *——感谢一直以来的陪伴*
 
 ![工夫茶](http://pic.yupoo.com/fooleap_v/ClB7FNmi/zgrVF.jpg)
-<br />
 *——在船上，还是那一壶茶*
 
 ![小岛](http://pic.yupoo.com/fooleap_v/ClB7GcNP/M5PQf.jpg)
-<br />
 *——面朝大海，春暖花开*
 
 ![渔民](http://pic.yupoo.com/fooleap_v/ClB7Gx8A/VckIw.jpg)
-<br />
 *——渔民*
 
 ![东里](http://pic.yupoo.com/fooleap_v/ClB7HrGM/iPQdk.jpg)
-<br />
 *——到达东里*
 
 ![粿条](http://pic.yupoo.com/fooleap_v/ClB7Hrxu/8hi4P.jpg)
-<br />
 *——永新，一碗粿条，葱珠朥，爽*
 
 这次旅程，虽不完美，却很难忘。景点，几乎没去过，青澳湾还没看到。一上岛，首先感觉到的是空气的清新，心也静下来了，每每看到美丽的景色，心里却总伴随着些失落。

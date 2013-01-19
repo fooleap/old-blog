@@ -34,6 +34,7 @@ tags: [早起, 慢跑, 跑步, 徒步, Ruby]
 去年走了几次，上学期无记录，可能因为自行车及冬天天气的缘故。最近，潜意识告诉我必须走下去，心里暗暗决定，在桂林的日子里，至少也要来个环城！
 
 ![桂林环城](http://pic.yupoo.com/fooleap_v/BUYKmr92/dDPVm.png)
+*——桂林环城*
 
 这个月18号，一个人走了12公里左右。23号，和联宇环城失败，但也走了21公里左右，没记错的话，这就是自己有记录以来超过20公里的徒步。
 
@@ -46,14 +47,17 @@ tags: [早起, 慢跑, 跑步, 徒步, Ruby]
 在学校图书馆，能找到的关于 Ruby 的图书很少，但也搜刮到本《[The Ruby Way](http://book.douban.com/subject/2280936/)》
 
 ![The Ruby Way](http://pic.yupoo.com/fooleap_v/BUYKE2Wn/aryD3.jpg)
+*——The Ruby Way*
 
 国内最热的Ruby社区非 [Ruby China](http://ruby-china.org/topics) 莫属，虽然上面的帖子好多都看不懂，但几乎每天都有上去静静地看着各路大牛的讨论。喜欢文化衫加上装逼心理的我也买了社区的T恤，也得了一件[赠送](http://ruby-china.org/topics/2812)的。
 
 ![RubyChina T恤](http://pic.yupoo.com/fooleap_v/BV7By6Bt/11w6mO.jpg)
+*——RubyChina T恤*
 
 昨天，在京东买的书到了。
 
 ![书](http://pic.yupoo.com/fooleap_v/BUYLt7kq/e0ojk.jpg)
+*——书*
 
 还有，最近喜欢上佛教音乐。
 
