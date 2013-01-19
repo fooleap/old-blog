@@ -36,6 +36,7 @@ tags: [关于, 博客, fooleap, blog]
 
 * 2011-02-09 博客建立，名字为“Fooleap”
 * 2011-10-28 博客网址改为二级域名 blog.fooleap.org ，主域做了重定向，博客改名为“Fooleap&#039;s Blog”
-* 2012-03-18 博客从 Wordpress 平台转到 Jekyll 平台
+* 2012-03-18 博客从 Wordpress 平台转到 Jekyll 平台，托管于 GitHub
+* 2013-01-19 转移到 VPS 上
 
 最后，如果您喜欢我的小博，想请吃饭点[这里](https://me.alipay.com/fooleap)。
