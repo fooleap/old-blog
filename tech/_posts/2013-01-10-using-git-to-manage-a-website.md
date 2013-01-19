@@ -7,7 +7,7 @@ tags: [git, ssh, vps]
 ---
 {% include JB/setup %}
 
-[[本博使用]] GitHub Pages，很喜欢使用 Git 这种方式管理网站，下面就一起来看看如何使用 Git 来管理静态网站
+本博使用 GitHub Pages，很喜欢使用 Git 这种方式管理网站，下面就一起来看看如何使用 Git 来管理静态网站
 
 以下参考这篇文章 [Using Git to manage a web site](http://toroid.org/ams/git-website-howto)
 
