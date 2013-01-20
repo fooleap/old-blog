@@ -98,7 +98,7 @@ Server = http://mirrors.163.com/archlinux/$repo/os/$arch</code></pre>
 ><pre style="margin-top: 0; border-top-style:dashed; padding-top:8px;"><code>[core]
 >SigLevel = PackageRequired
 >Server = file:///mnt/repo/core
->#并把默认的 core, extra, community 注释掉 </code></pre>
+>\# 并把默认的 core, extra, community 注释掉 </code></pre>
 
     pacman -Sy
 
