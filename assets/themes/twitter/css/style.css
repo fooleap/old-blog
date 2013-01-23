@@ -128,3 +128,7 @@ ul img, ol img{
     display:block;
     width:100%;
 }
+
+.addthis_toolbox{
+    margin-left:20px;
+}
