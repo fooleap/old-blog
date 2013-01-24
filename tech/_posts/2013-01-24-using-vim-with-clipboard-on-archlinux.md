@@ -59,7 +59,7 @@ Vim 不是通过 Ctrl-C, Ctrl-X, Ctrl-V 来实现复制、剪切、粘贴的，�
     
     Vjj"+y 
 
-复制到 Primary 和复制到 Clipboard 差不多，这里就不再详述，而粘贴则是加 p，自然还有删除 d。
+复制到 Primary 和复制到 Clipboard 差不多，这里就不再详述，而粘贴则是加 p，自然还有剪切 d。
 
 ### 注意
 
