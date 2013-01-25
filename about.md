@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: 关于
+description: "关于页面，关于本博，关于 Fooleap"
 tags: [关于, 博客, fooleap, blog]
 ---
 {% include JB/setup %}
