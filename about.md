@@ -25,7 +25,7 @@ tags: [关于, 博客, fooleap, blog]
   * 相当尴尬的年龄，到底是八零后还是九零后呢？
 * 来自: [广东汕头](http://zh.wikipedia.org/wiki/%E6%B1%95%E5%A4%B4%E5%B8%82)
   * 澄海一个农村孩子。
-* 现居: [广西南宁](http://zh.wikipedia.org/wiki/%E5%8D%97%E5%AE%81%E5%B8%82)
+* 现居: 路上
   * 暂时还没想好去哪。
 
 **联系方式**
