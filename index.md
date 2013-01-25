@@ -1,6 +1,6 @@
 ---
 layout: default
-description: "A foolish man could not always lose!"
+description: "Fooleap 的个人博客，记录学习工作生活的点点滴滴，话题方向在于 Linux，跑步，旅行。"
 tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 ---
 {% include JB/setup %}
@@ -24,6 +24,19 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
     {% endfor %}
     <li><a href="/categories.html" title="分类">更多……</a></li>
   </ul>
+<div id="post-pagination" class="pagination">
+  <p class="previous disabled">
+    <span>Previous</span>
+  </p>
+  <ul class="pages">
+    <li class="page">
+      <a href="/">1</a>
+    </li>
+  </ul>
+  <p class="next disabled">
+    <span>Next</span>
+  </p>
+</div>
   <div class="sidebar">
     <h4>Blogroll</h4>
     {% include JB/blogroll %}
