@@ -24,7 +24,6 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
     {% endfor %}
     <li><a href="/categories.html" title="分类">更多……</a></li>
   </ul>
-</div>
   <div class="sidebar">
     <h4>友情链接</h4>
     {% include JB/blogroll %}
