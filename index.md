@@ -12,7 +12,7 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
     {% for post in site.categories.tech limit:5 %}
       <li>
        <span id="title"><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></span>
-       <span id="comment"><a href="http://foo.com/bar.html#disqus_thread">Link</a></span>
+       <span id="comment"><a href="{{ post.url }}#disqus_thread">Link</a></span>
        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> 
       </li>
     {% endfor %}
