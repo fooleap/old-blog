@@ -11,8 +11,9 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
     <h4>技术</h4>
     {% for post in site.categories.tech limit:5 %}
       <li>
-        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a>
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+       <span id="title"><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a></span>
+       <span id="comment"><a href="http://foo.com/bar.html#disqus_thread">Link</a></span>
+       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> 
       </li>
     {% endfor %}
     <h4>生活</h4>
@@ -30,3 +31,15 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
   </div>
 </div>
 </div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'fooleap1'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
