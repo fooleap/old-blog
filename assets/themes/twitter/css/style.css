@@ -94,8 +94,6 @@ ul img, ol img{
     float:left;
 }
 #board #posts time {
-    font-family: "Courier New", Serif;
-    color: #808080;
     display:block;
     text-align:center;
     vertical-align:middle;
@@ -111,7 +109,7 @@ ul img, ol img{
 }
 
 .sidebar {
-    border-left: 2px dotted #eee;
+    border-left: 1px solid #e5e5e5;
     padding-left: 20px;
     list-style-type: none;
     width: 158px;
@@ -119,9 +117,6 @@ ul img, ol img{
     display:inline;
     float:left;
     margin: 0 20px;
-}
-.sidebar h4 {
-    font-family: "Courier New", Serif;
 }
 .sidebar ul li {
     padding: 0;
