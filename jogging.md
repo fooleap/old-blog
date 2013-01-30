@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Jogging"
-group: navigation
 ---
 {% include JB/setup %}
 <script language="JavaScript">

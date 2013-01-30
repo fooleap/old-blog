@@ -27,9 +27,9 @@
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-		    <li><a href="/archive.html">存档</a></li>
-			<li><a href="/about.html">关于</a></li>
-	      	<li><a href="/guestbook.html">留言板</a></li>
+		    {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
 		  </ul>
         </div>
       </div>
