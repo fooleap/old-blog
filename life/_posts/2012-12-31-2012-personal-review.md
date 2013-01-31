@@ -39,7 +39,7 @@ tags: [年度总结, 爱情, 工作]
 
 第一次月跑量[超 100 公里](running-notes-in-september.html)，没想到自己也能。
 
-完成了[桂林环城](guilin-huancheng.html)的徒步，看来全马也不是那么容易。
+完成了[桂林环城](hiking-along-the-ring-road-of-guilin.html)的徒步，看来全马也不是那么容易。
 
 ###读书###
 
