@@ -29,7 +29,7 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
     </li>
     {% endfor %}
   </ul>
-  <h5>更多文章请查看 <a href="archive.html">存档</a> 或 <a href="categories.html">分类</a></h5>
+  更多文章请查看 <a href="archive.html">存档</a> 或 <a href="categories.html">分类</a>
 </div>
   <div class="span4 sidebar">
     <h4>友情链接</h4>
