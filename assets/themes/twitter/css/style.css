@@ -98,6 +98,7 @@ body {
     display:block;
     text-align:center;
     float:right;
+    width:100px;
     margin:10px 0;
 }
 #posts ul a {
@@ -120,7 +121,7 @@ body {
     color:#404040;
 }
 #description #img {
-    display:block;
+    display:inline;
     text-align:center; 
     float:left;
     margin-right:10px;
@@ -131,7 +132,11 @@ body {
 #description p {
     text-indent: 2em;
 }
-#remind {
+#description #more {
+    margin:20px 0;
+    float:right;
+}
+#description #remind {
     display:block;
 }
 

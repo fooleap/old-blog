@@ -19,7 +19,7 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
           <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}" >{{ post.title }}</a>
           <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         </div>
-        <div id="description"><span id="img"><img src="{{ post.image }}" /></span><p>{{ post.description}}</p></div>
+        <div id="description"><span id="img"><img src="{{ post.image }}" /></span><a class="btn btn-large disabled" id="more" href="{{ post.url }}">阅读全文</a><p>{{ post.description}}</p></div>
       </li>
     {% endfor %}
     {% for post in site.posts limit:9 offset:1 %} 
