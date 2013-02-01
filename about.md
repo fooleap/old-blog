@@ -31,7 +31,7 @@ tags: [关于, 博客, fooleap, blog]
 
 **联系方式**
 
-* Email/Gtalk/QQ: fooleap(at)gmail.com
+* Email: fooleap(at)gmail.com
 * Twitter: [@fooleap](http://twitter.com/fooleap)
 * V2EX: [@fooleap](http://www.v2ex.com/member/fooleap)
 * Ruby China: [@fooleap](http://ruby-china.org/fooleap)
