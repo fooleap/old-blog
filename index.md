@@ -1,31 +1,38 @@
 ---
 layout: default
+tagline: "你若安好，便是晴天"
 description: "Fooleap 的个人博客，记录学习工作生活的点点滴滴，话题方向在于 Linux，跑步，旅行。"
 tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 ---
 {% include JB/setup %}
 
-<div id="board">
+<div class="page-header">
+  <h1>{{ page.tagline }}</h1>
+</div>
+
 <div class="row">
-  <ul id="posts">
-    <h4>技术</h4>
-    {% for post in site.categories.tech limit:5 %}
+<div id="posts">
+  <ul>
+    {% for post in site.posts limit:1 %}
       <li>
-      <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a>
-       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        <div id="first">
+          <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}" >{{ post.title }}</a>
+          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        </div>
+        <div id="description"><span id="img"><img src="{{ post.image }}" /></span><p>{{ post.description}}</p></div>
       </li>
     {% endfor %}
-    <h4>生活</h4>
-    {% for post in site.categories.life limit:5 %}
-      <li>
-        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a>
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-      </li>
+    {% for post in site.posts limit:9 offset:1 %} 
+    <li>
+      <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    </li>
     {% endfor %}
   </ul>
-  <div class="sidebar">
+  <h5>更多文章请查看 <a href="archive.html">存档</a> 或 <a href="categories.html">分类</a></h5>
+</div>
+  <div class="span4 sidebar">
     <h4>友情链接</h4>
     {% include JB/blogroll %}
   </div>
-</div>
 </div>

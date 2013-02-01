@@ -74,52 +74,77 @@ body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
-ul img, ol img{
+
+.span10 ul img, .span10 ol img{
     max-width:550px;
 }
 
-#board #posts {
+#posts {
+    width:580px;
+    float:left;
+}
+#posts ul {
     list-style-type: none;
     display: inline;
-    width: 580px;
     overflow: auto;
-    margin: 0 20px;
-    float:left;
 }
-#board #posts li {
-    padding:0;
+#posts ul li {
     display:block;
-    width:100%;
     float:left;
+    width:100%;
+    border-bottom:thin solid #e5e5e5;
 }
-#board #posts time {
+#posts ul time {
     display:block;
     text-align:center;
-    vertical-align:middle;
     float:right;
-    margin:10px;
+    margin:10px 0;
 }
-#board #posts a {
+#posts ul a {
     vertical-align:middle;
     display:block;
     float:left;
     text-decoration:none;
-    margin:10px;
+    margin:10px 0;
+}
+#first time {
+    margin:0 !important;
+}
+#first a {
+    margin:0 !important;
+}
+#description {
+    display:block;
+    float:left;
+    margin:10px 10px 0;
+    color:#404040;
+}
+#description #img {
+    display:block;
+    text-align:center; 
+    float:left;
+    margin-right:10px;
+}
+#description img{
+    width:120px;
+}
+#description p {
+    text-indent: 2em;
 }
 
-.sidebar {
-    border-left: 1px solid #e5e5e5;
-    padding-left: 20px;
-    list-style-type: none;
-    width: 158px;
-    overflow: auto;
-    display:inline;
+#category ul {
+    display:block;
+    width:47.7%;
     float:left;
-    margin: 0 20px;
+}
+.span4 {
+    margin-left:20px;
+}
+.sidebar {
+    list-style-type: none;
+    float:left;
 }
 .sidebar ul li {
-    padding: 0;
     display:block;
     width:100%;
 }
@@ -128,3 +153,4 @@ ul img, ol img{
     margin-left:20px;
     display:block;
 }
+

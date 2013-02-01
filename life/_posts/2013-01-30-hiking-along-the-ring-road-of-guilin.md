@@ -2,6 +2,7 @@
 layout: post
 title: "桂林徒步之环城"
 description: "桂林这座城市，不知不觉已经待了两年多，爱上她那干净整洁的市容，便利的公交系统，以及令无数人向往的自然山水。桂林城不大，甚至开着电动车一天就可以逛完市区，这也让我的一个小小的理想成为可能。"
+image: "http://pic.yupoo.com/fooleap_v/CBywcC0S/KJwFf.jpg"
 category: Life
 tags: [桂林, 徒步, 环城, 努力]
 ---
