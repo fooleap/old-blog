@@ -131,6 +131,9 @@ body {
 #description p {
     text-indent: 2em;
 }
+#remind {
+    display:block;
+}
 
 #category ul {
     display:block;
