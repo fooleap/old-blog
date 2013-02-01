@@ -107,6 +107,7 @@ body {
     float:left;
     text-decoration:none;
     margin:10px 0;
+    cursor:pointer !important;
 }
 #first time {
     margin:0 !important;
