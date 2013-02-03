@@ -7,7 +7,7 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 {% include JB/setup %}
 
 <div class="page-header">
-  <h1>{{ page.tagline }}</h1>
+  <h1>{{ page.tagline }} <small>单曲循环《<a href="http://music.douban.com/subject/6792603/" title="再见二丁目 - 杨千嬅">再见二丁目</a>》</small></h1>
 </div>
 
 <div class="row">
