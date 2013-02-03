@@ -118,7 +118,8 @@ body {
 #description {
     display:block;
     float:left;
-    margin:10px 10px 0;
+    width:560px;
+    margin:10px 0 0 10px;
     color:#404040;
 }
 #description #img {
