@@ -32,6 +32,11 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
     <div id="remind">更多文章请查看 <a href="archive.html">存档</a> 或 <a href="categories.html">分类</a></div>
 </div>
   <div class="span4 sidebar">
+    <h4>分类</h4>
+    <ul>
+    <li><a href="tech.html">技术</li>
+    <li><a href="life.html">生活</li>
+    </ul>
     <h4>友情链接</h4>
     {% include JB/blogroll %}
   </div>
