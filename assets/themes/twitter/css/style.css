@@ -107,7 +107,7 @@ table {
     display:block;
     float:left;
     width:100%;
-    border-bottom:thin solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
 }
 #posts ul time {
     display:block;
@@ -130,31 +130,31 @@ table {
 #first a {
     margin:0 !important;
 }
-#description {
+.description {
     display:block;
     float:left;
     width:100%;
     color:#404040;
 }
-#description #img {
+.description #img {
     display:inline;
-    padding:10px 5px;
+    margin:10px 5px;
     text-align:center; 
     float:left;
 }
-#description img{
+.description img{
     width:120px;
 }
-#description p {
+.description p {
     padding:5px 5px;
     height:70px;
     text-indent:2em;
 }
-#description #more {
+.description #more {
     margin:30px 5px;
     float:right;
 }
-#description #remind {
+.description #remind {
     display:block;
 }
 
@@ -171,4 +171,3 @@ table {
     margin-left:20px;
     display:block;
 }
-
