@@ -11,7 +11,7 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 </div>
 
 <div class="row">
-<div id="posts">
+<div class="span7" id="posts">
   <ul>
     {% for post in site.posts limit:1 %}
       <li>
@@ -19,7 +19,7 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
           <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}" >{{ post.title }}</a>
           <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         </div>
-        <div id="description"><span id="img"><img src="{{ post.image }}" /></span><a class="btn btn-large disabled" id="more" href="{{ post.url }}">阅读全文</a><p>{{ post.description}}</p></div>
+        <div id="description"><span id="img"><img src="{{ post.image }}" /></span><a class="btn disabled" id="more" href="{{ post.url }}">阅读全文</a><p>{{ post.description}}</p></div>
       </li>
     {% endfor %}
     {% for post in site.posts limit:9 offset:1 %} 
@@ -31,11 +31,11 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
   </ul>
     <div id="remind">更多文章请查看 <a href="archive.html">存档</a> 或 <a href="categories.html">分类</a></div>
 </div>
-  <div class="span4 sidebar">
+  <div class="span3 sidebar">
     <h4>分类</h4>
     <ul>
-    <li><a href="tech.html">技术</li>
-    <li><a href="life.html">生活</li>
+    <li><a href="tech.html">技术</a></li>
+    <li><a href="life.html">生活</a></li>
     </ul>
     <h4>友情链接</h4>
     {% include JB/blogroll %}
