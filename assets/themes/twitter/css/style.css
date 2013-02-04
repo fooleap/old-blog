@@ -48,6 +48,7 @@ body {
 }
 .span7 {
   width:580px;
+  margin-top:10px;
 }
 .span10 {
   width:820px;
@@ -113,7 +114,6 @@ table {
     display:block;
     text-align:center;
     float:right;
-    width:100px;
     margin:10px 0;
 }
 #posts ul a {
@@ -151,7 +151,8 @@ table {
     text-indent:2em;
 }
 .description #more {
-    margin:30px 5px;
+    display:block;
+    margin:30px 5px 10px 10px;
     float:right;
 }
 .description #remind {
