@@ -2,6 +2,7 @@
 layout: post
 title: "记南澳一游"
 description: "谨以此文迎接今年的十一八！"
+thumbnail: "http://pic.yupoo.com/fooleap_v/ClySln64/small.jpg"
 category: life
 tags: [南澳, 骑行, 人生]
 ---

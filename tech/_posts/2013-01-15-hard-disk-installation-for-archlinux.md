@@ -2,6 +2,7 @@
 layout: post
 title: "硬盘安装 Arch Linux"
 description: "Chakra 虽稳定，KDE 臃肿，纯 QT 的环境用得别扭，没有 Arch Linux 的自由，于是切换回 Arch Linux，新版本的安装方式和以前稍有区别，下面一步一步来完成 Arch Linux 的安装。"
+thumbnail: "http://pic.yupoo.com/fooleap_v/CCpuJG8L/small.jpg"
 category: "Linux"
 tags: [Arch Linux, 硬盘安装]
 ---

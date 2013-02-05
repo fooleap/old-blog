@@ -2,6 +2,7 @@
 layout: post
 title: "海墘煏卵一记"
 description: 虽说生活在海边，但离大海还是有段距离的。沧海桑田，随着时间的推移，进一步的围海造田，可能会越来越远。
+thumbnail: "http://pic.yupoo.com/fooleap_v/CjgNu8Js/small.jpg"
 category: life
 tags: [旅行, 烧烤]
 ---

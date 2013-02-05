@@ -2,7 +2,8 @@
 layout: post
 title: "五月份，计划的执行情况"
 description: "上个月我在此文中说道，要每天早起，每天慢跑，每周一徒步。今天是6月1日，这一个月来，计划执行的情况到底是咋样的呢？下面一起来算算账。"
-category: life
+thumbnail: "http://pic.yupoo.com/fooleap_v/C0GlRgzF/small.jpg"
+category: Life
 tags: [早起, 慢跑, 徒步]
 ---
 {% include JB/setup %}

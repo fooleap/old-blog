@@ -2,6 +2,7 @@
 layout: post
 title: "九月份跑步笔记"
 description: "既然又一个月过去，那就记录下九月份的跑步情况。"
+thumbnail: "http://pic.yupoo.com/fooleap_v/CkYkTtJ4/small.jpg"
 category: life
 tags: [早起, 跑步]
 ---

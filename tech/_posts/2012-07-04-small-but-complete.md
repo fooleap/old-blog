@@ -2,6 +2,7 @@
 layout: post
 title: "麻雀虽小，五脏俱全"
 description: "今年劳动节期间， 8700 屏幕排线出问题了，拆了几次，折腾折腾折腾之后还是一样，用着用着会白屏，猛力拍拍即可，虽能用，但不爽。"
+thumbnail: "http://pic.yupoo.com/fooleap_v/C5BtnDz2/small.jpg"
 category: webOS
 tags: [Veer, 小巧, 手机]
 ---

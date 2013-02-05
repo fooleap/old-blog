@@ -1,9 +1,8 @@
 ---
-date: '2011-06-16 10:46:15'
 layout: post
-title: "博客定位问题及一些思考"
-description: "博客定位问题及一些思考"
-categories: Blog
+title: 博客定位问题及一些思考
+description: "看看自己的博客，发现原本应是 Windows 平台推荐软件的博客变成 Linux 类博客，原本属 IT 类的博客越来越像旅游博客，游记这么多，其实这种非正式的个人博客这样做也没什么不可，但还是别太离谱的好。"
+category: Blog
 tags: [Linux, Windows, 博客, 正版, 盗版]
 ---
 {% include JB/setup %}

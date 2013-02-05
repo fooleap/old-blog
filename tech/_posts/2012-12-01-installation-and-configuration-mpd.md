@@ -2,6 +2,7 @@
 layout: post
 title: "安装和配置 MPD"
 description: "使用 i3 窗口管理器，感觉很舒服，更有帅帅的 i3status 点缀之，在 GitHub 搜了下，发现有个 i3status 修改版，可以显示 MPD 的播放状态，于是又用起 MPD。"
+thumbnail: "http://pic.yupoo.com/fooleap_v/CsoTzarg/small.jpg"
 category: "Linux"
 tags: [MPD, MPC, 播放器]
 ---

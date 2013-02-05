@@ -2,6 +2,7 @@
 layout: post
 title: "学生时代的最后一个暑假"
 description: "一直想提笔，一直想说些什么，记些什么，又总觉得无从提起。"
+thumbnail: "http://pic.yupoo.com/fooleap_v/CiedOGBI/small.jpg"
 category: life
 tags: [生病, 跑步, 骑行, 恋爱]
 ---

@@ -1,12 +1,14 @@
 ---
-date: '2011-09-23 08:36:36'
 layout: post
 title: Thinkpad X30 上的 Windows 7
+description: "XP 毕竟该退休了，而单 Linux 又显得有点不切实际，无聊的搜了一下是否有人在 X30 上安装 Win 7 成功，大部分都说是显驱安装失败，Google 搜到的一篇文章（老筆電跑 Windows 7）让我很想试试，既然都有人把显驱安装上了，那就试试吧。"
+thumbnail: "http://pic.yupoo.com/fooleap_v/CCqMunsU/small.jpg"
 categories: ThinkPad
 tags: [ThinkPad, X30, QQ旋风, 离线下载, 网络叠加, 负载均衡]
 ---
+{% include JB/setup %}
 
-XP 毕竟该退休了，而单 Linux 又显得有点不切实际，无聊的搜了一下是否有人在 X30 上安装 Win 7 成功，大部分都说是显驱安装失败，Google 搜到的一篇文章让我很想试试，[老筆電跑 Windows 7 - IBM ThinkPad X30](http://f.pil.tw/thread-887189-1-1.html)，既然都有人把显驱安装上了，那就试试吧，根在 X30 上装了 Win 7，当然不是原版，根据那篇文章，找了颇有名气的精简版 Tiny 7，用的是国内网友打包的包括东亚语言支持的 [Tiny7-Rev01 中文 PE 安装版](http://hi.baidu.com/txwdchina/blog/item/992c0def5df696deb21cb14e.html)，当然安装时地区语言选择还是按默认的选择。
+XP 毕竟该退休了，而单 Linux 又显得有点不切实际，无聊的搜了一下是否有人在 X30 上安装 Win 7 成功，大部分都说是显驱安装失败，Google 搜到的一篇文章（[老筆電跑 Windows 7 - IBM ThinkPad X30](http://f.pil.tw/thread-887189-1-1.html)）让我很想试试，既然都有人把显驱安装上了，那就试试吧，根在 X30 上装了 Win 7，当然不是原版，根据那篇文章，找了颇有名气的精简版 Tiny 7，用的是国内网友打包的包括东亚语言支持的 [Tiny7-Rev01 中文 PE 安装版](http://hi.baidu.com/txwdchina/blog/item/992c0def5df696deb21cb14e.html)，当然安装时地区语言选择还是按默认的选择。
 
 安装很快很顺利，按文章说的，根据这篇文章 [Window 7 video driver for ST4110/20/21](http://www.tabletpcbuzz.com/showthread.php?36937-Window-7-video-driver-for-ST4110-20-21) 所说的步骤，折腾了许久，终于安上了显驱，桌面右键菜单也出来了，但不知为何，一重启就在也进不了桌面了，安全模式也是如此，无奈只能作罢。
 
