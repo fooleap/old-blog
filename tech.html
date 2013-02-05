@@ -12,25 +12,18 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 </div>
 
 <div class="row">
-<div class="span7" id="posts">
-  <ul>
-    {% for post in site.categories.tech limit:1 %}
+  <div class="span7">
+    <ul class="posts category">
+      {% for post in site.categories.tech %} 
       <li>
-        <div id="first">
-          <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}" >{{ post.title }}</a>
+        <div class="title">
+          <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a>
           <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         </div>
-        <div class="description"><span id="img"><img src="{{ post.image }}" /></span><a class="btn disabled" id="more" href="{{ post.url }}">阅读全文</a><p>{{ post.description}}</p></div>
       </li>
-    {% endfor %}
-    {% for post in site.categories.tech offset:1 %} 
-    <li>
-      <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a>
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+      {% endfor %}
+    </ul>
+  </div>
   <div class="span3 sidebar">
     <h4>分类</h4>
     <ul>

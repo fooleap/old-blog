@@ -1,0 +1,63 @@
+---
+layout: default
+tagline: "你若安好，便是晴天"
+description: "Fooleap 的个人博客，记录学习工作生活的点点滴滴，话题方向在于 Linux，跑步，旅行。"
+tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
+---
+{% include JB/setup %}
+
+<div class="page-header">
+  <h1>{{ page.tagline }} <small>单曲循环《<a href="http://music.douban.com/subject/6792603/" title="再见二丁目 - 杨千嬅">再见二丁目</a>》</small></h1>
+</div>
+
+<div class="row">
+  <div class="span7">
+    <ul class="posts">
+      {% for post in paginator.posts %}
+      <li>
+        <div class="title">
+          <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a>
+          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        </div>
+        <div class="info">
+          <div class="description">{{ post.description }}</div>
+          {% if post.thumbnail != * %}
+          <div class="thumbnail"><img src="{{ post.thumbnail }}" /></div>
+          {% else %}
+          <div class="thumbnail"><img src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg" /></div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <!-- Pagination links -->
+    <div class="pagination pagination-centered">
+      <ul>
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <li><a href="/" class="previous">&larr; 上一页</a></li>
+        {% else %}
+        <li  class="previous"><a href="/page{{paginator.previous_page}}/">&larr; 上一页</a><li>
+        {% endif %}
+      {% else %}
+      <li class="previous disabled"><a href="#">&larr; 上一页</a></li>
+      {% endif %}
+      <li class="active"><a href="#">第 {{paginator.page}} 页 / 共 {{paginator.total_pages}} 页</span>
+      {% if paginator.next_page %}
+      <li class="next"><a href="/page{{paginator.next_page}}">下一页 &rarr;</a></li>
+      {% else %}
+      <li class="next disabled "><a href="#">下一页 &rarr;</a></li>
+      {% endif %}
+      </ul>
+    </div>
+  </div>
+  <div class="span3 sidebar">
+    <h4>分类</h4>
+    <ul>
+    <li><a href="tech.html">技术</a></li>
+    <li><a href="life.html">生活</a></li>
+    </ul>
+    <h4>友情链接</h4>
+    {% include JB/blogroll %}
+  </div>
+</div>

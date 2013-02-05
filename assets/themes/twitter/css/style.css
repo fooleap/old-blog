@@ -7,6 +7,9 @@ body {
   background-color: #eee;
   padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
 }
+body a {
+  text-decoration: none !important;
+}
 .container > footer p {
   text-align: center; /* center align it with the container */
 }
@@ -37,7 +40,6 @@ body {
 }
 
 .page-header a {
-  text-decoration: none !important;
   color: rgb(153, 153, 153);
 }
 .page-header h1 small{
@@ -97,68 +99,45 @@ body {
 table {
   width:100%;
 }
-#posts {
-}
-#posts ul {
+ul.posts {
     list-style-type: none;
-    display: inline;
     overflow: auto;
+    height:453px;
+    margin:0;
 }
-#posts ul li {
+ul.category {
+    height:auto;
+}
+
+.posts li {
     display:block;
     float:left;
     width:100%;
+    padding-bottom:10px;
+    margin-bottom:10px;
     border-bottom:1px solid #e5e5e5;
 }
-#posts ul time {
+.posts time {
     display:block;
     text-align:center;
     float:right;
-    margin:10px 0;
 }
-#posts ul a {
-    vertical-align:middle;
-    display:block;
-    float:left;
-    text-decoration:none;
-    margin:10px 0;
-    cursor:pointer !important;
+.title {
 }
-#first time {
-    margin:0 !important;
-}
-#first a {
-    margin:0 !important;
+.info {
+    height:100px;
+    margin:5px 10px;
 }
 .description {
-    display:block;
-    float:left;
-    width:100%;
-    color:#404040;
-}
-.description #img {
-    display:inline;
-    margin:10px 5px;
-    text-align:center; 
-    float:left;
-}
-.description img{
-    width:120px;
-}
-.description p {
-    padding:5px 5px;
-    height:70px;
     text-indent:2em;
-}
-.description #more {
-    display:block;
-    margin:30px 5px 10px 10px;
+    width:390px;
+    margin: 0;
     float:right;
 }
-.description #remind {
-    display:block;
+.thumbnail {
+    float:left;
+    width:150px;
 }
-
 .sidebar {
     list-style-type: none;
     float:left;
@@ -166,9 +145,4 @@ table {
 .sidebar ul li {
     display:block;
     width:100%;
-}
-
-.addthis_toolbox{
-    margin-left:20px;
-    display:block;
 }
