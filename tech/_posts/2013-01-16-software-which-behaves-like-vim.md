@@ -2,11 +2,14 @@
 date: '2011-05-29 11:13:51'
 layout: post
 title: 几款 Vi 操作方式的软件/插件
-categories: "Linux"
-tags: [apvlv, pentadactyl, vifm, vim, vimium, vimperator]
+description: "Vim 是编辑器之神，和 Emacs 有并列的关系，它的操作方式影响了好多 Linuxer，当然也不乏使用 Windows 之人士，如 xbeta 等。便捷高效的操作是它最吸引人的地方，还有很多扩展，如 VimIM 这样 Cool 的插件层出不穷，还有神奇的应用，如 Vim 也是个播放器。"
+thumbnail: "http://pic.yupoo.com/fooleap_v/CCqAJhY1/small.jpg"
+category: Vim
+tags: [Vim, Apvlv, Pentadactyl, Vifm, Vimium, Vimperator]
 ---
+{% include JB/setup %}
 
-Vim 是编辑器之神，和 Emacs 有并列的关系，它的操作方式影响了好多 Linuxer，当然也不乏使用 Windows 之人士，如 [xbeta](http://xbeta.info) 等。便捷高效的操作是它最吸引人的地方，还有很多扩展，如 VimIM 这样 cool 的插件层出不穷，还有神奇的应用，如 [Vim 也是个播放器](http://qixinglu.com/archives/vim_is_ascii_player)。
+Vim 是编辑器之神，和 Emacs 有并列的关系，它的操作方式影响了好多 Linuxer，当然也不乏使用 Windows 之人士，如 [xbeta](http://xbeta.info) 等。便捷高效的操作是它最吸引人的地方，还有很多扩展，如 VimIM 这样 Cool 的插件层出不穷，还有神奇的应用，如 [Vim 也是个播放器](http://qixinglu.com/archives/vim_is_ascii_player)。
 
 如此高效率的操作方式使模仿其的其它软件不少，有 Firefox 插件 Vimperator/Pentadactyl，有 Chrome 插件 Vimium，有文件管理器 Vifm，还有 PDF 阅读器 Apvlv。就是装逼，就我学习使用 Vim 这几十天的感受，vim的操作方式的高效也是毋庸置疑的
 

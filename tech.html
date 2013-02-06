@@ -1,15 +1,10 @@
 ---
-layout: default
+layout: page
 title: "技术"
-tagline: "技术"
 description: "Fooleap 的个人博客，记录学习工作生活的点点滴滴，话题方向在于 Linux，跑步，旅行。"
 tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 ---
 {% include JB/setup %}
-
-<div class="page-header">
-  <h1>{{ page.tagline }}</h1>
-</div>
 
 <div class="row">
   <div class="span7">
@@ -18,19 +13,12 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
       <li>
         <div class="title">
           <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a>
-          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+          <time class="pull-right" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         </div>
+        <hr>
       </li>
       {% endfor %}
     </ul>
   </div>
-  <div class="span3 sidebar">
-    <h4>分类</h4>
-    <ul>
-      <li><a href="/tech.html">技术</a></li>
-      <li><a href="/life.html">生活</a></li>
-    </ul>
-    <h4>友情链接</h4>
-    {% include JB/blogroll %}
-  </div>
+  {% include JB/custom/sidebar %}
 </div>

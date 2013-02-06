@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "九月份跑步笔记"
-description: "既然又一个月过去，那就记录下九月份的跑步情况。"
+description: "既然又一个月过去，那就记录下九月份的跑步情况。九月份的30天中跑了17天，总共跑了100.5公里，653分钟，平均跑速为9.23千米每小时，单次最大跑量为10公里。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/CkYkTtJ4/small.jpg"
 category: life
 tags: [早起, 跑步]
 ---
 {% include JB/setup %}
+
 既然又一个月过去，那就记录下九月份的跑步情况。
 
 九月份的30天中跑了17天，总共跑了100.5公里，653分钟，平均跑速为9.23千米每小时，单次最大跑量为10公里。

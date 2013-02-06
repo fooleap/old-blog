@@ -1,0 +1,9 @@
+<div class="span3 sidebar">
+  <h4>分类</h4>
+  <ul>
+    <li><a href="/tech.html">技术</a></li>
+    <li><a href="/life.html">生活</a></li>
+  </ul>
+  <h4>友情链接</h4>
+  {% include JB/blogroll %}
+</div>

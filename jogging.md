@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Jogging"
+title: "早期慢跑"
 ---
 {% include JB/setup %}
 <script language="JavaScript">

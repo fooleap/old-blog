@@ -29,8 +29,26 @@ body a {
      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
           box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
+
 .navbar-inner .brand {
   color: #fff;
+}
+
+.rss-button {
+  position:relative;
+  top:5px;
+  width: 40px;
+  height: 14px;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: bold;
+  margin: 0px 0px 10px;
+  padding: 2px 5px 2px 4px;
+}
+.icon-rss {
+    opacity: 0.65;
+    width: 16px;
+    background: url("rss-icons.png") no-repeat scroll 0px 0px transparent;
 }
 /* Page header tweaks */
 .page-header {
@@ -102,7 +120,7 @@ table {
 ul.posts {
     list-style-type: none;
     overflow: auto;
-    height:453px;
+    height:447px;
     margin:0;
 }
 ul.category {
@@ -113,30 +131,27 @@ ul.category {
     display:block;
     float:left;
     width:100%;
-    padding-bottom:10px;
-    margin-bottom:10px;
-    border-bottom:1px solid #e5e5e5;
-}
-.posts time {
-    display:block;
-    text-align:center;
-    float:right;
 }
 .title {
+    font-size:15px;
+    line-height:18px;
 }
-.info {
+.featurette {
     height:100px;
-    margin:5px 10px;
+    margin:5px 5px 10px;
 }
 .description {
     text-indent:2em;
-    width:390px;
-    margin: 0;
-    float:right;
+    font-size:14px;
+    line-height:20px;
+    width:400px;
 }
 .thumbnail {
-    float:left;
-    width:150px;
+  display:inline;
+  width:150px;
+}
+.featurette-divider {
+  margin:0;
 }
 .sidebar {
     list-style-type: none;

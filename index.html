@@ -7,7 +7,7 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 {% include JB/setup %}
 
 <div class="page-header">
-  <h1>{{ page.tagline }} <small>单曲循环《<a href="http://music.douban.com/subject/6792603/" title="再见二丁目 - 杨千嬅">再见二丁目</a>》</small></h1>
+  <h1>{{ page.tagline }} <small>单曲循环《<a href="/song.html" title="再见二丁目 - 杨千嬅">再见二丁目</a>》</small></h1>
 </div>
 
 <div class="row">
@@ -17,16 +17,17 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
       <li>
         <div class="title">
           <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a>
-          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+          <time class="pull-right" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         </div>
-        <div class="info">
-          <div class="description">{{ post.description }}</div>
-          {% if post.thumbnail != * %}
-          <div class="thumbnail"><img src="{{ post.thumbnail }}" /></div>
+        <div class="featurette">
+          <div class="description pull-right">{{ post.description }}</div>
+          {% if post.thumbnail == nil %}
+          <img class="thumbnail featurette-image pull-left" src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg" />
           {% else %}
-          <div class="thumbnail"><img src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg" /></div>
+          <img class="thumbnail featurette-image pull-left" src="{{ post.thumbnail }}" />
           {% endif %}
         </div>
+        <hr class="featurette-divider"></hr>
       </li>
       {% endfor %}
     </ul>
@@ -51,13 +52,5 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
       </ul>
     </div>
   </div>
-  <div class="span3 sidebar">
-    <h4>分类</h4>
-    <ul>
-    <li><a href="/tech.html">技术</a></li>
-    <li><a href="/life.html">生活</a></li>
-    </ul>
-    <h4>友情链接</h4>
-    {% include JB/blogroll %}
-  </div>
+  {% include JB/custom/sidebar %}
 </div>

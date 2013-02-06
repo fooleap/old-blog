@@ -1,20 +1,20 @@
 ---
 layout: post
 title: "Arch Linux 下的 ADSL 拨号上网"
-description: "前几天拉了网，普通的 ADSL 宽带，由于没有路由器，因此只能通过自身的拨号"
+description: "前几天拉了网，普通的 ADSL 宽带，由于没有路由器，因此只能通过自身的拨号。在 Arch Linux 下，可以通过自带的 Netcfg 来连接，可以通过 RP-PPPoE 来连接，也可直接配置 pppd 实现拨号。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/CCpuJG8L/small.jpg"
 category: Linux
 tags: [Arch Linux, ADSL, Netcfg, RP-PPPoE, pppd]
 ---
 {% include JB/setup %}
 
-前几天拉了网，普通的 ADSL 宽带，由于没有路由器，因此只能通过自身的拨号
+前几天拉了网，普通的 ADSL 宽带，由于没有路由器，因此只能通过自身的拨号。
 
-在 Arch Linux 下，可以通过自带的 Netcfg 来连接，可以通过 RP-PPPoE 来连接，也可直接配置 pppd 实现拨号
+在 Arch Linux 下，可以通过自带的 Netcfg 来连接，可以通过 RP-PPPoE 来连接，也可直接配置 pppd 实现拨号。
 
 ###Netcfg###
 
-这款软件，从它需要安装，到 Arch 自带，功能不断地增强，使用越来越方便，现在已经支持 ADSL 拨号，简单快速
+这款软件，从它需要安装，到 Arch 自带，功能不断地增强，使用越来越方便，现在已经支持 ADSL 拨号，简单快速。
 
 从实例中复制 pppoe 作为 adsl 拨号的配置
 
@@ -57,7 +57,7 @@ PASSWORD='very secret'</code></pre>
 
 ###pppd###
 
-仔细观察，不难发现，通过 Netcfg 及 RP-PPPoE 拨号后，都是启用了 pppd 进程，所以 Netcfg、RP-PPPoE 只是配角，提供自动化脚本方便使用 pppd，真正的主角是 pppd，手动配置 pppd 理论上更省资源
+仔细观察，不难发现，通过 Netcfg 及 RP-PPPoE 拨号后，都是启用了 pppd 进程，所以 Netcfg、RP-PPPoE 只是配角，提供自动化脚本方便使用 pppd，真正的主角是 pppd，手动配置 pppd 理论上更省资源。
 
 在 /etc/ppp/peers 这个目录下创建一个文件，如 fooleap，内容如下，其实一般只需改“帐号”，即宽带帐号
 

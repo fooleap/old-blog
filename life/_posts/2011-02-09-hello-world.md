@@ -1,12 +1,11 @@
 ---
-date: '2011-02-09 06:41:51'
 layout: post
 title: Hello world!
-categories: "blog"
-tags:
-- blog
-- Fooleap
+description: "这是 Fooleap 个人博客的第一篇日志，原博客未完善的文章将转移到此博客。"
+category: Blog
+tags: [Blog, Fooleap]
 ---
+{% include JB/setup %}
 
 >这是 Fooleap 个人博客的第一篇日志，原博客未完善的文章将转移到此博客。
 
@@ -24,4 +23,4 @@ tags:
 
 **本文历史**
 
-2011年02月09日
+* 2011年02月09日

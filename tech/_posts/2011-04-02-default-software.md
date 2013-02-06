@@ -1,25 +1,15 @@
 ---
-date: '2011-04-02 16:00:54'
 layout: post
-slug: default-software
-status: publish
 title: 推荐及在用软件
-wordpress_id: '30'
-categories:
-- software
-tags:
-- Fooleap
-- 免费
-- 免费软件
-- 开源
-- 跨平台
-- 软件
+description: "Windows<br />Google Chrome：简洁高效的跨平台网页浏览器<br />Mozilla Firefox：中文称火狐，功能强大的浏览器，开源跨平台<br />Opera：高速小巧的跨平台浏览器"
+category: Software
+tags: [Fooleap, 免费, 软件, 开源, 跨平台, 软件]
 ---
+{% include JB/setup %}
 
 **Windows**
 
 网页浏览
-
 
 * [Google Chrome](http://chrome.google.com)：简洁高效的跨平台网页浏览器
 

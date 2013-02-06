@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "学生时代的最后一个暑假"
-description: "一直想提笔，一直想说些什么，记些什么，又总觉得无从提起。"
+description: "一直想提笔，一直想说些什么，记些什么，又总觉得无从提起。这个逝去了的暑假，是学生时代的最后一个暑假，或是人生中的最后一个暑假，又或是这一生中最铭记在心的暑假。生病、晨跑、骑行、情感、吃货，是这个暑假的关键词。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/CiedOGBI/small.jpg"
 category: life
 tags: [生病, 跑步, 骑行, 恋爱]
