@@ -146,10 +146,16 @@ ul.category {
     font-size:14px;
     line-height:20px;
     width:400px;
+    height:80px;
 }
 .thumbnail {
   display:inline;
   width:150px;
+}
+.more a{
+  font-size:12px;
+  font-weight:bold;
+  color:rgb(51,51,51);
 }
 .featurette-divider {
   margin:0;
