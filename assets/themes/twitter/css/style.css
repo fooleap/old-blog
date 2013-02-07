@@ -34,16 +34,29 @@ body a {
 .navbar-inner .brand {
   color: #fff;
 }
-
+.search-box {
+  height: 10px!important;
+  margin: 0 0 -6px!important;
+  font-size: 9px!important;
+}
+.search-query {
+    padding-left: 26px !important;
+    width: 110px !important;
+}
+.icon-search {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
 .rss-button {
-  position:relative;
-  top:5px;
+  position: relative;
+  top: 5px;
   width: 40px;
   height: 14px;
   font-size: 11px;
   line-height: 14px;
   font-weight: bold;
-  margin: 0px 0px 10px;
+  margin: 0 0 10px 20px;
   padding: 2px 5px 2px 4px;
 }
 .icon-rss {
@@ -68,11 +81,11 @@ body a {
   border: 0;
 }
 .span7 {
-  width:580px;
-  margin-top:10px;
+  width: 580px;
+  margin-top: 10px;
 }
 .span10 {
-  width:820px;
+  width: 820px;
 }
 /* tag_box ======================================================== */
 
