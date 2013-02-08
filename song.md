@@ -16,3 +16,8 @@ tags: [再见二丁目, 杨千嬅]
 **本文历史**
 
 * 创建文章 2013年02月07日
+<script type="text/javascript">
+$(document.links).filter(function() {
+  return this.hostname != window.location.hostname;
+}).attr('target', '_blank');
+</script>
