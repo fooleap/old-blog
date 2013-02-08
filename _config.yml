@@ -12,7 +12,7 @@ paginate: 3
 # so be sure to set them if your theme uses them.
 #
 title : "Fooleap's Blog"
-tagline: fooleap, linux, 跑步, 骑车
+tagline: fooleap, Linux, Arch Linux, 慢跑, 徒步, 骑行
 author :
   name : Fooleap
   email : fooleap@gmail.com
