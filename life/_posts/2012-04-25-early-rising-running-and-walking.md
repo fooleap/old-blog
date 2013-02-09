@@ -4,7 +4,7 @@ title: "早起，慢跑，徒步！"
 description: "开学到现在这种生活真够折磨人的，可以说天气和宿舍环境的恶劣对自己有一定的影响，还有自己的惰性，拖延症发，导致生活质量低下。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/C0GpRMUe/small.jpg"
 category: Life
-tags: [早起, 慢跑, 跑步, 徒步, Ruby]
+tags: [早起, 慢跑, 徒步, Ruby]
 ---
 {% include JB/setup %}
 
