@@ -10,6 +10,10 @@ body {
 body a {
   text-decoration: none !important;
 }
+blockquote{
+  padding: 15px;
+  margin: 15px;
+}
 .container > footer p {
   text-align: center; /* center align it with the container */
 }
