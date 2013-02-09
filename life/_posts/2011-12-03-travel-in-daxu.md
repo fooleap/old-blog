@@ -4,7 +4,7 @@ title: 记大圩一游
 description: "我热爱体育，但不经常做运动。对于手脚笨拙的我而言，跑步和骑车是所喜爱的两项运动，球类运动一般不碰，一直不喜欢竞技运动，相对来说更适合做观众，而且是闷骚的观众，只会静静地看着而不会加油助威的。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/CCqoD1Ai/small.jpg"
 categories: Life
-tags: [hosts, 大圩, 桂林, 跑步, 骑行]
+tags: [hosts, 大圩, 桂林, 慢跑, 骑行]
 ---
 {% include JB/setup %}
 

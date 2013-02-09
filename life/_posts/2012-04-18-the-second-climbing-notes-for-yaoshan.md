@@ -4,7 +4,7 @@ title: "又上尧山"
 description: "4月3日，尧山发了场山火，当天晚上得知，前往宿舍楼顶，能看到明火，明显已经烧到山顶。挺久没爬尧山，估计到毕业也爬不了多少次，天天坐着对身体也不好，同学说周末早上沿盘山公路跑上尧山，既锻炼身体又可以看看山火之后的尧山，正合心意。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/BTULLg2A/small.jpg"
 category: Life
-tags: [尧山, 山火, 跑步, 爬山]
+tags: [尧山, 山火, 慢跑, 爬山]
 ---
 {% include JB/setup %}
 

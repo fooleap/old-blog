@@ -4,7 +4,7 @@ title: "步行桂林市区之一"
 description: "桂林市区不大，来这么久了，对它还是有点陌生，实在对不起自己，再说，某些亲戚朋友如果这两年真的来此一游，我可是导游，可不能出糗，因此我决定用几个月甚至一年多的时间来熟悉这座给自己第一印象很好的城市。以后有空都出去走走，我可不想当宅男...说不定出去还可以多认识一些人。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/CCDBJDP8/small.jpg"
 category: Life
-tags: [地理, 桂林, 步行, 徒步]
+tags: [桂林, 徒步]
 ---
 {% include JB/setup %}
 
