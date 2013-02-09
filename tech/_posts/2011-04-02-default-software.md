@@ -3,7 +3,7 @@ layout: post
 title: 推荐及在用软件
 description: "Windows<br />Google Chrome：简洁高效的跨平台网页浏览器<br />Mozilla Firefox：中文称火狐，功能强大的浏览器，开源跨平台<br />Opera：高速小巧的跨平台浏览器"
 category: Software
-tags: [Fooleap, 免费, 软件, 开源, 跨平台, 软件]
+tags: [免费, 软件, 开源, 跨平台]
 ---
 {% include JB/setup %}
 

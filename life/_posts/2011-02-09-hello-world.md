@@ -3,7 +3,7 @@ layout: post
 title: Hello world!
 description: "这是 Fooleap 个人博客的第一篇日志，原博客未完善的文章将转移到此博客。"
 category: Blog
-tags: [Blog, Fooleap]
+tags: [Blog]
 ---
 {% include JB/setup %}
 
