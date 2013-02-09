@@ -134,7 +134,7 @@ table {
 ul.posts {
     list-style-type: none;
     overflow: auto;
-    height:447px;
+    height:745px;
     margin:0;
 }
 ul.category {
@@ -175,6 +175,9 @@ ul.category {
 .sidebar {
     list-style-type: none;
     float:left;
+}
+.sidebar .cloud{
+  margin:0 5px;
 }
 .sidebar ul li {
     display:block;
