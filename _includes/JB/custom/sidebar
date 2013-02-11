@@ -4,5 +4,5 @@
     {% tag_cloud %}
   </div>
   <h4>友情链接</h4>
-  {% include JB/blogroll %}
+  {% include JB/custom/blogroll %}
 </div>
