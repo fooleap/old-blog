@@ -1,0 +1,4 @@
+<div class="recent_comments">
+<h4>近期评论</h4>
+<script type="text/javascript" src="http://fooleap.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=1&avatar_size=8&hide_excerpt=1&excerpt_length=24"></script>
+</div>

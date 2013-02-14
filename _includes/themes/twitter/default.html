@@ -16,22 +16,16 @@
     <![endif]-->
     <!-- Le styles -->
 	<link href="{{ ASSET_PATH }}/css/typo.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ ASSET_PATH }}/css/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet" />
 	<link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="{{ ASSET_PATH }}/css/bootstrap/js/bootstrap.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
   </head>
-
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav nav-pills">
 		    {% assign pages_list = site.pages %}
