@@ -138,7 +138,7 @@ table {
 ul.posts {
     list-style-type: none;
     overflow: auto;
-    height:745px;
+    height:795px;
     margin:0;
 }
 ul.category {
@@ -156,7 +156,7 @@ ul.category {
 }
 .featurette {
     height:100px;
-    margin:5px 5px 10px;
+    margin:10px 5px 15px;
 }
 .description {
     text-indent:2em;
