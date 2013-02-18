@@ -12,7 +12,7 @@ tags: [关于, 博客, fooleap, blog]
 * 博客网址：[http://blog.fooleap.org](http://blog.fooleap.org)
 * RSS 订阅：[http://feed.fooleap.org](http://feed.fooleap.org)
 
-这是 Fooleap 的个人博客，记录学习生活的点点滴滴，话题方向在于 Linux，跑步，旅行
+这是 Fooleap 的个人博客，记录学习工作生活的点点滴滴，话题方向在于 Linux，跑步，旅行
 
 **关于版权**
 
@@ -21,13 +21,19 @@ tags: [关于, 博客, fooleap, blog]
 **关于博主**
 
 * 网名: Fooleap
-  * 原意“笨鸟先飞”，fool 乃笨，“飞”寻觅无果，“跳”取而代之，其实能跳也是不错的:)于是，fool + leap = fooleap
+  * 原意“笨鸟先飞”，fool 乃笨，“飞”寻觅无果，“跳”取而代之，其实能跳也是不错的，于是 fool + leap = fooleap
 * 出生: 90.01
   * 相当尴尬的年龄，到底是八零后还是九零后呢
 * 来自: [广东汕头](http://zh.wikipedia.org/wiki/%E6%B1%95%E5%A4%B4%E5%B8%82)
   * 澄海一个农村孩子
 * 现居: 路上
   * 暂时还没想好去哪
+* 爱好: 慢跑，徒步，骑行
+  * 最长跑步距离为 12 公里, 最长徒步距离为 36 公里
+
+体验了各种感情
+不凝望你的背影，就算
+我已经学会淡定，已经习惯平静，经历了许多事情，明白了世上没有什么公平不公平
 
 **联系方式**
 

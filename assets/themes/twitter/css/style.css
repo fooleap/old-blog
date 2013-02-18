@@ -44,13 +44,13 @@ blockquote{
   font-size: 9px!important;
 }
 .search-query {
-    padding-left: 26px !important;
-    width: 110px !important;
+  padding-left: 26px !important;
+  width: 110px !important;
 }
 .icon-search {
-    position: absolute;
-    top: 6px;
-    left: 8px;
+  position: absolute;
+  top: 6px;
+  left: 8px;
 }
 .rss-button {
   position: relative;
@@ -64,9 +64,9 @@ blockquote{
   padding: 2px 5px 2px 4px;
 }
 .icon-rss {
-    opacity: 0.65;
-    width: 16px;
-    background: url("../img/rss-icons.png") no-repeat scroll 0px 0px transparent;
+  opacity: 0.65;
+  width: 16px;
+  background: url("../img/rss-icons.png") no-repeat scroll 0px 0px transparent;
 }
 /* Page header tweaks */
 .page-header {
@@ -147,27 +147,28 @@ ul.category {
 
 .posts li {
     display:block;
-    float:left;
-    width:100%;
+  float:left;
+  width:100%;
 }
 .title {
-    font-size:15px;
-    line-height:18px;
+  font-size:15px;
+  line-height:18px;
 }
 .featurette {
-    height:100px;
-    margin:10px 5px 15px;
+  height:100px;
+  margin:10px 5px 15px;
 }
 .description {
-    text-indent:2em;
-    font-size:14px;
-    line-height:20px;
-    width:400px;
-    height:80px;
+  text-indent:2em;
+  font-size:14px;
+  line-height:20px;
+  width:400px;
+  height:80px;
 }
 .thumbnail {
   display:inline;
   width:150px;
+  height:94px;
 }
 .more a{
   font-size:12px;
@@ -177,13 +178,13 @@ ul.category {
   margin:0;
 }
 .sidebar {
-    list-style-type: none;
-    float:left;
+  list-style-type: none;
+  float:left;
 }
 .sidebar .cloud{
   margin:0 5px;
 }
 .sidebar ul li {
-    display:block;
-    width:100%;
+  display:block;
+  width:100%;
 }
