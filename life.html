@@ -17,9 +17,9 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
         <div class="featurette">
           <div class="description pull-right">{{ post.description }}</div>
           {% if post.thumbnail == nil %}
-          <img class="thumbnail featurette-image pull-left" src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg">
+          <img class="thumbnail featurette-image pull-left" src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg" alt="{{ post.title }}">
           {% else %}
-          <img class="thumbnail featurette-image pull-left" src="{{ post.thumbnail }}">
+          <img class="thumbnail featurette-image pull-left" src="{{ post.thumbnail }}" alt="{{ post.title }}">
           {% endif %}
           <a class="more btn btn-mini pull-right" href="{{ BASE_PATH }}{{ post.url }}">阅读全文</a>
         </div>
