@@ -66,4 +66,4 @@ DefaultShuangpinSchema=XiaoHe</code></pre>
 
 **本文历史**
 
-* 2013年2月20日 完成初稿
+* 2013年02月20日 完成初稿
