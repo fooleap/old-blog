@@ -4,7 +4,7 @@ title: 我的黑莓8700之情结篇
 description: "使用黑莓手机到现在已经有一年时间了，黑莓在中国手机市场就如Linux在PC操作系统所占市场份额一样的低，但小众并不能忽略不计，也不能否定它的优秀。黑莓在美国受欢迎是因为它拥有稳定可靠的黑莓业务，这也是黑莓的核心，所谓“黑莓卖的不是手机，而是服务”。"
 thumbnail: "http://pic.yupoo.com/fooleap_v/CCpNVu47/small.jpg"
 categories: "BlackBerry"
-tags: [手机, 黑莓, 黑莓 8700]
+tags: [手机, 黑莓, 黑莓8700]
 ---
 {% include JB/setup %}
 
