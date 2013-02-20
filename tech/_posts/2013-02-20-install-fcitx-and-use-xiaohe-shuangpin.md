@@ -10,7 +10,7 @@ tags: [Fcitx, 小鹤, 输入法, 双拼, Linux, ArchLinux]
 
 为了提高中文打字速度，从 2011 年开始使用双拼输入法。双拼，顾名思义，所有音节都只需输入 2 键，即所有汉字只需按两个键。虽然“音码 + 形码”更能提高打字速度，图个方便就没有使用这种方式，仅仅是纯双拼。起初使用自然码双拼方案，后来换为小鹤双拼。
 
-在 Linux 下使用双拼很方便，目测当前输入法使用量最多的是 Fcitx，即小企鹅输入法。下面就一起来聊聊 Arch Linux 上怎么安装 Fcitx 输入法，使用小鹤双拼。
+在 Linux 下使用双拼很方便，目测当前中文输入法使用量最多的是 Fcitx，即小企鹅输入法。下面就一起来聊聊 Arch Linux 上怎么安装 Fcitx 输入法，使用小鹤双拼。
 
 首先使用 Pacman 安装 Fcitx 输入法
 
@@ -32,7 +32,7 @@ fcitx&</code></pre>
 
 我们可以注意到 Fcitx 的用户配置在 ~/.config/fcitx，进入这个目录，忽略大小写搜索“ xiaohe ”这个字符串
 
-    $ ~/.config/fcitx
+    $ cd ~/.config/fcitx
     $ grep -ir xiaohe
     conf/fcitx-pinyin.config:# Ziranma MS Ziguang ABC Zhongwenzhixing PinyinJiaJia XiaoHe User Defined
 
