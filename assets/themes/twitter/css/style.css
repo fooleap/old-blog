@@ -146,13 +146,17 @@ ul.category {
 }
 
 .posts li {
-    display:block;
+  display:block;
   float:left;
   width:100%;
 }
 .title {
   font-size:15px;
   line-height:18px;
+}
+.title time{
+  width:175px;
+  text-align:right;
 }
 .featurette {
   height:100px;
