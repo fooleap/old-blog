@@ -1,59 +1,47 @@
 ---
 layout: page
-title: "早期慢跑"
+title: "早起慢跑"
 ---
 {% include JB/setup %}
 <script language="JavaScript">
 <!--
-var vis = 'j1301';
+var vis = 'j1212';
 function change(){
 		    vis=document.getElementById('jogging').value;
 			var j1209 = document.getElementById('j1209');
 			var j1210 = document.getElementById('j1210');
 			var j1211 = document.getElementById('j1211');
 			var j1212 = document.getElementById('j1212');
-			var j1301 = document.getElementById('j1301');
 			if(vis=='j1209'){
 					j1209.style.display = 'block';
 					j1210.style.display = 'none';
 					j1211.style.display = 'none';
 					j1212.style.display = 'none';
-					j1301.style.display = 'none';
 					vis = 'j1209';
 			}else if(vis=='j1210'){
 					j1209.style.display = 'none';
 					j1210.style.display = 'block';
 					j1211.style.display = 'none';
 					j1212.style.display = 'none';
-					j1301.style.display = 'none';
 					vis = 'j1210';
 			}else if(vis=='j1211'){
 					j1209.style.display = 'none';
 					j1210.style.display = 'none';
 					j1211.style.display = 'block';
 					j1212.style.display = 'none';
-					j1301.style.display = 'none';
 					vis = 'j1211';
 			}else if(vis=='j1212'){
 					j1209.style.display = 'none';
 					j1210.style.display = 'none';
 					j1211.style.display = 'none';
 					j1212.style.display = 'block';
-					j1301.style.display = 'none';
 					vis = 'j1212';
-			}else if(vis=='j1301'){
-					j1209.style.display = 'none';
-					j1210.style.display = 'none';
-					j1211.style.display = 'none';	
-					j1212.style.display = 'none';	
-					j1301.style.display = 'block';
-                    vis = 'j1301;'
 			}else {
 					j1209.style.display = 'none';
 					j1210.style.display = 'none';
 					j1211.style.display = 'none';	
-					j1212.style.display = 'none';	
-					j1301.style.display = 'block';
+					j1212.style.display = 'block';
+                    vis = 'j1212;'
 			}
 }
 
@@ -65,8 +53,7 @@ function change(){
 <option value="j1209">2012年09月</option>
 <option value="j1210">2012年10月</option>
 <option value="j1211">2012年11月</option>
-<option value="j1212">2012年12月</option>
-<option value="j1301" selected="selected">2013年01月</option>
+<option value="j1212" selected="selected">2012年12月</option>
 </select>
 </div>
 <p />
@@ -685,7 +672,7 @@ function change(){
 </section>
 </div>
 
-<div id = "j1212" style = "display:none;">
+<div id = "j1212">
 <section class="jogging">
   <table>
     <thead>
@@ -888,76 +875,6 @@ function change(){
 	    <td>08:01</td>
 	    <td>17.2</td>
       <td>108</td>
-	  </tr>
-	</tbody>
-  </table>
-</section>
-</div>
-<div id = "j1301">
-<section class="jogging">
-  <table>
-    <thead>
-	  <tr>
-	    <th>日期</th>
-	    <th>起床</th>
-	    <th>距离（公里）</th>
-	    <th>时间（分）</th>
-	  </tr>
-	</thead>
-    <tbody>
-	  <tr>
-	    <td>2013年01月01日</td>
-	    <td>09:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月02日</td>
-	    <td>08:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月03日</td>
-	    <td>09:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月04日</td>
-	    <td>06:30</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月05日</td>
-	    <td>09:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月06日</td>
-	    <td>08:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月07日</td>
-	    <td>09:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月08日</td>
-	    <td>09:00</td>
-	    <td></td>
-        <td></td>
-	  </tr>
-	  <tr>
-	    <td>2013年01月09日</td>
-	    <td>09:00</td>
-	    <td></td>
-        <td></td>
 	  </tr>
 	</tbody>
   </table>
