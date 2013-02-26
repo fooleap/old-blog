@@ -7,7 +7,15 @@ tags: [再见二丁目, 杨千嬅]
 ---
 {% include JB/setup %}
 
-<object type="application/x-shockwave-flash" data="assets/dewplayer/dewplayer-mini.swf?mp3=http://f1.xiami.net/2358/12713/11 156254_586671.mp3&amp;autostart=1&amp;autoreplay=1&amp;showtime=1" width="160" height="20" id="dewplayer" name="dewplayer"></object>
+<script src="assets/audiojs/audio.min.js"></script>
+<script>
+  audiojs.events.ready(function() {
+    audiojs.createAll();
+  });
+</script>
+
+<audio src="song.mp3" preload="auto" autoplay="autoplay"></audio>
+
 
 **请原谅我选择自动播放**
 
