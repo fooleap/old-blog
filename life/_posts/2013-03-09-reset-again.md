@@ -56,7 +56,7 @@ tags: [工作, 爱情]
 
 不想说太多，就先记记流水帐，至于南宁，以及目前所在的城市，日后再详谈。
 
-最后，引用我看过最多遍最喜欢的电影中的一句话
+最后，引用我最喜欢的电影中的一句话
 > Life is like a box of chocolates. You never know what you're going to get.
 
 **本文历史**
