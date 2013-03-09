@@ -14,6 +14,11 @@ blockquote{
   padding: 15px;
   margin: 15px;
 }
+blockquote p {
+  font-size:13px;
+  margin-bottom: 0!important;
+}
+
 .container > footer p {
   text-align: center; /* center align it with the container */
 }
