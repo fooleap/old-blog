@@ -92,6 +92,8 @@ blockquote p {
 .span7 {
   width: 580px;
   margin-top: 10px;
+  letter-spacing:0.6px;
+  line-height:150%;
 }
 .span10 {
   width: 820px;
