@@ -26,9 +26,9 @@ tags: [关于, 博客, fooleap, blog]
   * 相当尴尬的年龄，到底是八零后还是九零后呢
 * 爱好: 慢跑，徒步，骑行
   * 最长跑步距离为 12 公里, 最长徒步距离为 36 公里
-* 来自: [广东汕头](http://zh.wikipedia.org/wiki/%E6%B1%95%E5%A4%B4%E5%B8%82)
+* 来自: [广东汕头](http://zh.wikipedia.org/wiki/汕头市)
   * 澄海一个农村孩子
-* 现居: 暂时保密
+* 现居: [浙江杭州](http://zh.wikipedia.org/wiki/杭州市)
 
 **联系方式**
 
