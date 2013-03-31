@@ -50,7 +50,16 @@ tags: [工作, 爱情, 南宁]
 ![黑莓7290](http://pic.yupoo.com/fooleap_v/CHgHhN2G/dolvw.jpg)
 *——黑莓7290*
 
-来到的这座城市，公交车会不断循环发出“车辆行人，请注意安全！”的“噪音”，相信不少人或许已经猜到是哪里，请勿透漏。
+来到的这座城市，公交车的外音喇叭会不断循环发出“车辆行人，请注意安全！”的“噪音”，相信不少人或许已经猜到是哪里，请勿透漏。
+
+<script src="assets/audiojs/audio.min.js"></script>
+<script>
+  audiojs.events.ready(function() {
+          audiojs.createAll();
+            });
+</script>
+
+<audio src="/audio/2013-03-13_19-13-59.mp3" preload="auto"></audio>
 
 到这里第四天，我去了招聘会，次日，顺利得到一份技术要求不高的实习工作，而自己的心理心态，似乎一直还没完全恢复。
 
@@ -62,3 +71,4 @@ tags: [工作, 爱情, 南宁]
 **本文历史**
 
 * 2013年03月09日 完成初稿
+* 2013年03月31日 添加公交外音喇叭声
