@@ -31,7 +31,7 @@ tags: [杭州, 工作]
 
 这是一座适合骑车的城市，公共自行车 60 分钟内免费使用。
 
-![公共自行车](http://pic.yupoo.com/fooleap_v/CJtCIHrE/ejLVv.jpg)
+![公共自行车](http://pic.yupoo.com/fooleap_v/CLnxbCqX/B8XFQ.jpg)
 *——公共自行车*
 
 既来之，则安之。我在[这部](http://movie.douban.com/subject/5332616/)纪录片里认识了“求职公寓”这种旅馆，于是便先找了个求职公寓住着，现在依然住在求职公寓。

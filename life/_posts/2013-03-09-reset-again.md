@@ -50,7 +50,7 @@ tags: [工作, 爱情, 南宁]
 ![黑莓7290](http://pic.yupoo.com/fooleap_v/CHgHhN2G/dolvw.jpg)
 *——黑莓7290*
 
-来到的这座城市，公交车的外音喇叭会不断循环发出“车辆行人，请注意安全！”的“噪音”，相信不少人或许已经猜到是哪里，请勿透漏。
+来到的这座城市，公交车的外音喇叭会不断循环发出“行人车辆，请注意安全！”的“噪音”，相信不少人或许已经猜到是哪里，请勿透漏。
 
 <script src="assets/audiojs/audio.min.js"></script>
 <script>
