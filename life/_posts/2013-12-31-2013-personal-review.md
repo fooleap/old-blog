@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2012 年个人总结"
+title: "2013 年个人总结"
 description: ""
 thumbnail: ""
 category: Life
