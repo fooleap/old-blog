@@ -1,7 +1,7 @@
 <div class="span3 sidebar">
-  <h4>标签云</h4>
-  <div class='cloud'>
-    {% tag_cloud %}
+  <h4>个人简介</h4>
+  <div class='fooleap'>
+
   </div>
   <h4>友情链接</h4>
   {% include JB/custom/blogroll %}
