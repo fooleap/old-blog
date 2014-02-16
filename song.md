@@ -7,15 +7,7 @@ tags: [再见二丁目, 杨千嬅]
 ---
 {% include JB/setup %}
 
-<script src="assets/audiojs/audio.min.js"></script>
-<script>
-  audiojs.events.ready(function() {
-    audiojs.createAll();
-  });
-</script>
-
-<audio src="song.mp3" preload="auto" autoplay="autoplay"></audio>
-
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=156254&mode=js"></script>
 
 **请原谅我选择自动播放**
 
