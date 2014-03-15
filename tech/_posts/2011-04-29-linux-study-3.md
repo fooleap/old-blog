@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux学习笔记(3)
-description: "习惯于 Linux 之后，对 Windows 似乎有点陌生，前天一进去马上中毒，下了个 Avast 查杀，重起之后却无法进入系统，不知道什么原因了，于是重装了一下 XP。现在使用的是英文原版 XP。重装 XP，用 PE 十分简单，只要进入 PE环境，加载 iso 镜像，进入 i386 目录双击 winnt32.exe 进行安装。"
+description: "习惯于 Linux 之后，对 Windows 似乎有点陌生，前天一进去马上中毒，下了个 Avast 查杀，重起之后却无法进入系统，不知道什么原因了，于是重装了一下 XP……"
 thumbnail: "http://pic.yupoo.com/fooleap_v/CCDT7eat/small.png"
 categories: Linux
 tags: [Grub, Linux, 学习, 笔记, 重装]
