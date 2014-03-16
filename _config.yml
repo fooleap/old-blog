@@ -6,6 +6,14 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 markdown: redcarpet
+redcarpet:
+  extensions:
+    - underline
+    - superscript
+    - strikethrough 
+    - disable_indented_code_blocks
+    - tables
+    - hard_wrap
 paginate: 5
 
 # Themes are encouraged to use these universal variables
