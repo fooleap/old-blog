@@ -21,5 +21,5 @@ ul#links li a{
   
   <li><a href="http://xbeta.info/">善用佳软</a>最经典免费软件，最实用软件技巧</li>
   <li><a href="http://www.yangzhiping.com/">阳志平的网志</a>阳志平的个人网志</li>
-  <li><a href="http://chloerei.com/">Ruby 程序员</a></li>
+  <li><a href="http://chloerei.com/">Rei</a>Ruby 程序员</li>
 </ul>
