@@ -60,10 +60,7 @@ tags: [杭州的桥,  文晖大桥, 西兴大桥, 复兴大桥]
 
   <link href="/assets/video-js/video-js.css" rel="stylesheet" type="text/css">
   <script src="/assets/video-js/video.js"></script>
-  <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
-  <script>
-    videojs.options.flash.swf = "/assets/video-js/video-js.swf";
-  </script>
+  <script>videojs.options.flash.swf = "/assets/video-js/video-js.swf";</script>
   <video id="xixing" class="video-js vjs-default-skin" controls preload="none" width="640" height=""
       poster="http://pic.yupoo.com/fooleap_v/DPHmM1QL/bGzc9.jpg"
       data-setup="{}">
