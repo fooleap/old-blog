@@ -11,20 +11,20 @@ tags: [Linux, Arch Linux, 慢跑, 徒步, 骑行]
 </div>
 
 <div class="row">
-  <div class="col-sm-8 col-xs-12">
+  <div class="col-sm-8">
       {% for post in site.categories.tech %}
       <div class="post">
         <div class="title">
-          <h2 class="col-sm-10 col-xs-12"><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a></h2>
-          <time class="col-sm-2 col-xs-12" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+          <h2 class="col-sm-9"><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a></h2>
+          <time class="col-sm-3" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         </div>
         <div class="featurette">
           {% if post.thumbnail == nil %}
-          <img class="thumbnail col-sm-3 col-xs-12" src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg" alt="{{ post.title }}">
+          <img class="thumbnail col-sm-3" src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg" alt="{{ post.title }}">
           {% else %}
-          <img class="thumbnail col-sm-3 col-xs-12" src="{{ post.thumbnail }}" alt="{{ post.title }}">
+          <img class="thumbnail col-sm-3" src="{{ post.thumbnail }}" alt="{{ post.title }}">
           {% endif %}
-          <div class="description col-sm-9 col-xs-12">{{ post.description }}</div>
+          <div class="description col-sm-9">{{ post.description }}</div>
         </div>
       </div>
       {% endfor %}

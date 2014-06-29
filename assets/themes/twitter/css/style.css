@@ -19,13 +19,13 @@ blockquote p {
   font-size:13px;
 }
 
-@media (min-width:1200px) {
+@media (min-width:1000px) {
   .container{
-    width:970px;
+    width:1000px;
   }
 }
 
-.container .navbar-brand{
+.navbar-brand{
   width:160px;
   height:20px;
   margin:5px;
@@ -114,6 +114,9 @@ table {
   margin:0;
   font-size:100%;
   display:inline;
+}
+.title time{
+  text-align:right;
 }
 .description {
   text-indent:2em;
