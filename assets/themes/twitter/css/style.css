@@ -19,20 +19,19 @@ blockquote p {
   font-size:13px;
 }
 
-.container > footer p {
-  text-align: center; /* center align it with the container */
-}
-.container, .navbar-fixed-top .container{
-  width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+@media (min-width:1200px) {
+  .container{
+    width:970px;
+  }
 }
 
-.container .brand{
-  width:120px;
+.container .navbar-brand{
+  width:160px;
   height:20px;
+  margin:5px;
   background: url(../img/fooleap.png) no-repeat;
 }
 .content {
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   padding: 20px;
   min-height:600px;
   -webkit-border-radius: 0 0 6px 6px;
@@ -44,39 +43,6 @@ blockquote p {
           box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
-.navbar-inner .brand {
-  color: #fff;
-}
-.search-box {
-  margin: 0 0 -6px!important;
-  height: 10px!important;
-  font-size: 9px!important;
-}
-.search-query {
-  padding-left: 26px !important;
-  width: 110px !important;
-}
-.icon-search {
-  position: absolute;
-  top: 6px;
-  left: 8px;
-}
-.rss-button {
-  position: relative;
-  top: 5px;
-  margin: 0 0 10px 20px;
-  padding: 2px 5px 2px 4px;
-  width: 40px;
-  height: 14px;
-  font-weight: bold;
-  font-size: 11px;
-  line-height: 14px;
-}
-.icon-rss {
-  width: 16px;
-  background: url("../img/rss-icons.png") no-repeat scroll 0px 0px transparent;
-  opacity: 0.65;
-}
 /* Page header tweaks */
 .page-header {
   margin: -20px -20px 10px;
@@ -90,17 +56,8 @@ blockquote p {
 .page-header h1 small{
   font-size:60%;
 }
-.topbar .btn {
-  border: 0;
-}
-.span7 {
-  margin-top: 10px;
-  width: 580px;
-  letter-spacing:0.6px;
-  line-height:150%;
-}
-.span10 {
-  width: 820px;
+.page-header h1, .page-header h2{
+  font-size:150%;
 }
 /* tag_box ======================================================== */
 
@@ -146,62 +103,35 @@ blockquote p {
 table {
   width:100%;
 }
-ul.posts {
-    overflow: auto;
-    margin:0;
-    list-style-type: none;
+.post{
+  overflow:hidden;
 }
-ul.category {
-    height:auto;
+.title{
+  line-height:25px;
 }
-
-.posts li {
-  display:block;
-  float:left;
-  width:100%;
-}
-.title {
-  font-size:15px;
-  line-height:18px;
-}
-.title time{
-  width:175px;
-  text-align:right;
-}
-.featurette {
-  overflow:auto;
-  margin:10px 5px 15px;
-  zoom:1;
+.title  h2{
+  padding:0;
+  margin:0;
+  font-size:100%;
+  display:inline;
 }
 .description {
-  width:400px;
-  height:80px;
   text-indent:2em;
-  font-size:14px;
-  line-height:20px;
 }
-.thumbnail {
-  display:inline;
-  width:150px;
-  height:94px;
-}
-.more a{
-  color:rgb(51,51,51);
-  font-size:12px;
-}
-.featurette-divider {
-  margin:0;
+p img{
+  height:auto;
+  max-width:100%;
 }
 .sidebar {
-  float:left;
   list-style-type: none;
-}
-.sidebar .cloud{
-  margin:0 5px;
 }
 .sidebar ul li {
   display:block;
   width:100%;
+}
+.footer{
+  margin:10px auto;
+  text-align:center;
 }
 .aboutme p{
   text-indent:2em;

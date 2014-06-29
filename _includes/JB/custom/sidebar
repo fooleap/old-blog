@@ -1,4 +1,4 @@
-<div class="span3 sidebar">
+<div class="col-sm-3 col-sm-offset-1 sidebar">
   <h4>个人简介</h4>
   <div class="aboutme">
   <p>鄙人陈喜龙，生长于潮汕，现浪迹于杭城。</p>

@@ -2,6 +2,7 @@
 <html lang="zh">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if page.title %}{{ page.title }} | {% endif %}Fooleap's Blog</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
     <meta name="author" content="{{ site.author.name }}" />
@@ -15,62 +16,64 @@
     <![endif]-->
     <!-- Le styles -->
 	<link href="{{ ASSET_PATH }}/css/typo.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+
     <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a href="{{ HOME_PATH }}"><div class="brand"></div></a>
-          <ul class="nav nav-pills">
-		    {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-            <li class="dropdown">
-              <a class="dropdown-toggle" href="#" data-toggle="dropdown">分类 <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-              <li><a href="/tech">技术</a></li>
-              <li><a href="/life">生活</a></li>   
-             </ul>
-            </li>
-          </ul> 
-          <a class="btn rss-button pull-right" href="http://feed.fooleap.org"><i class="icon-rss"></i><span>RSS</span></a>
-          <script type="text/javascript">
+      <div class="container">
 
-            var dispatch = function() {
-              q = document.getElementById("q");
-              if (q.value != "") {
-                window.open('http://www.google.com/search?q=site:blog.fooleap.org%20' + q.value, "_blank");
-                return false;
-              } else {
-                return false;
-                }
-            }
-            // From v2ex.com
+        <div class="navbar-header">  
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">F</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="{{ HOME_PATH }}" class="navbar-brand"></a>
+         </div>
 
-          </script>
-          <form class="pull-right navbar-search" onsubmit="return dispatch()">
-            <div class="icon-search"></div>
-            <input type="text" class="span2 search-query search-box" id="q" name="q" maxlength="40" value="" />
-          </form>
+         <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav">
+             {% assign pages_list = site.pages %}
+             {% assign group = 'navigation' %}
+             {% include JB/pages_list %}
+           </ul> 
+           <form class="navbar-form navbar-right" onsubmit="return dispatch()">
+             <script type="text/javascript">
+               var dispatch = function() {
+                 q = document.getElementById("q");
+                 if (q.value != "") {
+                   window.open('http://www.google.com/search?q=site:blog.fooleap.org%20' + q.value, "_blank");
+                   return false;
+                 } else {
+                   return false;
+                   }
+               }
+               // From v2ex.com
+             </script>
+             <input class="form-control" type="text" id="q" name="q" maxlength="40" placeholder="Search" />
+             <a class="btn btn-default" href="http://feed.fooleap.org"><i class="glyphicon glyphicon-rss"></i><span>RSS</span></a>
+           </form>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-	  <div class="typo">
-        <div class="content">
-          {{ content }}
-	    </div>
-      </div>
-      <footer>
-        <p>2011 - 2014 {{ site.author.name }}
+
+    <div class="container content">
+      {{ content }}
+    </div> <!-- /container -->
+    
+    <div class="footer">
+      <div class="container">
+        <p class="text-muted">2011 - 2014 {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework" rel="nofollow">Jekyll Bootstrap</a>
 		  and <a href="http://twitter.github.com/bootstrap/" target="_blank" rel="nofollow">Twitter Bootstrap</a>, and used <a href="http://typo.sofish.de/" target="_blank" rel="nofollow">TYPO.CSS</a>.
         </p>
-      </footer>
-    </div> <!-- /container -->
+      </div>
+    </div>
+
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);

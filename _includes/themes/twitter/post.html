@@ -3,12 +3,10 @@
 </div>
 
 <div class="row">
-  <div class="span7">
+  <div class="col-sm-8">
     {{ content }}
     {% include JB/wumii %}
-    <hr />
-    <div class="pagination pagination-centered">
-      <ul>
+      <ul class="pagination">
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 上一篇</a></li>
       {% else %}
@@ -21,12 +19,10 @@
         <li class="next disabled"><a>下一篇 &rarr;</a>
       {% endif %}
       </ul>
-    </div>
-    <hr />
     {% include JB/comments %}
   </div>
 
-  <div class="span3">
+  <div class="col-sm-3 col-sm-offset-1">
     <h4>日期</h4>
     <div class="date"><span>{{ page.date | date:"%Y年%m月%d日" }}</span></div>
   {% unless page.tags == empty %}
