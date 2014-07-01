@@ -2,7 +2,7 @@
 layout: post
 title: ThinkPad T410的键盘问题
 description: "去年夏天，我经历了杭州几十年来最热的一个夏天，最高温甚至破历史记录，变态般达到 41.6 摄氏度。在那个夏天，我是在没有空调的寝室度过的，每天睡前一个澡，睡醒满身汗再一个澡。"
-thumbnail: "http://photo.yupoo.com/fooleap_v/DSe9IZ5h/small.png"
+thumbnail: "http://fooleap-img.qiniudn.com/the-keyboard-problem-with-thinkpad-t410-04.jpg"
 category: Tech
 tags: [T410, 键盘, 映射错误]
 ---
