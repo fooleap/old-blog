@@ -8,12 +8,12 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
     <meta name="author" content="{{ site.author.name }}" />
     <meta name="keywords" content="{{ page.tags | join: ', '}}" />
-    <!--[if lt IE 9]>
-      <script src="{{ ASSET_PATH }}/bootstrap/js/html5shiv.js"></script>
-      <script src="{{ ASSET_PATH }}/js/respond.min.js"></script>
-    <![endif]-->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all" />
+    <!--[if lt IE 9]>
+      <script src="{{ ASSET_PATH }}/js/html5shiv.js"></script>
+      <script src="{{ ASSET_PATH }}/js/respond.min.js"></script>
+    <![endif]-->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -84,7 +84,7 @@
       var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
       document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffa7ec982118ebd236663169678264582' type='text/javascript'%3E%3C/script%3E"));
     </script>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/jquery-1.11.1.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
