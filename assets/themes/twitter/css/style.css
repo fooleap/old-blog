@@ -136,6 +136,15 @@ p img{
   margin:10px auto;
   text-align:center;
 }
+.posts_category{
+  height:100%;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-left-color:#ddd;
+}
+.posts_category a h2{
+  color:#000;
+}
 .aboutme p{
   text-indent:2em;
 }

@@ -7,5 +7,22 @@ description: "存档"
 tags: [存档]
 ---
 {% include JB/setup %}
+<div class="posts_collate col-sm-6">
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
+</div>
+
+<div class="posts_category col-sm-6">
+  <a href="/life"><h2>生活</h2></a>
+  <ul>
+  {% for post in site.categories.life %}
+    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+  <a href="/tech"><h2>技术</h2></a>
+  <ul>
+  {% for post in site.categories.tech %}
+    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
