@@ -1,7 +1,6 @@
 permalink: /:title.html
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
-pygments: true
+highlighter: true
 markdown: redcarpet
 redcarpet:
   extensions:
