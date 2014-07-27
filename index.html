@@ -19,14 +19,14 @@ tags: [fooleap, Linux, Arch Linux, 慢跑, 徒步, 骑行]
           <h2 class="col-sm-9 col-xs-9" ><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.description }}" >{{ post.title }}</a></h2>
         </div>
         <div class="featurette">
-          <div class="col-sm-3 col-xs-3">
+          <div class="col-sm-3 col-xs-12">
           {% if post.thumbnail == nil %}
           <img class="thumbnail" src="http://pic.yupoo.com/fooleap_v/CCqZxJwB/small.jpg" alt="{{ post.title }}" width="150" height="94">
           {% else %}
           <img class="thumbnail" src="{{ post.thumbnail }}" alt="{{ post.title }}" width="150" height="94">
           {% endif %}
           </div>
-          <div class="description col-sm-9 col-xs-9">{{ post.description }}</div>
+          <div class="description col-sm-9 col-xs-12">{{ post.description }}</div>
         </div>
       </div>
       {% endfor %}
